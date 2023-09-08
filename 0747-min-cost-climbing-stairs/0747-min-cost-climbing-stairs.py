@@ -1,10 +1,8 @@
 class Solution:
     def minCostClimbingStairs(self, cost: List[int]) -> int:
 
-        #dp problem
         length = len(cost)
         minCost = [cost[0],cost[1]]
-        
         i = 2
         for price in cost[2:]:
             minCost.append( price + (min(minCost[i - 2] , minCost[i - 1])))
