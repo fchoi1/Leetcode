@@ -1,30 +1,24 @@
 class Solution:
     def maximumSumOfHeights(self, maxHeights: List[int]) -> int:
         def generatePrefixSum(hieghts: List) -> List:
-            print(hieghts)
             prefixList = []
             stack = []
             prev = hieghts[0]
             for i,h in enumerate(hieghts):
                 if h >= prev:
-                    if not prefixList:
-                        prefixList.append(h)
-                    else:
-                        prefixList.append(h + prefixList[-1])
-                    prev = h
-                    stack.append((h,i))
-                    continue
-                while h < prev:
-                    if not stack:
-                        prev = h
-                        index = None
-                        break
-                    prev, index = stack.pop()
-                if index is not None:
-                    stack.append((prev,index))
-                    prefixList.append(h*(i-index) + prefixList[index])
+                    prefixList.append(h) if not prefixList else prefixList.append(h + prefixList[-1])
                 else:
-                    prefixList.append(h*(i+1))
+                    while h < prev:
+                        if not stack:
+                            prev = h
+                            index = None
+                            break
+                        prev, index = stack.pop()
+                    if index != None:
+                        stack.append((prev,index)) # add back index into stack (new min)
+                        prefixList.append(h*(i-index) + prefixList[index])
+                    else:
+                        prefixList.append(h*(i+1))
                 prev = h
                 stack.append((h,i))
             return prefixList
