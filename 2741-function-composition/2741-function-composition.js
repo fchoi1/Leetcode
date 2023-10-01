@@ -4,16 +4,9 @@
  */
 var compose = function(functions) {
     functions.reverse()
-
 	return function(x) {
-        let res = x
-        // console.log('x', x)
-        
-        functions.forEach(f => {
-            res = f(res)
-            // console.log(res)
-        })
-    return res
+        const result = functions.reduce((res, f)=> f(res),  x)
+        return result
     }
 };
 
