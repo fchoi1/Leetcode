@@ -1,16 +1,14 @@
 class Solution:
     def moveZeroes(self, nums: List[int]) -> None:
-        index = 0
-        for i, n in enumerate(nums):
-            if index < i:
-                index = i
-            # print(i, index, nums)
-            while nums[index] == 0:
-                index += 1
-                if index == len(nums):
+        fast = 0
+        for slow, n in enumerate(nums):
+            if fast < slow:
+                fast = slow
+            while nums[fast] == 0:
+                fast += 1
+                if fast == len(nums):
                     return
-            # print('after',nums[index], index, nums)
             if n == 0:
-                nums[i], nums[index] = nums[index],0
+                nums[slow], nums[fast] = nums[fast],0
 
         
