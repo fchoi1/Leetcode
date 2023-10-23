@@ -1,26 +1,21 @@
 class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
-        seen = set()
-        comboList = []
-        def countCombos(currSum, currCombo):
-            if currSum > target or len(comboList) > 150:
-                return
-
-            currCombo.sort()
-            key = ",".join(map(str, currCombo))
-
-            if key in seen:
-                return
-            seen.add(key)
-
-            if currSum == target:
-                comboList.append(currCombo)
+        res = []
+        def backtrack(currSum, combo, index):
+            if currSum > target:
                 return
             
-            for n in candidates:
-                tempCombo = currCombo[:]
-                tempCombo.append(n)
-                countCombos(currSum + n,tempCombo)
+            if currSum == target:
+                res.append(combo[:])
+                return
 
-        countCombos(0,[])
-        return comboList
+            for i, n in enumerate(candidates[index:]):
+                currSum += n
+                combo.append(n)
+                backtrack(currSum, combo, index + i)
+                combo.pop()
+                currSum -= n
+        backtrack(0,[],0)
+        print("res", res)
+        return res
+       
