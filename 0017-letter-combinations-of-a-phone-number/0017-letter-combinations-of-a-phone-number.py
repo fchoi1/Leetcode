@@ -15,13 +15,13 @@ class Solution:
         res = []
         def generate(i, combo):
             if i >= len(digits):  
-                res.append("".join(combo)) 
+                res.append(combo) 
                 return
             digit = digits[i]
 
             for char in numMap[int(digit)]:
-                combo.append(char)
+                combo += char
                 generate(i+1, combo)
-                combo.pop()
-        generate(0, [])
+                combo = combo[:-1] 
+        generate(0, "")
         return res
