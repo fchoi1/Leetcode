@@ -3,10 +3,12 @@ class Solution:
         """
         Do not return anything, modify board in-place instead.
         """
-        for line in board:
-            print(line)
+        visited = set()
+        dirMap = [(0,-1),(0,1),(1,0),(-1,0)]
+        noFlip = set()
+        m,n = len(board[0]), len(board)
 
-        def bfs(coords, visited):
+        def bfs(coords):
             if coords in visited:
                 return
             visited.add(coords)
@@ -16,23 +18,19 @@ class Solution:
                 if 0<= x+dx<m and 0 <= y+dy<n:
                     newCoords = (x+dx, y+dy)
                     if board[y + dy][x + dx] == 'O':
-                        bfs(newCoords, visited)
-
-        dirMap = [(0,-1),(0,1),(1,0),(-1,0)]
-        noFlip = set()
-        m,n = len(board[0]), len(board)
+                        bfs(newCoords)
 
         xLines = [board[0], board[-1]]
         yLines = [x[0] for x in board], [x[-1] for x in board]
         for y,line in enumerate(xLines):
             for x, char in enumerate(line):
                 if char == "O":
-                    bfs((x,[0,n-1][y]), set())
+                    bfs((x,[0,n-1][y]))
 
         for x,line in enumerate(yLines):
             for y, char in enumerate(line):
                 if char == "O":
-                    bfs(([0,m-1][x], y), set())
+                    bfs(([0,m-1][x], y))
 
         for y in range(n):
             for x in range(m):
