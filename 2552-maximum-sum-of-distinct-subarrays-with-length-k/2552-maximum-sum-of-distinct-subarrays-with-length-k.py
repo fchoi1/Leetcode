@@ -9,7 +9,6 @@ class Solution:
             total = currSum
         
         for i in range(len(nums)-k):
-            # print(currSum, nums[i], nums[i+k], dupe)
             currSum -= nums[i]
             currSum += nums[i+k]
             dupe[nums[i+k]]+=1
