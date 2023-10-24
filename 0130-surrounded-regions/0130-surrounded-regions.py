@@ -5,10 +5,12 @@ class Solution:
         m,n = len(board[0]), len(board)
 
         def bfs(coords):
-            if coords in visited:
+            x, y = coords
+            print(x, y)
+            if coords in visited or board[y][x] == 'X':
                 return
             visited.add(coords)
-            x, y = coords
+           
             for dx, dy in dirMap:
                 if 0<= x+dx<m and 0 <= y+dy<n:
                     newCoords = (x+dx, y+dy)
@@ -17,15 +19,13 @@ class Solution:
 
         xLines = [board[0], board[-1]]
         yLines = [x[0] for x in board], [x[-1] for x in board]
-        for y,line in enumerate(xLines):
-            for x, char in enumerate(line):
-                if char == "O":
-                    bfs((x,[0,n-1][y]))
+        for x in range(m):
+            bfs((x,0))
+            bfs((x,n-1))
 
-        for x,line in enumerate(yLines):
-            for y, char in enumerate(line):
-                if char == "O":
-                    bfs(([0,m-1][x], y))
+        for y in range(n):
+            bfs((0, y))
+            bfs((m-1, y))
 
         for y in range(n):
             for x in range(m):
