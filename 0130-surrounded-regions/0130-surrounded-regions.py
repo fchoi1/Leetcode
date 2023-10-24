@@ -3,7 +3,6 @@ class Solution:
         visited = set()
         dirMap = [(0,-1),(0,1),(1,0),(-1,0)]
         m,n = len(board[0]), len(board)
-
         def bfs(coords):
             x, y = coords
             print(x, y)
@@ -17,8 +16,6 @@ class Solution:
                     if board[y + dy][x + dx] == 'O':
                         bfs(newCoords)
 
-        xLines = [board[0], board[-1]]
-        yLines = [x[0] for x in board], [x[-1] for x in board]
         for x in range(m):
             bfs((x,0))
             bfs((x,n-1))
