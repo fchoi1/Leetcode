@@ -6,7 +6,6 @@ class Solution:
             dy = abs(y - points[i][1])
             h = min(dx, dy)
             time += h + abs(dx-dy)
-            currX, currY = x,y
         return time
             
             
