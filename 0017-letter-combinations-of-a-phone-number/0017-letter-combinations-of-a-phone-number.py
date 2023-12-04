@@ -2,23 +2,15 @@ class Solution:
     def letterCombinations(self, digits: str) -> List[str]:
         if not digits:
             return []
-        numMap = {
-            '2': "abc",
-            '3': "def",
-            '4': "ghi",
-            '5': "jkl",
-            '6': "mno",
-            '7': "pqrs",
-            '8': "tuv",
-            '9': "wxyz",
-        }
-        res = []
-        def generate(i, combo, res):
-            if i >= len(digits):
-                res.append(combo)
+        numMap = [ "abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"]
+        result = []
+        def generate(digits, string):
+            if len(digits) == 0:
+                result.append(string)
                 return
-            digit = digits[i]
-            for char in numMap[digit]:
-                generate(i + 1, combo + char, res)
-        generate(0, "", res)
-        return res
+            n = int(digits[0]) - 2
+            for c in numMap[n]:
+                generate(digits[1:], string + c)
+        generate(digits,"")
+        return result
+            
