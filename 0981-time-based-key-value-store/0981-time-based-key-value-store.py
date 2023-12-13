@@ -16,16 +16,19 @@ class TimeMap:
         ts = self.data[key]
         left = 0
         right = len(ts) - 1
-        #  1 4 6  -> timestamp = 3
-        # left = 0, right = 2 half = 1
-
+        # 10, 20 -> timestamp = 10
+        # left = 0, right = 1 half = 0
         while left < right:
-            half = (left + right) // 2
-            if timestamp < ts[half][1]:
-                right = half
-            if timestamp >= ts[half][1]:
-                left = half + 1
-        return ts[left][0]
+            half = (left + right) // 2 +  1
+            if timestamp == ts[half][1]:
+                return ts[half][0]
+            if  timestamp < ts[half][1]:
+                right = half - 1
+            elif timestamp > ts[half][1]:
+                left =  half + 1
+   
+        return ts[right][0] if timestamp >= ts[right][1] else ""
+     
 
         
         
