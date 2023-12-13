@@ -17,8 +17,8 @@ class TimeMap:
         right = len(ts) - 1
         while left < right:
             half = (left + right) // 2 +  1
-            # if timestamp == ts[half][1]:
-            #     return ts[half][0]
+            if timestamp == ts[half][1]:
+                return ts[half][0]
             if  timestamp < ts[half][1]:
                 right = half - 1
             elif timestamp >= ts[half][1]:
