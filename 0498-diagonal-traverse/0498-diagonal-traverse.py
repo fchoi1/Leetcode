@@ -1,8 +1,5 @@
 class Solution:
     def findDiagonalOrder(self, mat: List[List[int]]) -> List[int]:
-        def inBounds(x,y):
-            return 0<= x < W and 0<=y<H
-        transpose = [list(x) for x in zip(*mat)]
         W = len(mat[0])
         H = len(mat)
         diags = [[] for _ in range(H+W -1)]
