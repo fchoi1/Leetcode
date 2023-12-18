@@ -8,8 +8,7 @@ class Solution:
             while 0 <= x < W and 0 <= y < H:
                 if val != matrix[y][x]:
                     return False
-                x += 1
-                y += 1
+                x,y = x + 1, y + 1
             return True
                 
         # first col
