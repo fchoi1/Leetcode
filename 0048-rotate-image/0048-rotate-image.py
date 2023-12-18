@@ -1,13 +1,10 @@
 class Solution:
     def rotate(self, matrix: List[List[int]]) -> None:
-        """
-        Do not return anything, modify matrix in-place instead.
-        """
-        n = len(matrix)
-        # Transpose
-        for i in range(n):
-            for j in range(i, n):
-                matrix[i][j], matrix[j][i] = matrix[j][i], matrix[i][j] 
+ 
+        for j, row in enumerate(matrix):
+            for i in range(j,len(row)):
+                matrix[i][j], matrix[j][i] = matrix[j][i],matrix[i][j]
 
-        for i in range(n):
-            matrix[i] =  matrix[i][::-1]
+        for i, row in enumerate(matrix):
+            matrix[i] = row[::-1]
+        
