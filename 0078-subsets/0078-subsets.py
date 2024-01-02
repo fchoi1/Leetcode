@@ -4,7 +4,6 @@ class Solution:
         combos = []
 
         def backtrack(index, array):
-            print(array, index)
             combos.append(array[:])
             if index == len(nums):
                 return
