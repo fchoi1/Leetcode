@@ -1,8 +1,6 @@
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
-
         combos = []
-
         def backtrack(index, array):
             combos.append(array[:])
             if index == len(nums):
