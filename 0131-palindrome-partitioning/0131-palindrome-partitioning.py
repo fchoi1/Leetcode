@@ -7,6 +7,7 @@ class Solution:
             extra = (len(string) % 2 == 0) 
             return string[:len(string) // 2] == string[len(string):len(string) // 2-extra:-1]
 
+
         def backtrack(i):
 
             if i == len(s):
