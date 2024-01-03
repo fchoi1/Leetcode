@@ -12,10 +12,8 @@ class Solution:
                 if not isPali(s[start:end]):
                     return False, None
                 prev = i
-            if parts:
-                return  True, arr
-            else:
-                return False, None
+            return  True, arr
+     
 
         def isPali(string):
             extra = (len(string) % 2 == 0) 
