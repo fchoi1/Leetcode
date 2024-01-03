@@ -4,7 +4,6 @@ class Solution:
         
         def checkPartitions(parts):
             parts = [0] + parts + [len(s)]
-            print(parts)
             arr = []
             for i in range(0, len(parts)-1):
                 start = parts[i]
