@@ -10,30 +10,23 @@ class Solution:
         if not root:
             return 0
         
-        def checkNode(node, temp,gap, width):
-            if node:
-                width = 0 if len(temp) == 0 else width + gap
-                if len(temp) != 0:
-                    temp.append(gap)   
-                temp.append(node)
-                width += 1
-                return  0, width
-            else:
-                return gap + 1, width
-            
-
         maxWidth = 1
-        q = [root]
+        q = [(root, 1)]
         while q:
             temp = []
-            currGap = 0
-            width = 0
-            for node in q:
-                if isinstance(node, int):
-                    currGap += node * 2
-                    continue
-                currGap, width = checkNode(node.left, temp, currGap,  width)
-                currGap, width = checkNode(node.right, temp, currGap,  width)
-            maxWidth = max(width, maxWidth)
+            minStart = float('Inf')
+            maxStart = 0
+            for node,i in q:
+                print(node.val, maxStart, minStart, i)
+                if node.left:
+                    temp.append((node.left, i*2))
+                    minStart = min(minStart, i*2)
+                    maxStart = max(maxStart, i*2)
+                if node.right:
+                    temp.append((node.right, i*2 + 1))
+                    minStart = min(minStart, i*2+1)
+                    maxStart = max(maxStart, i*2+1)
+            if maxStart > minStart:
+                maxWidth = max(maxWidth, (maxStart - minStart) + 1)
             q = temp
         return maxWidth
