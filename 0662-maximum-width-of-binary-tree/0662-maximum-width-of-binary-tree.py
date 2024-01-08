@@ -17,7 +17,6 @@ class Solution:
             minStart = float('Inf')
             maxStart = 0
             for node,i in q:
-                print(node.val, maxStart, minStart, i)
                 if node.left:
                     temp.append((node.left, i*2))
                     minStart = min(minStart, i*2)
