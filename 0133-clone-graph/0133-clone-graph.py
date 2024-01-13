@@ -18,7 +18,6 @@ class Solution:
         while q:
             temp = []
             for node in q:
-                print(node.val)
                 val = node.val
                 if val in seen:
                     continue
