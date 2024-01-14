@@ -5,7 +5,6 @@ class Solution:
         m,n = len(board[0]), len(board)
         def bfs(coords):
             x, y = coords
-            print(x, y)
             if coords in visited or board[y][x] == 'X':
                 return
             visited.add(coords)
