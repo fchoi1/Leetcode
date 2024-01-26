@@ -4,7 +4,6 @@ class Solution:
         intervals.sort(key=lambda x: (x[0], x[1]))
         overlaps = 0
         currEnd = float('-inf')
-        print(intervals)
         for start, end  in intervals:
             if start < currEnd:
                 currEnd = min(end, currEnd)
@@ -13,20 +12,3 @@ class Solution:
                 currEnd = end
         return overlaps  
                 
-
-'''
-|-------------------------|
-  |--------------------------|
-    |----------------------------|
-      |--------|
-        |----------------------------|
-           |---------------|
-                   |---------------------|
-                             |---------------|
-                                                |---------------------|
-                                                   |------------------------|
-                                                              |---------------|
-                                                                        |----------|
-'''
-
-        
