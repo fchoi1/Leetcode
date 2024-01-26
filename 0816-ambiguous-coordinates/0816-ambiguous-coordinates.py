@@ -5,8 +5,6 @@ class Solution:
 
         def getValidCount(strFloat, seen):
             result = []
-            if float(strFloat) == 0 and len(strFloat) > 1:
-                return []
 
             if float(strFloat) not in seen and (len(strFloat) == 1 or strFloat[0] != '0'):
                 seen.add(float(strFloat))
