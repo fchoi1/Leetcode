@@ -5,7 +5,6 @@ class Solution:
         N = len(nums)
         repeats = target // arraySum
         target %= arraySum
-        
         nums += nums
         currSum = left = 0
         smallest = None
