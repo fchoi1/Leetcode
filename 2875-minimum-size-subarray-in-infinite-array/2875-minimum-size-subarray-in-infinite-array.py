@@ -3,9 +3,8 @@ class Solution:
         arraySum =  sum(nums)
         repeats = 0
         N = len(nums)
-        if target > arraySum:
-            repeats = target // arraySum
-            target %= arraySum
+        repeats = target // arraySum
+        target %= arraySum
         
         nums += nums
         currSum = left = 0
