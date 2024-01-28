@@ -1,6 +1,6 @@
 class Solution:
     def numDecodings(self, s: str) -> int:
-        if not s or s[0] == "0" or "00" in s:
+        if not s or s[0] == "0":
             return 0
         if len(s) == 1:
             return 1
