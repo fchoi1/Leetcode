@@ -16,19 +16,13 @@ class Solution:
         prev = s[1]
         for char in s[2:]:
             num = int(prev+char)
-            if char == '0':
-                if prev in '12':
-                    dp.append(dp[-2])
-                else:
-                    return 0
-                prev = char
-                continue
-            if 0 < num <= 26 and prev != '0':
+            if num in [10, 20]:
+                dp.append(dp[-2])
+            elif char == '0':
+                return 0
+            elif 0 < num <= 26 and prev != '0':
                 dp.append(dp[-1] + dp[-2])
             else:
                 dp.append(dp[-1])
             prev = char
         return dp[-1]
-# 26110
-# 2 6 1 10
-# 26 1 10
