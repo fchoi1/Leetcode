@@ -9,8 +9,11 @@ class Solution:
             if float(strFloat) not in seen and (len(strFloat) == 1 or strFloat[0] != '0'):
                 seen.add(float(strFloat))
                 result.append(strFloat)
-
+            if strFloat[0] == '0':
+                result.append(strFloat[0]  + '.' + strFloat[1:])
+                return result
             for i in range(1, len(strFloat)):
+                print(i, strFloat)
                 left = strFloat[:i]
                 right = strFloat[i:]
 
