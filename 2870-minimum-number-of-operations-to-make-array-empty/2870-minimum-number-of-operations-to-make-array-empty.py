@@ -1,20 +1,19 @@
 class Solution:
-    def minOperations(self, nums):
-        n = len(nums)
-        cnt = 0
-        freq = Counter(nums)
-
-        # Iterate through the frequencies and calculate operations
-        for val in freq.values():
-            # If the frequency is 1, it's not possible
-            if val == 1:
-                return -1
-
-            # Calculate operations based on the frequency
-            if val % 3 == 0:
-                cnt += val // 3
+    def minOperations(self, nums: List[int]) -> int:
+        d={}
+        for i in nums:
+            if i in d:
+                d[i]+=1
             else:
-                # If the remainder is 1 or 2 after dividing by 3
-                cnt += val // 3 + 1
-
-        return cnt
+                d[i]=1
+        s=0
+        print(d)
+        for i in d:
+            k=d[i]
+            if k==1:
+                return -1
+            s+=k//3
+            k=k%3
+            if k!=0:
+                s+=1
+        return s       
