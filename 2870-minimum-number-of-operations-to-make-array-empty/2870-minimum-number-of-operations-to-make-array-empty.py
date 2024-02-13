@@ -1,14 +1,20 @@
 class Solution:
-    def minOperations(self, nums: List[int]) -> int:
+    def minOperations(self, nums):
+        n = len(nums)
+        cnt = 0
+        freq = Counter(nums)
 
-        numCount = defaultdict(int)
-        for n in nums:
-            numCount[n] += 1
-        
-        minOps = 0
-        for count in numCount.values():
-            if count == 1:
+        # Iterate through the frequencies and calculate operations
+        for val in freq.values():
+            # If the frequency is 1, it's not possible
+            if val == 1:
                 return -1
-            remain = count % 3 != 0
-            minOps += count // 3 + int(remain)
-        return minOps
+
+            # Calculate operations based on the frequency
+            if val % 3 == 0:
+                cnt += val // 3
+            else:
+                # If the remainder is 1 or 2 after dividing by 3
+                cnt += val // 3 + 1
+
+        return cnt
