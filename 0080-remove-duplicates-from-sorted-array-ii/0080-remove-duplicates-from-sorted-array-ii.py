@@ -11,7 +11,6 @@ class Solution:
                     continue 
             else:
                 count = 0      
-                
             prev = nums[i]
             nums[slow] = nums[i]
             slow += 1
