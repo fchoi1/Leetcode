@@ -8,7 +8,6 @@ class Solution:
                 pos += 1
             while neg < len(nums) and nums[neg] > 0:
                 neg += 1
-            
             if pos < len(nums):
                 res.append(nums[pos])
                 pos += 1
