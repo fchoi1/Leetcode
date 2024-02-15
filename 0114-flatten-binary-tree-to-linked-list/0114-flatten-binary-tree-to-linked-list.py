@@ -6,13 +6,7 @@
 #         self.right = right
 class Solution:
     def flatten(self, root: Optional[TreeNode]) -> None:
-        """
-        Do not return anything, modify root in-place instead.
-        """
-        # root, left, right
         node = root
-        # store right node
-        # set root right to left, then set the chhild of right to temp
 
         def dfs(node):
             if not node:
@@ -20,7 +14,7 @@ class Solution:
             temp = None
             if node.right:
                 temp = node.right
-                dfs(node.right)
+                # dfs(node.right)
 
             if node.left:
                 node.right = node.left
