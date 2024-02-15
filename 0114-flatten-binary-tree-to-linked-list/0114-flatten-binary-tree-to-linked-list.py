@@ -14,7 +14,7 @@ class Solution:
             temp = None
             if node.right:
                 temp = node.right
-                # dfs(node.right)
+                dfs(node.right)
 
             if node.left:
                 node.right = node.left
