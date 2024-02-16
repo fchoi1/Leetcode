@@ -11,9 +11,9 @@ class Solution:
             while s.isdigit() and i < len(word):
                 s += word[i]
                 i += 1
-            if not s.isdigit() and len(s) == 1:
-                return 0
-            return int(s) if s.isdigit() else int(s[:-1]) 
+                if  i == len(word):
+                    return int(s) if s.isdigit() else int(s[:-1]) 
+            return int(s) if s.isdigit() else 0
 
         words = s.split(" ")
         for word in words:
