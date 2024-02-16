@@ -8,9 +8,8 @@ class Solution:
         while k > 0 and heap:
             f = heap[0]
             if k >= f:
-                k -= f
                 heapq.heappop(heap)
-            else:
-                break
+   
+            k -= f
 
         return len(heap)
