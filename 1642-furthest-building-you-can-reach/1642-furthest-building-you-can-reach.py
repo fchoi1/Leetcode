@@ -11,8 +11,7 @@ class Solution:
                     if len(heap) == 0 or diff < heap[0]:
                         bricks -= diff
                     else:
-                        bricks -= heapq.heappop(heap)
-                        heapq.heappush(heap, diff)
+                        bricks -= heapq.heapreplace(heap, diff)
             if bricks < 0:
                 return i - 1           
             curr = h
