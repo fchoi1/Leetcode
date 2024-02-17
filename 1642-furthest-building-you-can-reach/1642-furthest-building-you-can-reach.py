@@ -10,11 +10,10 @@ class Solution:
                 elif len(heap) == ladders:
                     if len(heap) == 0 or diff < heap[0]:
                         bricks -= diff
-                  
                     else:
                         bricks -= heapq.heappop(heap)
                         heapq.heappush(heap, diff)
-                    if bricks < 0:
-                        return i - 1           
+            if bricks < 0:
+                return i - 1           
             curr = h
         return i
