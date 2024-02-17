@@ -17,17 +17,12 @@ class Solution:
                 elif len(heap) == ladders:
                     if len(heap) == 0:
                         bricks -= diff
+                    elif heap and diff < heap[0]:
+                        bricks -= diff
                     else:
-                        if heap and diff < heap[0]:
-                            minDiff = diff
-                        else:
-                            minDiff = heapq.heappop(heap)
-                            heapq.heappush(heap, diff)
-                        bricks -= minDiff
+                        bricks -= heapq.heappop(heap)
+                        heapq.heappush(heap, diff)
                     if bricks < 0:
-                        return i - 1
-                # else:
-                #     return i - 1            
+                        return i - 1           
             curr = h
-        print("done", i)
         return i
