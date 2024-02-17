@@ -26,8 +26,8 @@ class Solution:
                         bricks -= minDiff
                     if bricks < 0:
                         return i - 1
-                else:
-                    return i - 1            
+                # else:
+                #     return i - 1            
             curr = h
         print("done", i)
         return i
