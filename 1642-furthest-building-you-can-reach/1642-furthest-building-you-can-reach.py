@@ -10,7 +10,7 @@ class Solution:
             if len(heap) < ladders:
                 heapq.heappush(heap, diff)
             elif len(heap) == ladders:
-                if len(heap) == 0 or diff < heap[0]:
+                if ladders == 0 or diff < heap[0]:
                     bricks -= diff
                 else:
                     bricks -= heapq.heapreplace(heap, diff)
