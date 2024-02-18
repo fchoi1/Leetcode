@@ -1,6 +1,6 @@
 class Solution:
     def mostBooked(self, n: int, meetings: List[List[int]]) -> int:
-        meetings.sort(key=lambda x: (x[0], x[1]))
+        meetings.sort(key=lambda x: x[0])
         rooms = list(range(n))
         roomCount = [0] * n
         ongoing = []
