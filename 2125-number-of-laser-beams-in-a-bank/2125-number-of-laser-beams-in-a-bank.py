@@ -5,7 +5,8 @@ class Solution:
         for row in bank[1:]:
             if int(row) == 0:
                 continue
-            lasers += row.count('1')* prevLasers
+            currLasers = row.count('1')
+            lasers += currLasers* prevLasers
             prevLasers = currLasers
         return lasers
         
