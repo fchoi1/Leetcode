@@ -7,14 +7,11 @@
 class Solution:
     def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> Optional[ListNode]:
         seen = set()
-        node = headA
-        while node:
-            seen.add(node)
-            node = node.next
-        
-        node = headB
-        while node:
-            if node in seen:
-                return node
-            node = node.next
+        while headA:
+            seen.add(headA)
+            headA = headA.next
+        while headB:
+            if headB in seen:
+                return headB
+            headB = headB.next
         return None
