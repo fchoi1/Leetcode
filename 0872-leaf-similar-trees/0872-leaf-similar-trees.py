@@ -18,10 +18,5 @@ class Solution:
             return arr
         left = getLeafValue(root1, [])
         right = getLeafValue(root2, [])
-        if len(left) != len(right):
-            return False
-        for l, r in zip(left, right):
-            if l != r:
-                return False
-        return True
+        return left == right
         
