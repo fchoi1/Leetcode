@@ -1,13 +1,11 @@
 class Solution:
     def findErrorNums(self, nums: List[int]) -> List[int]:
         seen = set()
-        total = int((1 + len(nums)) / 2 * len(nums))
-        dupe = None
+        diff = int((1 + len(nums)) / 2 * len(nums)) - sum(nums)
         for n in nums:
             if n in seen:
-                dupe = n
+                return [n, n + diff]
             seen.add(n)
-            total -= n
-        return [dupe, dupe + total]
+        return []
         
         
