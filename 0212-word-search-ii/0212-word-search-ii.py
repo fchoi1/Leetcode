@@ -11,7 +11,7 @@ class Solution:
         w = len(board[0])
 
         root = Node(None)
-        res = set()
+        res = []
         for word in words:
             node = root
             for char in word:
@@ -39,7 +39,7 @@ class Solution:
 
             newNode = node.children[char]
             if newNode.isEnd:
-                res.add(word + char)
+                res.append(word + char)
                 newNode.isEnd = False
                 if len(newNode.children) == 0:
                     for c in (word+char)[::-1]:
@@ -64,4 +64,4 @@ class Solution:
                 char = board[y][x]
                 if char in root.children:
                     dfs(root, '',(x,y), set())
-        return list(res)
+        return res
