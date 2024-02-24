@@ -1,7 +1,7 @@
 class Node:
     def __init__(self,val):
         self.val = val
-        self.neighbors = {}
+        self.neighbors = []
 
 class Solution:
     def findAllPeople(self, n: int, meetings: List[List[int]], firstPerson: int) -> List[int]:
@@ -12,7 +12,7 @@ class Solution:
                 return
             seen.add(node)
             secret.add(node.val)
-            for nextNode in node.neighbors.values():
+            for nextNode in node.neighbors:
                 if not nextNode in seen:
                     dfs(nextNode, seen)
 
@@ -23,8 +23,8 @@ class Solution:
                     nodes[x] = Node(x)
                 if y not in nodes:
                     nodes[y] = Node(y)
-                nodes[x].neighbors[y] = nodes[y]
-                nodes[y].neighbors[x] = nodes[x]
+                nodes[x].neighbors.append(nodes[y])
+                nodes[y].neighbors.append(nodes[x])
 
             seen = set()
             for x,y in sameTime:
