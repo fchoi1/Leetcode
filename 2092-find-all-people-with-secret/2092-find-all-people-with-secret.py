@@ -30,18 +30,18 @@ class Solution:
             for x,y in sameTime:
                 if x in seen or y in seen:
                     continue
-                if (x in secret or y in secret):
+                if x in secret or y in secret:
                     dfs(nodes[x], seen)
                 
         meetings.sort(key=lambda x: (x[2]))
-        prev = meetings[0]
-        sameTime = [[prev[0], prev[1]]]
-        for x, y, time in meetings[1:]:
-            if time == prev[2]:
+        prev = meetings[0][2]
+        sameTime = []
+        for x, y, time in meetings:
+            if time == prev:
                 sameTime.append([x, y])
             else:
                 addSecret(sameTime)
-                prev = [x,y,time]
+                prev = time
                 sameTime = [[x,y]]
         addSecret(sameTime)
         return list(secret)
