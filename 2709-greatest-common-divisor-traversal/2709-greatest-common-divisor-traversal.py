@@ -11,7 +11,6 @@ class Solution:
             if len(nums) > 1:
                 return nums[0] != 1
             return True
-        print("HERE")
         # get primes for each (preprocess)
         N = max(filtered)
         prime_divs = [[i] for i in range(N+1)]
@@ -20,7 +19,6 @@ class Solution:
             if len(prime_divs[p]) == 1:
                 for i in range(p, N+1, p):
                     prime_divs[i].append(p)
-        print(len(prime_divs))
         for i, n in enumerate(filtered):
             for prime in prime_divs[n]:
                 if n not in nodes:
