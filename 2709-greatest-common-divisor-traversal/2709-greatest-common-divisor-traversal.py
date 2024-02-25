@@ -30,19 +30,18 @@ class Solution:
                 nodes[n].neighbors.append(nodes[prime])
                 nodes[prime].neighbors.append(nodes[n])
         
-        linked = set()
         def dfs(node, seen):
             if node.val in seen:
                 return 
             if node.val in filtered:
-                linked.add(node.val)
+                filtered.remove(node.val)
             seen.add(node.val)
             for n in node.neighbors:
                 dfs(n, seen)
         seen = set()
         key = next(iter(nodes))
         dfs(nodes[key], seen)
-        return len(linked) == len(filtered)
+        return  len(filtered) == 0
 
             
 
