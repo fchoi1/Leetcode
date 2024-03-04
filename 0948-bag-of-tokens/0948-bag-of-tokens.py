@@ -6,7 +6,7 @@ class Solution:
         lose = score = maxScore = 0
         gain = len(tokens) - 1
         while lose <= gain:
-            if  power >= tokens[lose]:
+            if power >= tokens[lose]:
                 power -= tokens[lose]
                 score += 1
                 maxScore = max(maxScore, score)
