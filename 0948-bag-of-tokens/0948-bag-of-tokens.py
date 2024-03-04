@@ -3,22 +3,21 @@ class Solution:
         tokens.sort()
         if not tokens or power < tokens[0]:
             return 0
-        lose = score = 0
+        lose = score = maxScore = 0
         gain = len(tokens) - 1
         while lose <= gain:
-            while lose < len(tokens) and power >= tokens[lose]:
+            if  power >= tokens[lose]:
                 power -= tokens[lose]
                 score += 1
+                maxScore = max(maxScore, score)
                 lose += 1
-
-            if lose >= gain:
-                break
-                
-            if score > 0:
+            elif score > 0:
                 score -= 1
                 power += tokens[gain]
                 gain -= 1
+            else:
+                break
                 
-        return score
+        return maxScore
 
         
