@@ -1,10 +1,5 @@
 class Solution:
     def minimumLength(self, s: str) -> int:
-        # pali
-        letters = defaultdict(int)
-        for c in s:
-            letters[c] += 1
-        seen = set()
 
         left = 0
         right = len(s) - 1
