@@ -9,16 +9,7 @@ class Solution:
         
         prev = 0
         for val in path[::-1]:
-            if (prev == 0 and val % 2 == 0) or (prev and val % 2 == 1):
-                prev = 0
-            else:
-                prev = 1
-       
-        return prev
-        #        0
-        #       01
-        #.     01 10
-        #    01 10 10 01
-        # 01 10 10 01 10 01 01 10
-        return 1
+            prev = (prev and val % 2 == 0) or (not prev and val % 2 == 1)
+        return int(prev)
+   
         
