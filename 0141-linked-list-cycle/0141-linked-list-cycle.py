@@ -8,11 +8,8 @@ class Solution:
     def hasCycle(self, head: Optional[ListNode]) -> bool:
         fast = slow = head
         while fast and fast.next:
-            fast = fast.next.next
-            slow = slow.next
+            fast, slow = fast.next.next, slow.next
             if fast == slow:
                 return True
-        
-        if not fast or not fast.next:
-            return False
+        return False
         
