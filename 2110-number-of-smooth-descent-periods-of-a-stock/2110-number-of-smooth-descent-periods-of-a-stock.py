@@ -10,5 +10,4 @@ class Solution:
                 count += running * (running + 1) / 2
                 running = 1
             prev = p
-        count += running * (running + 1) / 2 
-        return int(count)
+        return int(count +  running * (running + 1) / 2 )
