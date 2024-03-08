@@ -5,8 +5,7 @@ class Solution:
 
         while left < right:
             mid  = (left + right) // 2
-            val = sum(math.ceil(x/mid) for x in nums)
-            if val <= threshold:
+            if  sum(math.ceil(x/mid) for x in nums) <= threshold:
                 right = mid 
             else:
                 left = mid + 1
