@@ -12,9 +12,8 @@ class Solution:
             x1,y1 = start
             x2,y2 = letters[char]
 
-            xDiff = x2 - x1
-            yDiff = y2 - y1
-         
+            xDiff, yDiff = x2 - x1, y2 - y1         
+
             if yDiff < 0:
                 path += "U" * abs(yDiff)
 
