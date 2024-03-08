@@ -6,10 +6,7 @@ class Solution:
         for y, row in enumerate(board):
             for  x, val in enumerate(row):
                 letters[val] = (x,y)
-        
-
-        # left and down first
-        # up and right 
+    
         start = letters['a']
         for char in target:
             x1,y1 = start
@@ -18,22 +15,18 @@ class Solution:
             xDiff = x2 - x1
             yDiff = y2 - y1
          
+            if yDiff < 0:
+                path += "U" * abs(yDiff)
 
-            while yDiff < 0:
-                yDiff += 1
-                path += "U"
+            if xDiff < 0:
+                path += "L" * abs(xDiff)
 
-            while xDiff < 0:
-                xDiff += 1
-                path += "L"
+            if yDiff > 0:
+                path += "D" * yDiff
 
-            while yDiff > 0:
-                yDiff -= 1
-                path += "D"
+            if xDiff > 0:
+                path += "R" * xDiff
 
-            while xDiff > 0:
-                xDiff -= 1
-                path += "R"
             path += "!"
             start = letters[char]
         return path
