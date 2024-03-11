@@ -1,7 +1,8 @@
 class Solution:
     def permuteUnique(self, nums: List[int]) -> List[List[int]]:
         res = set()
-        def dfs(arr, seen):
+        seen = set()
+        def dfs(arr):
             if len(arr) == len(nums):
                 res.add(tuple([i for i in arr]))
             
@@ -9,8 +10,8 @@ class Solution:
                 if i in seen:
                     continue
                 seen.add(i)
-                dfs(arr + [val], seen)
+                dfs(arr + [val])
                 seen.remove(i)
-        dfs([],0, set())
+        dfs([])
         return res
         
