@@ -11,15 +11,10 @@ class Solution:
         seen = {0:node}
         while node:
             runningSum += node.val
-            # if runningSum ==
             if runningSum in seen:
                 if runningSum == 0:
-                    print(node, "SEEN", seen[runningSum])
                     ignore.add(seen[runningSum])
-                    while seen[runningSum] != node:
-                        seen[runningSum] = seen[runningSum].next
-                        ignore.add(seen[runningSum])
-                elif seen[runningSum].next not in ignore:
+                if runningSum == 0 or seen[runningSum].next not in ignore:
                     while seen[runningSum] != node:
                         seen[runningSum] = seen[runningSum].next
                         ignore.add(seen[runningSum])
@@ -33,7 +28,9 @@ class Solution:
             if node in ignore:
                 node = node.next
                 continue
-            newnode.next = ListNode(node.val)
+            newnode.next = node
             node = node.next
             newnode = newnode.next
+        if newnode:
+            newnode.next = None
         return newhead.next
