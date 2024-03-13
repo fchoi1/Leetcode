@@ -2,9 +2,8 @@ class Solution:
     def pivotInteger(self, n: int) -> int:
         if n == 1:
             return 1
-        l = 0
-        r = n
-        # 1 2 3 4 5 6 7 8
+        l, r = 0, n
+        
         while l < r:
             i = (l + r) // 2
             right = (n * (n + 1) - i * (i + 1))/2
