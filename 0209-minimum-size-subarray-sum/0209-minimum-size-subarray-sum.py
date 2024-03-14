@@ -1,7 +1,6 @@
 class Solution:
     def minSubArrayLen(self, target: int, nums: List[int]) -> int:
-        left = 0
-        running = 0
+        left = running = 0
         minLen = inf
         for i, val in enumerate(nums):
             running += val
