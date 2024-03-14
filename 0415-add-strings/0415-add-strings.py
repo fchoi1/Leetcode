@@ -14,7 +14,7 @@ class Solution:
                 val += int(num2[n2])
                 n2 += 1
 
-            carryOver = int(val > 10)
+            carryOver = int(val > 9)
             numStr += str(val % 10)
 
         return numStr[::-1]
