@@ -6,6 +6,8 @@ class Solution:
         steps = 1
         seen = set()
         N = len(grid)
+        dirs = [[0,1],[1,0],[0,-1],[-1,0],[1,1],[-1,1],[-1,-1],[1,-1]]
+        
         def inRange(x, y):
             return 0 <= x < N and 0 <= y < N
 
@@ -17,7 +19,7 @@ class Solution:
                 if (x,y) in seen:
                     continue
                 seen.add((x,y))
-                for dx, dy in [[0,1],[1,0],[0,-1],[-1,0],[1,1],[-1,1],[-1,-1],[1,-1]]:
+                for dx, dy in dirs:
                     newX, newY = x + dx, y + dy
                     if inRange(newX, newY) and not grid[newY][newX]:
                         q.append((newX, newY))
