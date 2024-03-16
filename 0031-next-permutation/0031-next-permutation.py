@@ -6,7 +6,7 @@ class Solution:
                 break
             prev = val
         else:
-            nums.sort()
+            nums = nums.reverse()
             return
 
         # First index to swap
