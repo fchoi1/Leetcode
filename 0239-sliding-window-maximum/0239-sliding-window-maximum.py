@@ -1,19 +1,16 @@
 class Solution:
     def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
-        count = defaultdict(int)
-        heap = []
-        for n in nums[:k]:
-            count[n] += 1
-            heapq.heappush(heap, -n)
+        largest = nums[:k].index(max(nums[:k]))
+        res = [nums[largest]]
+        q = deque([largest])
 
-        slow = 0
-        maxArr = [-heap[0]]
-        for n in nums[k:]:
-            count[nums[slow]] -= 1
-            count[n] += 1
-            heapq.heappush(heap, -n)
-            while count[-heap[0]] == 0:
-                heapq.heappop(heap)
-            maxArr.append(-heap[0])
-            slow += 1
-        return maxArr
+        for i,n in enumerate(nums[k:]):
+            if q and q[0] <= i:
+                q.popleft()
+        
+            while q and nums[q[0]] <= n:
+                q.popleft()
+            q.append(i+k)
+            res.append(nums[q[0]])
+
+        return res
