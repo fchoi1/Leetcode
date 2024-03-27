@@ -25,6 +25,8 @@ class Solution:
             return True
 
         for i in range(numCourses):
+            if i in taken:
+                continue
             if not checkCourse(i, set(), taken):
                 return []
         return res
