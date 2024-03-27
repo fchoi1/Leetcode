@@ -14,11 +14,7 @@ class Solution:
                 return True
             if course in seen:
                 return False
-            if not courseMap[course]:
-                taken.add(course)
-                res.append(course)
-                return True
-            
+
             seen.add(course)
             for c in courseMap[course]:
                 if c in taken:
