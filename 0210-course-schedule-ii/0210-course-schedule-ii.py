@@ -16,9 +16,11 @@ class Solution:
 
             seen.add(course)
             for c in courseMap[course]:
+                if c in taken:
+                    continue
                 if not checkCourse(c, seen, taken):
                     return False
-            seen.remove(course)
+            # seen.remove(course)
             if course not in taken:
                 res.append(course)
                 taken.add(course)
