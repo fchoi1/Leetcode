@@ -24,15 +24,14 @@ class Solution:
                     continue
                 if not checkCourse(c, seen, taken):
                     return False
-            # seen.remove(course)
             if course not in taken:
                 res.append(course)
                 taken.add(course)
             return True
 
         for i in range(numCourses):
-            if i in taken:
-                continue
+            # if i in taken:
+            #     continue
             if not checkCourse(i, set(), taken):
                 return []
         return res
