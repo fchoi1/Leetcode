@@ -8,7 +8,6 @@ class Solution:
         for a,b in prerequisites:
             courseMap[a].add(b)
 
-        print(courseMap)
         def checkCourse(course, seen, taken):
             if i in taken:
                 return True
@@ -17,10 +16,9 @@ class Solution:
 
             seen.add(course)
             for c in courseMap[course]:
-                if c in taken:
-                    continue
                 if not checkCourse(c, seen, taken):
                     return False
+            seen.remove(course)
             if course not in taken:
                 res.append(course)
                 taken.add(course)
