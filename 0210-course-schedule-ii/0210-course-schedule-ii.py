@@ -13,7 +13,6 @@ class Solution:
             if course in seen:
                 return False
             if not courseMap[course]:
-                print("here not in append")
                 if course not in taken:
                     taken.add(course)
                     res.append(course)
@@ -27,14 +26,12 @@ class Solution:
                     return False
             seen.remove(course)
             if course not in taken:
-                print("res appending", course)
                 res.append(course)
                 taken.add(course)
             return True
 
         # if loops end it
         for i in range(numCourses):
-            print(i, res)
             if i in taken:
                 continue
             if not checkCourse(i, set(), taken):
