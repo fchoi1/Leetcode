@@ -10,12 +10,13 @@ class Solution:
 
         print(courseMap)
         def checkCourse(course, seen, taken):
+            if i in taken:
+                return True
             if course in seen:
                 return False
             if not courseMap[course]:
-                if course not in taken:
-                    taken.add(course)
-                    res.append(course)
+                taken.add(course)
+                res.append(course)
                 return True
             
             seen.add(course)
@@ -30,8 +31,6 @@ class Solution:
             return True
 
         for i in range(numCourses):
-            # if i in taken:
-            #     continue
             if not checkCourse(i, set(), taken):
                 return []
         return res
