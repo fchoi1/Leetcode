@@ -35,14 +35,14 @@ class Solution:
                 loop = loop[i:]
                 break
 
+        # create edges set
         edgesSet = set()
         for a,b in zip(loop, loop[1:]):
             edgesSet.add((min(a,b), max(a,b)))
         edgesSet.add((min(loop[0], loop[-1]), max(loop[0], loop[-1])))
 
         extra = None
-        for a,b in edges:
+        # get first matching reverse
+        for a,b in edges[::-1]:
             if (min(a,b), max(a,b)) in edgesSet:
-                extra = [a,b]
-
-        return extra
+                return [a,b]
