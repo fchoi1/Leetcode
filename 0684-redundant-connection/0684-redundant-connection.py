@@ -30,22 +30,17 @@ class Solution:
             dfs(i+1, [i+1], set(), None)
 
         # find acutally loop
-        seen = {}
-        
         for i, n in enumerate(loop):
-            if n in seen:
-                loop = loop[seen[n]:i]
+            if n == loop[-1]:
+                loop = loop[i:]
                 break
-            seen[n] = i
 
-        print(loop)
         edgesSet = set()
         for a,b in zip(loop, loop[1:]):
             edgesSet.add((min(a,b), max(a,b)))
         edgesSet.add((min(loop[0], loop[-1]), max(loop[0], loop[-1])))
 
         extra = None
-        print(edgesSet)
         for a,b in edges:
             if (min(a,b), max(a,b)) in edgesSet:
                 extra = [a,b]
