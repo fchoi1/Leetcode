@@ -6,7 +6,6 @@ class Solution:
         total = N * (N + 1) // 2
         
         for i, n in enumerate(nums):
-            print(i, c)
             count[n] += 1
             while len(count) > k:
                 count[nums[slow]] -= 1
@@ -20,7 +19,6 @@ class Solution:
                     if len(s) == k:
                         c += l - slow + 1
                         break
-        print(total, c)
         return c
 
         # 1 1 2 2 3
