@@ -1,14 +1,17 @@
 class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:
-        translate = {}
-        for sChar, tChar in zip(s,t):
-            if sChar in translate and translate[sChar] != tChar:
+        charMap = {}
+        used = set()
+        if len(s) != len(s):
+            return False
+
+        for a,b in zip(s,t):
+            if a in charMap and charMap[a] != b:
                 return False
-            if sChar not in translate:
-                
-                translate[sChar] = tChar
-                if ':' + tChar in translate:
-                    return False
-                translate[':'+tChar] = sChar
+            if b in used and (a not in charMap or charMap[a] != b):
+                return False
+            charMap[a] = b
+            used.add(b)
         return True
+
         
