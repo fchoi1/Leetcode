@@ -1,6 +1,18 @@
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
+        boardDic = defaultdict(int)
         W,H = len(board[0]), len(board)
+
+        for y in range(H):
+            for x in range(W):
+                boardDic[board[y][x]] += 1
+
+        # Count number of letters in word
+        # Check if board has all the letters in the word and they are atleast same count from word
+        wordDic = Counter(word)
+        for c in wordDic:
+            if c not in boardDic or boardDic[c] < wordDic[c]:
+                return False
 
         def inRange(x,y):
             return 0 <= x < W and 0 <= y < H
@@ -19,9 +31,8 @@ class Solution:
             
         for y, row in enumerate(board):
             for x, row in enumerate(row):
-                if board[y][x] == word[0]:
-                    if traverse(x,y,0,set()):
-                        return True
+                if traverse(x,y,0,set()):
+                    return True
         return False
 
         
