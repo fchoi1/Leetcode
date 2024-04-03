@@ -7,17 +7,12 @@ class Solution:
             if val == '0':
                 if i > 0 and s[i-1] == '1':
                     zeros = 0
-                if not zeros:
-                    start = i
+                    ones = 0
                 zeros += 1
-                ones = 0
-            else:
-                if not zeros:
-                    continue
-                else:
-                    zeros -= 1
-                    ones += 1
-                    longest = max(longest,  ones * 2)
+            if val == '1':
+                ones += 1
+            if ones <= zeros:
+                longest = max(longest,  ones * 2)
 
         return longest
         
