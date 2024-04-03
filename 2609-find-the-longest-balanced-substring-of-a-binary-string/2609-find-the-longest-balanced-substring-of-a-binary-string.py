@@ -12,7 +12,6 @@ class Solution:
                 zeros += 1
                 ones = 0
             else:
-                print(zeros, ones, longest)
                 if not zeros:
                     continue
                 else:
