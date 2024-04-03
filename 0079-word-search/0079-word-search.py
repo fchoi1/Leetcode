@@ -10,13 +10,12 @@ class Solution:
                 return False
             if index == len(word) - 1:
                 return True
-            
+            seen.add((x,y))
             for dx, dy in [[0,1],[1,0],[-1,0],[0,-1]]:
                 if inRange(x+dx, y+dy) and (x+dx, y+dy) not in seen:
-                    seen.add((x,y))
                     if traverse(x+dx, y+dy, index + 1, seen):
                         return True
-                    seen.remove((x,y))
+            seen.remove((x,y))
             return False
             
         for y, row in enumerate(board):
