@@ -12,8 +12,8 @@ class Solution:
                 c_bracket = max(0, c_bracket - 1)
             else:
                 o_bracket += 1
-                c_bracket = max(0, c_bracket - 1)
-                
+                c_bracket = max(0, c_bracket - 1) # counts as something to close the closed bracket
+
             if o_bracket < 0:
                 return False
         return c_bracket == 0
