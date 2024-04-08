@@ -1,16 +1,19 @@
 class Solution:
     def countStudents(self, students: List[int], sandwiches: List[int]) -> int:
-        ones = students.count(1)
-        zeros = students.count(0)
-        while ones > 0 and zeros > 0 and sandwiches and students:
-            while students and sandwiches and students[0] == sandwiches[0]:
-                if students[0]:
-                    ones -= 1
-                else:
-                    zeros -= 1
-                sandwiches.pop(0)
-                students.pop(0)
-            if not sandwiches or not students:
-                break
-            students.append(students.pop(0))
+        count_students = Counter(students)
+        count_sandwiches = Counter(sandwiches)
+        if count_students[0] == count_sandwiches[0]:
+            return 0
+
+        while sandwiches and count_students[0] > 0 and count_students[1] > 0:
+            sandwich = sandwiches.pop(0)
+            if sandwich:
+                count_students[1] -= 1
+            else:
+                count_students[0] -= 1
+
+        val = 0 if count_students[0] > 0 else 1
+
+        while sandwiches and sandwiches[0] == val:
+            sandwiches.pop(0)
         return len(sandwiches)
