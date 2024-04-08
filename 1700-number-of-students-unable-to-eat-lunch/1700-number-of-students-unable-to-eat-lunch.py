@@ -1,10 +1,7 @@
 class Solution:
     def countStudents(self, students: List[int], sandwiches: List[int]) -> int:
         count_students = Counter(students)
-        count_sandwiches = Counter(sandwiches)
-        if count_students[0] == count_sandwiches[0]:
-            return 0
-
+        
         while sandwiches and count_students[0] > 0 and count_students[1] > 0:
             sandwich = sandwiches.pop(0)
             if sandwich:
