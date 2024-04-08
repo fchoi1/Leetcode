@@ -3,11 +3,7 @@ class Solution:
         count_students = Counter(students)
         
         while sandwiches and count_students[0] > 0 and count_students[1] > 0:
-            sandwich = sandwiches.pop(0)
-            if sandwich:
-                count_students[1] -= 1
-            else:
-                count_students[0] -= 1
+            count_students[sandwiches.pop(0)] -= 1
 
         val = 0 if count_students[0] > 0 else 1
 
