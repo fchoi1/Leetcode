@@ -14,6 +14,6 @@ class Solution:
                     self.sum += node.val
                 traverse(node.left, node, parent)
                 traverse(node.right, node, parent)
-            return
+                
         traverse(root, None, None)
         return self.sum
