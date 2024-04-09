@@ -5,15 +5,11 @@ class Solution:
         def traverse(node, parent, grandparent):
             if not node:
                 return
+            if grandparent and grandparent.val % 2 == 0:
+                self.sum += node.val
 
-            if not parent or not grandparent:
-                traverse(node.left, node, parent)
-                traverse(node.right, node, parent)
-            else:
-                if grandparent.val % 2 == 0:
-                    self.sum += node.val
-                traverse(node.left, node, parent)
-                traverse(node.right, node, parent)
-                
+            traverse(node.left, node, parent)
+            traverse(node.right, node, parent)
+
         traverse(root, None, None)
         return self.sum
