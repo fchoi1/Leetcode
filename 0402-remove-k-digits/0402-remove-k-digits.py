@@ -2,19 +2,17 @@ class Solution:
     def removeKdigits(self, num: str, k: int) -> str:
         arr = []
         for n in num:
-            # print(arr, n, k)
             while arr and k > 0 and n < arr[-1]:
                 arr.pop()
                 k -= 1
             arr.append(n)
             if k == -1:
                 break
-            # print(n, arr[-1])
         
         while k > 0 and arr:
             arr.pop()
             k -= 1
-   
+        
         digitStr = ""
         leading = True
         for n in arr:
