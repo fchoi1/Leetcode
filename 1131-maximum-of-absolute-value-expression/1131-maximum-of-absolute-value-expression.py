@@ -15,7 +15,7 @@ class Solution:
             smallest = a * arr1[0] + b * arr2[0] 
             for i,(x,y) in enumerate(zip(arr1, arr2)):
                 curr = a * x + b * y + i
-                maxVal = max(maxVal, curr-smallest)
+                maxVal = max(maxVal, abs(curr-smallest))
                 smallest = min(smallest, curr)
         return maxVal
 
