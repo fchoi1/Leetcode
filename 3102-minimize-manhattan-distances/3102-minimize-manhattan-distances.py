@@ -8,7 +8,6 @@ class Solution:
                 start = points[1] if skip == 0 else points[0]
                 smallIndex = 1 if skip == 0 else 0
                 smallest = a * start[0] + b * start[1] 
-                
                 for i,(x,y) in enumerate(points):
                     if i == skip:
                         continue
@@ -23,10 +22,8 @@ class Solution:
 
         maxDist = float('inf')
         N = len(points)
-        _, maxPoints = getMaxDist(N)
-        print(maxPoints)
+        _, maxPoints = getMaxDist(None)
         dist1 = getMaxDist(maxPoints[0])
         dist2 = getMaxDist(maxPoints[1])
-        print(dist1, dist2)
         return min(dist1[0], dist2[0])
         
