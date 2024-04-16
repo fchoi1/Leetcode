@@ -11,7 +11,6 @@ class Solution:
             node.left = root
             return node
         
-
         def traverse(node, d):
             if not node or d > depth:
                 return
@@ -19,12 +18,8 @@ class Solution:
             if d == depth:
                 newLeft = TreeNode(val)
                 newRight = TreeNode(val)
-                tempL = node.left
-                tempR = node.right
-                node.left = newLeft
-                node.right = newRight
-                newLeft.left = tempL
-                newRight.right = tempR
+                newLeft.left, node.left = node.left, newLeft
+                newRight.right, node.right = node.right, newRight
                 return
             traverse(node.left, d+1)
             traverse(node.right, d+1)
