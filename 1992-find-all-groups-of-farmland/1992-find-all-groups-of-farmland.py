@@ -11,7 +11,6 @@ class Solution:
 
             land[y][x] = 0 
             botX, botY = max(botX, x),max(botY, y)
-            print(x,y, "bot", botX, botY)
 
             for dx, dy in [(0,1), (1,0), (-1,0), (0,-1)]:
                 botX, botY = traverse(x+dx,y+dy, botX, botY)
