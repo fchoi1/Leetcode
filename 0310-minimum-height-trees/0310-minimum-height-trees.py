@@ -2,7 +2,7 @@ class Solution:
     def findMinHeightTrees(self, n: int, edges: List[List[int]]) -> List[int]:
         if n == 1:
             return [0]
-        minList = []
+
         adjMap = defaultdict(set)
 
         def getHeight(node, seen, path):
@@ -24,10 +24,7 @@ class Solution:
         
         longest = []
         getHeight(0, set(),[])
-        print(longest)
-
         getHeight(longest[-1], set(), [])
-        print(longest, len(longest) )
         
         mid = len(longest) // 2
         if len(longest) % 2 == 0:
