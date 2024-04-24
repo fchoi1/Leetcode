@@ -1,10 +1,8 @@
 class Solution:
     def tribonacci(self, n: int) -> int:
-        a = 0
-        b = 1
-        c = 1
+        first = 0
+        second = 1
+        third = 1
         for _ in range(n):
-            a,b,c = b,c,a + b + c
-        return a
-    
-        
+            first, second, third = second, third, first + second + third
+        return first
