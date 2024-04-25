@@ -3,8 +3,8 @@ class Solution:
         dp = [0] * 26
         for char in s:
             maxLen = 1
-            for i in range(26):
-                if abs(ord(char)-ord('a') - i) <= k:
-                    maxLen = max(maxLen, dp[i] + 1 )
+            index = ord(char)-ord('a') 
+            for i in range(max(0, index - k), min(26, index + k + 1)):
+                maxLen = max(maxLen, dp[i] + 1 )
             dp[ord(char)-ord('a')] = maxLen
         return max(dp)
