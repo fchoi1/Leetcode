@@ -7,5 +7,4 @@ class Solution:
                 if abs(ord(char)-ord('a') - i) <= k:
                     maxLen = max(maxLen, dp[i] + 1 )
             dp[ord(char)-ord('a')] = maxLen
-        print(dp)
         return max(dp)
