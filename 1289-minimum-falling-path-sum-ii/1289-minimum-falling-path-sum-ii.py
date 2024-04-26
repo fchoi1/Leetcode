@@ -3,31 +3,22 @@ class Solution:
         N = len(grid)
         if N == 1:
             return grid[0][0]
+        prev = grid[0]
+        for y in range(1,N):
+            first = min(prev[0], prev[1])
+            second = max(prev[0], prev[1])
 
-        dp = [[None for _ in range(N)] for _ in range(N)]
-        prev = None
-        for y in range(N):
-            row = prev if prev else grid[y]
-            first = min(row[0], row[1])
-            second = max(row[0], row[1])
-            for val in row[2:]:
+            for val in prev[2:]:
                 if val < first:
                     first, second = val, first
-                elif val  < second:
+                elif val < second:
                     second = val
             nextRow = []
             for x in range(N):
-                if prev:
-                    if prev[x] == first:
-                        nextRow.append( grid[y][x] + second)
-                    else:
-                        nextRow.append( grid[y][x]  + first)
-            if not prev:
-                prev = grid[y]
-            else:
-                prev = nextRow
-            print("row", y, first, second)
-            print(prev)
+                val = second if prev[x] == first else first
+                nextRow.append(grid[y][x] + val)
+            prev = nextRow
+         
         return min(prev)
                     
                 
