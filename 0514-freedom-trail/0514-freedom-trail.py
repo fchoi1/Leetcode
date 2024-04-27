@@ -1,7 +1,6 @@
 class Solution:
     def findRotateSteps(self, ring: str, key: str) -> int:
-        self.steps = float('inf')
-
+        # Helper function to get next closest index
         def rotate(direction, node, steps, index):
             while ring[node] != key[index]:
                 node += 1 if direction == "cw" else -1
@@ -19,35 +18,20 @@ class Solution:
             for _ in range(len(q)):
                 node, currStep = q.popleft()
 
+                # Get next left and right index and steps taken
                 left,leftStep = rotate("cw", node, currStep, wordLen)
                 right,rightStep = rotate("ccw", node, currStep, wordLen)
+
+                # Update lowest value from left and right
                 lowest[left] = min(lowest[left], leftStep + 1)
                 lowest[right] = min(lowest[right], rightStep + 1)
+                
             wordLen += 1
+            # check after wordlen is reached
             if wordLen == len(key):
                 return min(lowest)
+
+            # populate indexes that have a the lowest value only
             for i,val in enumerate(lowest):
                 if val != float('inf'):
                     q.append((i, val))
-
-        seen = {}
-        def traverse(node, currStep, wordLen):
-            if currStep >= self.steps:
-                return        
-            if (node, wordLen) in seen:
-                if currStep >= seen[(node,wordLen)]:
-                    return
-            seen[(node, wordLen)] = currStep
-            if wordLen == len(key):
-                self.steps = min(self.steps, currStep)
-                seen[(node, wordLen)] = self.steps
-                return
-
-            # cw
-            left,leftStep = rotate("cw", node, currStep, wordLen)
-            right,rightStep = rotate("ccw", node, currStep, wordLen)
-            traverse(left, leftStep + 1, wordLen + 1)
-            traverse(right, rightStep + 1, wordLen + 1)
-
-        # traverse(0,0,0)
-        # return self.steps
