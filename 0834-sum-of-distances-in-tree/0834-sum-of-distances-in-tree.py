@@ -8,6 +8,7 @@ class Solution:
         seen = set()
         ans = [0 for _ in range(n)]
         memo = [None for _ in range(n)]
+        
         def getDist(node):
             seen.add(node)
             totalDist = nodeCount = 0
@@ -22,6 +23,7 @@ class Solution:
 
         ans[0] = getDist(0)[0]
         seen = set()
+
         def traverse(node, prev):
             seen.add(node)
             if prev != None:
