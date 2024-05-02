@@ -9,9 +9,9 @@ class Solution:
         self.valid = []
 
         def traverse(node, currSum, path):
-            if not node or currSum > targetSum:
+            if not node:
                 return
-            
+
             path.append(node.val)
 
             if not node.left and not node.right:
