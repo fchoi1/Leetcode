@@ -15,7 +15,6 @@ class Solution:
             else:
                 val2 = int(v2[p2])
                 p2 += 1
-            print(val1, val2)
             if val1 > val2:
                 return 1
             elif val1 < val2:
