@@ -7,7 +7,6 @@ class Solution:
         
         alice = (prefix[int(arriveAlice[:2])-1] - int(arriveAlice[2:]), prefix[int(leaveAlice[:2])-1] - int(leaveAlice[2:]))
         bob = (prefix[int(arriveBob[:2])-1] - int(arriveBob[2:]), prefix[int(leaveBob[:2])-1] - int(leaveBob[2:]))
-        print(bob, alice, int(arriveAlice[:2])-1,int(arriveAlice[2:]), int(leaveAlice[:2])-1, int(leaveAlice[2:]))
 
         if alice[0] > bob[1] or bob[0] > alice[1]:
             return 0
