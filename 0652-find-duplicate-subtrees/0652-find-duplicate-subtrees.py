@@ -5,15 +5,13 @@ class Solution:
         res = set()
         def generateSubTree(node):
             if not node:
-                return None
-            inOrder = (generateSubTree(node.left), node.val,generateSubTree(node.right))
+                return ""
+            inOrder = f"{generateSubTree(node.left)}, {str(node.val)},{generateSubTree(node.right)})"
             if inOrder in seen:
                 res.add(seen[inOrder])
             else:
                 seen[inOrder] = node
-
-
-            return tuple(inOrder)
+            return inOrder
         generateSubTree(root)
         return res
 
