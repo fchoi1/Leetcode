@@ -4,13 +4,12 @@
  * @return {boolean}
  */
 var checkSubarraySum = function(nums, k) {
-
-    const seen = {[nums[0]%k]:0}
-    let currSum = nums[0]
-    for (let i = 1; i < nums.length; i++ ){
-        currSum += nums[i]
-        currSum %= k
-        if (currSum == 0 || ((currSum in seen) && (i - seen[currSum]) > 1 )) return true
+    if (nums.length < 2) return false
+    const seen = {0:-1}
+    let currSum = 0
+    for (let i = 0; i < nums.length; i++ ){
+        currSum = (currSum + nums[i]) % k
+        if ((currSum in seen) && (i - seen[currSum]) > 1 ) return true
         else if (!(currSum in seen)) seen[currSum] = i
     }
     return false
