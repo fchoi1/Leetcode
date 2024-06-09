@@ -1,8 +1,3 @@
-/**
- * @param {number[]} nums
- * @param {number} k
- * @return {number}
- */
 var subarraysDivByK = function(nums, k) {
     const counts = {0: 1}
     let currSum = 0, ans = 0
@@ -13,7 +8,5 @@ var subarraysDivByK = function(nums, k) {
         else counts[currSum] = 0
         counts[currSum] ++
     })
-    console.log(counts)
     return ans
-    
 };
