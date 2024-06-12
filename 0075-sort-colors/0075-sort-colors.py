@@ -1,17 +1,9 @@
 class Solution:
     def sortColors(self, nums: List[int]) -> None:
-        """
-        Do not return anything, modify nums in-place instead.
-        """
         counts = Counter(nums)
-        zeros = counts[0]
-        ones = counts[1]
-        twos = counts[2]
-
-        nums[:zeros] = [0] * zeros
-        nums[zeros:zeros+ones] = [1] * ones
-        nums[zeros+ones:] = [2] * twos
-
-        # 2 0 2 1 1 0
-        # 0 2 2 1 1 0
-        # 0 0 2 2 1 0
+        for i in range(counts[0]):
+            nums[i] = 0
+        for i in range(counts[0], counts[0] + counts[1]):
+            nums[i] = 1
+        for i in range(counts[1] + counts[0], len(nums)):
+            nums[i] = 2
