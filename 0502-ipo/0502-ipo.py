@@ -4,30 +4,36 @@ class Solution:
         cp = [(c, p, i) for i, (c,p) in enumerate(zip(capital, profits))]
         cp.sort()
 
-
         currCap = w
         projects = 0
-        seen = set()
         heap = []
         for c,p,i in cp:
+            if heap and c > currCap:
+                currCap -= heapq.heappop(heap)
+                projects += 1
+                if projects == k:
+                    return currCap
+            elif not heap and c > currCap:
+                break
+
             if currCap >= c:
                 heapq.heappush(heap, -p)
             else:
-                if heap:
-                    seen.add(i)
+                while heap and c > currCap:
                     currCap -= heapq.heappop(heap)
                     projects += 1
                     if projects == k:
                         return currCap
-                    if currCap >= c:
-                        heapq.heappush(heap, -p)
-                else:
-                    break
-        # print(c,p,i, currCap, heap)
+                if not heap and c > currCap:
+                    return currCap
+                heapq.heappush(heap, -p)
             
+         
+        # print(c,p,i, currCap, heap)
+        print(len(heap))
         while projects < k and heap:
             currCap -= heapq.heappop(heap)
             projects += 1
 
-        
+        print(projects,k,currCap, len(heap))
         return currCap
