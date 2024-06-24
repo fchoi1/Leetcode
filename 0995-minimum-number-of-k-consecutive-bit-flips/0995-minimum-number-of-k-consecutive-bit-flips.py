@@ -19,13 +19,6 @@ class Solution:
             currNum ^= xor
 
         while i < len(nums):
-            if currNum == xor:
-                while i < len(nums) and nums[i] == 1:
-                    currNum = currNum << 1 & xor
-                    currNum |= nums[i]
-                    i += 1
-                if i >= len(nums):
-                    break
             if currNum < limit:
                 currNum = currNum ^ xor
                 counts += 1
