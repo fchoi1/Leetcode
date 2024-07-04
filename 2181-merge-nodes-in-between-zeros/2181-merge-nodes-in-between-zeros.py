@@ -10,14 +10,11 @@ class Solution:
         newHead = newNode = ListNode()
         
         while curr:
-            while curr and curr.val != 0:
-                curr = curr.next
-            
             currSum = 0
-            while prev != curr:
-                currSum += prev.val
-                prev = prev.next
-
+            while curr and curr.val != 0:
+                currSum += curr.val
+                curr = curr.next
+    
             newNode.next = ListNode(currSum)
             newNode = newNode.next
             curr = curr.next
