@@ -1,15 +1,15 @@
 class Solution:
     def survivedRobotsHealths(self, positions: List[int], healths: List[int], directions: str) -> List[int]:
-        robots = [(p, h, d,i) for i,(p,h,d)in enumerate(zip(positions, healths, directions))]
-        robots.sort()
-     
+        robots = sorted([(p, h, d,i) for i,(p,h,d)in enumerate(zip(positions, healths, directions))])
+
         left = []
-        remain = []
+        remain = [0] * len(positions)
         for p,h,d,i in robots:
             if left and d == 'L':
                 while left and h > left[-1][0]:
                     left.pop()
                     h -= 1
+                
                 if left and h == left[-1][0]:
                     h = 0
                     left.pop()
@@ -18,15 +18,13 @@ class Solution:
                     left[-1][0] -= 1
             
             if not left and d == 'L' and h > 0:
-                remain.append([h,i])
+                remain[i] = h
                 
             if d == 'R':
                 left.append([h,i])
-            # print(left, remain)
 
         for h,i in left:
-            remain.append([h,i])
+            remain[i] = h
 
-        remain.sort(key=lambda x:x[1])
-        return [h for h,i in remain]
+        return  filter(lambda h: h > 0, remain)
         
