@@ -1,15 +1,8 @@
 class Solution:
     def survivedRobotsHealths(self, positions: List[int], healths: List[int], directions: str) -> List[int]:
         robots = [(p, h, d,i) for i,(p,h,d)in enumerate(zip(positions, healths, directions))]
-
         robots.sort()
-
-        # optimization remove robots on the left and right
-        # going from left to right
-        # store left robots in dict
-        # counter to store health?
-        # q
-        print(robots)
+     
         left = []
         remain = []
         for p,h,d,i in robots:
@@ -30,8 +23,6 @@ class Solution:
             if d == 'R':
                 left.append([h,i])
             # print(left, remain)
-
-            
 
         for h,i in left:
             remain.append([h,i])
