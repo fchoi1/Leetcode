@@ -3,20 +3,16 @@ class Solution:
         q = []
         N = len(customers)
         total = 0
-        curr = 0
+        curr = end = 0
         for a,t in customers:
-            if q:
-                # while q[0][1] > a
-                #     start,end = q.pop()
-                #     total += (end - start)
-                q.append((a, max(q[-1][1], a) + t))
-            else:
-                q.append((a, a+t))
-        
-        while q:
-            start, end = q.pop()
-            total += (end - start)
-        # print("total", total)
+            end = max(end + t, a + t)
+            # if q:
+            #     while q and a >= q[0][1]:
+            #         start, end = q.pop()
+            total += (end - a)
+            # q.append((a, end+t))
+            print(q)
+      
         return total / N
 
         
