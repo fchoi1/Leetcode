@@ -67,7 +67,6 @@ class Solution:
 
         # For output and sorting elements
         elements = ''
-        sortedAtoms = sorted(atoms.keys())
-        for key in sortedAtoms:
+        for key in  sorted(atoms.keys()):
             elements += f'{key}{atoms[key] if atoms[key] > 1 else ""}'  
         return elements
