@@ -1,24 +1,46 @@
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
 class Solution:
     def getDirections(self, root: Optional[TreeNode], startValue: int, destValue: int) -> str:
-        dq = deque([[root, ""]])
-        sourceDirections = ""
-        destDirections = ""
-        while len(dq) > 0:
-            curr = dq.popleft()
-            if curr[0] is None:
-                continue
-            if curr[0].val == startValue:
-                sourceDirections = curr[1]
-            if curr[0].val == destValue:
-                destDirections = curr[1]
-            dq.append([curr[0].left, curr[1]+"L"])
-            dq.append([curr[0].right, curr[1]+"R"])
+        # get path of start
+        # get path of dest
+        # get common
+        def findNode(curr, node, nodePath, path):
+            if not curr:
+                return [], ""
+            if curr.val == node:
+                return nodePath, path
 
-        index = 0
-        for i in range(min(len(sourceDirections), len(destDirections))):
-            if sourceDirections[i] == destDirections[i]:
-                index += 1
-            else:
-                break
+            leftNodePath, leftPath = findNode(curr.left, node, nodePath + [curr.val], path + "L")
+            rightNodePath, rightPath = findNode(curr.right, node, nodePath + [curr.val], path + "R")
+            if not leftNodePath and rightNodePath:
+                return rightNodePath, rightPath
+            if not rightNodePath and leftNodePath:
+                return leftNodePath, leftPath
+            return [], ""
         
-        return (len(sourceDirections) - index) * "U" + destDirections[index:]
+
+        startNodes, startPath = findNode(root, startValue, [], "")
+        destNodes, destPath = findNode(root, destValue, [], "")
+        start = {x:i+1 for i,x in enumerate(startNodes[::-1])}
+        start[startValue] = 0
+
+        # print(startNodes, startPath, start)
+        # print(destNodes, destPath)
+        path = ""
+        N = len(destPath)
+        if destValue in start:
+            return "U" * start[destValue]
+
+        for i, node in enumerate(destNodes[::-1]):
+            if node in start :
+                return "U" * start[node] + destPath[N-i-1:]
+
+        return "U" * len(start) + destPath
+
+            
+        
