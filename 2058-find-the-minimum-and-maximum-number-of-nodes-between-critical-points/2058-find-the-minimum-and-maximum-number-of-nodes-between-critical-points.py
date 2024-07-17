@@ -13,17 +13,12 @@ class Solution:
         while n:
             if (p.val < c.val and n.val < c.val) or (p.val > c.val and n.val > c.val):
                 if not first:
-                    first = i
+                    first = curr = i
                 else:
-                    if not curr:
-                        shortest = i - first
-                    else:
-                        shortest = min(shortest, i - curr)
+                    shortest = min(shortest, i - curr)
                     curr = i
             i += 1
-            p = p.next
-            c = c.next
-            n = n.next
+            p,c,n = p.next, c.next, n.next
 
         print(first, curr)
         if first == curr or curr == None:
