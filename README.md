@@ -6,6 +6,7 @@ For LeetCode Practice
 ## Array
 |  |
 | ------- |
+| [1333-sort-the-jumbled-numbers](https://github.com/fchoi1/Leetcode/tree/master/1333-sort-the-jumbled-numbers) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/fchoi1/Leetcode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2502-sort-the-people](https://github.com/fchoi1/Leetcode/tree/master/2502-sort-the-people) |
 ## Hash Table
@@ -16,6 +17,7 @@ For LeetCode Practice
 ## Sorting
 |  |
 | ------- |
+| [1333-sort-the-jumbled-numbers](https://github.com/fchoi1/Leetcode/tree/master/1333-sort-the-jumbled-numbers) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/fchoi1/Leetcode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2502-sort-the-people](https://github.com/fchoi1/Leetcode/tree/master/2502-sort-the-people) |
 ## String
