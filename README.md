@@ -11,6 +11,7 @@ For LeetCode Practice
 | [1741-sort-array-by-increasing-frequency](https://github.com/fchoi1/Leetcode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2472-build-a-matrix-with-conditions](https://github.com/fchoi1/Leetcode/tree/master/2472-build-a-matrix-with-conditions) |
 | [2502-sort-the-people](https://github.com/fchoi1/Leetcode/tree/master/2502-sort-the-people) |
+| [3235-minimum-cost-to-convert-string-i](https://github.com/fchoi1/Leetcode/tree/master/3235-minimum-cost-to-convert-string-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -27,11 +28,13 @@ For LeetCode Practice
 |  |
 | ------- |
 | [2502-sort-the-people](https://github.com/fchoi1/Leetcode/tree/master/2502-sort-the-people) |
+| [3235-minimum-cost-to-convert-string-i](https://github.com/fchoi1/Leetcode/tree/master/3235-minimum-cost-to-convert-string-i) |
 ## Graph
 |  |
 | ------- |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/fchoi1/Leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2472-build-a-matrix-with-conditions](https://github.com/fchoi1/Leetcode/tree/master/2472-build-a-matrix-with-conditions) |
+| [3235-minimum-cost-to-convert-string-i](https://github.com/fchoi1/Leetcode/tree/master/3235-minimum-cost-to-convert-string-i) |
 ## Topological Sort
 |  |
 | ------- |
@@ -72,4 +75,5 @@ For LeetCode Practice
 |  |
 | ------- |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/fchoi1/Leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [3235-minimum-cost-to-convert-string-i](https://github.com/fchoi1/Leetcode/tree/master/3235-minimum-cost-to-convert-string-i) |
 <!---LeetCode Topics End-->
