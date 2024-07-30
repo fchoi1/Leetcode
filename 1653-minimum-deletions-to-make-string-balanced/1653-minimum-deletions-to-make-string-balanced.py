@@ -1,28 +1,19 @@
 class Solution:
     def minimumDeletions(self, s: str) -> int:
-        start = 0
+        b = a = 0
+        a_count = []
+        b_count = []
+        a_total = s.count("a")
+        for c in s:
+            b_count.append(b)
+            if c == 'b':
+                b += 1
+            else:
+                a += 1
+            a_count.append(a_total - a)
         
-
-        def get_min(string):
-
-            while start < len(s) - 1 and s[start] == 'a':
-            start += 1
-        end = len(s) - 1
-        while end >= 0 and s[end] == 'b':
-            end -= 1
-            
-            N = len(string) - 1
-
-            start = 0 
-            while start < len(string) - 1 and string[start] == 'b':
-                start += 1
-            end = N
-            while end >= 0 and string[end] == 'a':
-                end -= 1
-            end_count = N - end - 1
-            print(string, start, end, end_count)
-            if start > end:
-                return min(start, end_count) + get_min(string[start:end+1])
-
-            return min(start, end_count)
-        return get_min(s[start:end+1])
+        min_change = inf
+        for left, right in zip(b_count, a_count):
+            if left + right < min_change:
+                min_change = left + right
+        return min_change
