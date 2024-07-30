@@ -6,11 +6,11 @@ class Solution:
         a_total = s.count("a")
         for c in s:
             b_count.append(b)
-            a_count.append(a_total - a)
             if c == 'b':
                 b += 1
             else:
                 a += 1
+            a_count.append(a_total - a)
         
         min_change = inf
         for left, right in zip(b_count, a_count):
