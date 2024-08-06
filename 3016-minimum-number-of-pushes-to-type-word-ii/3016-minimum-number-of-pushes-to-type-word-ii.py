@@ -6,6 +6,7 @@ class Solution:
 
         letters.sort(reverse=True)
         pushes = buttons = 0
+        
         for c in letters:
             pushes += c * (buttons // 8 + 1)
             buttons += 1
