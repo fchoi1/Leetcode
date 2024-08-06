@@ -5,11 +5,13 @@ class Solution:
             letters[ord(char) - ord('a')] += 1
 
         letters.sort(reverse=True)
-        pushes = buttons = 0
-        
+        pushes = 0
+        buttons = 0
         for c in letters:
             pushes += c * (buttons // 8 + 1)
             buttons += 1
+            if not c:
+                return pushes
 
         return pushes
         
