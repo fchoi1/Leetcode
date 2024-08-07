@@ -1,12 +1,12 @@
 class Solution:
-    def customSortString(self, order: str, s: str) -> str:        
-        count = Counter(s)
-        string = ""
+    def customSortString(self, order: str, s: str) -> str:
+        s_count = Counter(s)
+        ans = ""
         for char in order:
-            if count[char]:
-                string += char * count[char]
-                del count[char]
-        for char, freq in count.items():
-            string += char * freq
-        return string
-        
+            ans += char * s_count[char]
+            del s_count[char]
+
+        for char, count in s_count.items():
+            ans += char * count
+
+        return ans
