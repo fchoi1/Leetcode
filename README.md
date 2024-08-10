@@ -1,108 +1,171 @@
-# Leetcode
-For LeetCode Practice
+IyBMZWV0Y29kZQpGb3IgTGVldENvZGUgUHJhY3RpY2UKCjwhLS0tTGVldENv
+ZGUgVG9waWNzIFN0YXJ0LS0+CiMgTGVldENvZGUgVG9waWNzCiMjIEFycmF5
+CnwgIHwKfCAtLS0tLS0tIHwKfCBbMDk0OC1zb3J0LWFuLWFycmF5XShodHRw
+czovL2dpdGh1Yi5jb20vZmNob2kxL0xlZXRjb2RlL3RyZWUvbWFzdGVyLzA5
+NDgtc29ydC1hbi1hcnJheSkgfAp8IFsxMzMzLXNvcnQtdGhlLWp1bWJsZWQt
+bnVtYmVyc10oaHR0cHM6Ly9naXRodWIuY29tL2ZjaG9pMS9MZWV0Y29kZS90
+cmVlL21hc3Rlci8xMzMzLXNvcnQtdGhlLWp1bWJsZWQtbnVtYmVycykgfAp8
+IFsxNTExLWNvdW50LW51bWJlci1vZi10ZWFtc10oaHR0cHM6Ly9naXRodWIu
+Y29tL2ZjaG9pMS9MZWV0Y29kZS90cmVlL21hc3Rlci8xNTExLWNvdW50LW51
+bWJlci1vZi10ZWFtcykgfAp8IFsxNTU2LW1ha2UtdHdvLWFycmF5cy1lcXVh
+bC1ieS1yZXZlcnNpbmctc3ViYXJyYXlzXShodHRwczovL2dpdGh1Yi5jb20v
+ZmNob2kxL0xlZXRjb2RlL3RyZWUvbWFzdGVyLzE1NTYtbWFrZS10d28tYXJy
+YXlzLWVxdWFsLWJ5LXJldmVyc2luZy1zdWJhcnJheXMpIHwKfCBbMTYxNS1y
+YW5nZS1zdW0tb2Ytc29ydGVkLXN1YmFycmF5LXN1bXNdKGh0dHBzOi8vZ2l0
+aHViLmNvbS9mY2hvaTEvTGVldGNvZGUvdHJlZS9tYXN0ZXIvMTYxNS1yYW5n
+ZS1zdW0tb2Ytc29ydGVkLXN1YmFycmF5LXN1bXMpIHwKfCBbMTc0MS1zb3J0
+LWFycmF5LWJ5LWluY3JlYXNpbmctZnJlcXVlbmN5XShodHRwczovL2dpdGh1
+Yi5jb20vZmNob2kxL0xlZXRjb2RlL3RyZWUvbWFzdGVyLzE3NDEtc29ydC1h
+cnJheS1ieS1pbmNyZWFzaW5nLWZyZXF1ZW5jeSkgfAp8IFsyMTYzLWt0aC1k
+aXN0aW5jdC1zdHJpbmctaW4tYW4tYXJyYXldKGh0dHBzOi8vZ2l0aHViLmNv
+bS9mY2hvaTEvTGVldGNvZGUvdHJlZS9tYXN0ZXIvMjE2My1rdGgtZGlzdGlu
+Y3Qtc3RyaW5nLWluLWFuLWFycmF5KSB8CnwgWzI0NzItYnVpbGQtYS1tYXRy
+aXgtd2l0aC1jb25kaXRpb25zXShodHRwczovL2dpdGh1Yi5jb20vZmNob2kx
+L0xlZXRjb2RlL3RyZWUvbWFzdGVyLzI0NzItYnVpbGQtYS1tYXRyaXgtd2l0
+aC1jb25kaXRpb25zKSB8CnwgWzI1MDItc29ydC10aGUtcGVvcGxlXShodHRw
+czovL2dpdGh1Yi5jb20vZmNob2kxL0xlZXRjb2RlL3RyZWUvbWFzdGVyLzI1
+MDItc29ydC10aGUtcGVvcGxlKSB8CnwgWzMyMzUtbWluaW11bS1jb3N0LXRv
+LWNvbnZlcnQtc3RyaW5nLWldKGh0dHBzOi8vZ2l0aHViLmNvbS9mY2hvaTEv
+TGVldGNvZGUvdHJlZS9tYXN0ZXIvMzIzNS1taW5pbXVtLWNvc3QtdG8tY29u
+dmVydC1zdHJpbmctaSkgfAojIyBIYXNoIFRhYmxlCnwgIHwKfCAtLS0tLS0t
+IHwKfCBbMTU1Ni1tYWtlLXR3by1hcnJheXMtZXF1YWwtYnktcmV2ZXJzaW5n
+LXN1YmFycmF5c10oaHR0cHM6Ly9naXRodWIuY29tL2ZjaG9pMS9MZWV0Y29k
+ZS90cmVlL21hc3Rlci8xNTU2LW1ha2UtdHdvLWFycmF5cy1lcXVhbC1ieS1y
+ZXZlcnNpbmctc3ViYXJyYXlzKSB8CnwgWzE3NDEtc29ydC1hcnJheS1ieS1p
+bmNyZWFzaW5nLWZyZXF1ZW5jeV0oaHR0cHM6Ly9naXRodWIuY29tL2ZjaG9p
+MS9MZWV0Y29kZS90cmVlL21hc3Rlci8xNzQxLXNvcnQtYXJyYXktYnktaW5j
+cmVhc2luZy1mcmVxdWVuY3kpIHwKfCBbMjE2My1rdGgtZGlzdGluY3Qtc3Ry
+aW5nLWluLWFuLWFycmF5XShodHRwczovL2dpdGh1Yi5jb20vZmNob2kxL0xl
+ZXRjb2RlL3RyZWUvbWFzdGVyLzIxNjMta3RoLWRpc3RpbmN0LXN0cmluZy1p
+bi1hbi1hcnJheSkgfAp8IFsyNTAyLXNvcnQtdGhlLXBlb3BsZV0oaHR0cHM6
+Ly9naXRodWIuY29tL2ZjaG9pMS9MZWV0Y29kZS90cmVlL21hc3Rlci8yNTAy
+LXNvcnQtdGhlLXBlb3BsZSkgfAojIyBTb3J0aW5nCnwgIHwKfCAtLS0tLS0t
+IHwKfCBbMDk0OC1zb3J0LWFuLWFycmF5XShodHRwczovL2dpdGh1Yi5jb20v
+ZmNob2kxL0xlZXRjb2RlL3RyZWUvbWFzdGVyLzA5NDgtc29ydC1hbi1hcnJh
+eSkgfAp8IFsxMzMzLXNvcnQtdGhlLWp1bWJsZWQtbnVtYmVyc10oaHR0cHM6
+Ly9naXRodWIuY29tL2ZjaG9pMS9MZWV0Y29kZS90cmVlL21hc3Rlci8xMzMz
+LXNvcnQtdGhlLWp1bWJsZWQtbnVtYmVycykgfAp8IFsxNTU2LW1ha2UtdHdv
+LWFycmF5cy1lcXVhbC1ieS1yZXZlcnNpbmctc3ViYXJyYXlzXShodHRwczov
+L2dpdGh1Yi5jb20vZmNob2kxL0xlZXRjb2RlL3RyZWUvbWFzdGVyLzE1NTYt
+bWFrZS10d28tYXJyYXlzLWVxdWFsLWJ5LXJldmVyc2luZy1zdWJhcnJheXMp
+IHwKfCBbMTYxNS1yYW5nZS1zdW0tb2Ytc29ydGVkLXN1YmFycmF5LXN1bXNd
+KGh0dHBzOi8vZ2l0aHViLmNvbS9mY2hvaTEvTGVldGNvZGUvdHJlZS9tYXN0
+ZXIvMTYxNS1yYW5nZS1zdW0tb2Ytc29ydGVkLXN1YmFycmF5LXN1bXMpIHwK
+fCBbMTc0MS1zb3J0LWFycmF5LWJ5LWluY3JlYXNpbmctZnJlcXVlbmN5XSho
+dHRwczovL2dpdGh1Yi5jb20vZmNob2kxL0xlZXRjb2RlL3RyZWUvbWFzdGVy
+LzE3NDEtc29ydC1hcnJheS1ieS1pbmNyZWFzaW5nLWZyZXF1ZW5jeSkgfAp8
+IFsyNTAyLXNvcnQtdGhlLXBlb3BsZV0oaHR0cHM6Ly9naXRodWIuY29tL2Zj
+aG9pMS9MZWV0Y29kZS90cmVlL21hc3Rlci8yNTAyLXNvcnQtdGhlLXBlb3Bs
+ZSkgfAojIyBTdHJpbmcKfCAgfAp8IC0tLS0tLS0gfAp8IFsyMTYzLWt0aC1k
+aXN0aW5jdC1zdHJpbmctaW4tYW4tYXJyYXldKGh0dHBzOi8vZ2l0aHViLmNv
+bS9mY2hvaTEvTGVldGNvZGUvdHJlZS9tYXN0ZXIvMjE2My1rdGgtZGlzdGlu
+Y3Qtc3RyaW5nLWluLWFuLWFycmF5KSB8CnwgWzI1MDItc29ydC10aGUtcGVv
+cGxlXShodHRwczovL2dpdGh1Yi5jb20vZmNob2kxL0xlZXRjb2RlL3RyZWUv
+bWFzdGVyLzI1MDItc29ydC10aGUtcGVvcGxlKSB8CnwgWzMyMzUtbWluaW11
+bS1jb3N0LXRvLWNvbnZlcnQtc3RyaW5nLWldKGh0dHBzOi8vZ2l0aHViLmNv
+bS9mY2hvaTEvTGVldGNvZGUvdHJlZS9tYXN0ZXIvMzIzNS1taW5pbXVtLWNv
+c3QtdG8tY29udmVydC1zdHJpbmctaSkgfAojIyBHcmFwaAp8ICB8CnwgLS0t
+LS0tLSB8CnwgWzE0NTYtZmluZC10aGUtY2l0eS13aXRoLXRoZS1zbWFsbGVz
+dC1udW1iZXItb2YtbmVpZ2hib3JzLWF0LWEtdGhyZXNob2xkLWRpc3RhbmNl
+XShodHRwczovL2dpdGh1Yi5jb20vZmNob2kxL0xlZXRjb2RlL3RyZWUvbWFz
+dGVyLzE0NTYtZmluZC10aGUtY2l0eS13aXRoLXRoZS1zbWFsbGVzdC1udW1i
+ZXItb2YtbmVpZ2hib3JzLWF0LWEtdGhyZXNob2xkLWRpc3RhbmNlKSB8Cnwg
+WzIxNzEtc2Vjb25kLW1pbmltdW0tdGltZS10by1yZWFjaC1kZXN0aW5hdGlv
+bl0oaHR0cHM6Ly9naXRodWIuY29tL2ZjaG9pMS9MZWV0Y29kZS90cmVlL21h
+c3Rlci8yMTcxLXNlY29uZC1taW5pbXVtLXRpbWUtdG8tcmVhY2gtZGVzdGlu
+YXRpb24pIHwKfCBbMjQ3Mi1idWlsZC1hLW1hdHJpeC13aXRoLWNvbmRpdGlv
+bnNdKGh0dHBzOi8vZ2l0aHViLmNvbS9mY2hvaTEvTGVldGNvZGUvdHJlZS9t
+YXN0ZXIvMjQ3Mi1idWlsZC1hLW1hdHJpeC13aXRoLWNvbmRpdGlvbnMpIHwK
+fCBbMzIzNS1taW5pbXVtLWNvc3QtdG8tY29udmVydC1zdHJpbmctaV0oaHR0
+cHM6Ly9naXRodWIuY29tL2ZjaG9pMS9MZWV0Y29kZS90cmVlL21hc3Rlci8z
+MjM1LW1pbmltdW0tY29zdC10by1jb252ZXJ0LXN0cmluZy1pKSB8CiMjIFRv
+cG9sb2dpY2FsIFNvcnQKfCAgfAp8IC0tLS0tLS0gfAp8IFsyNDcyLWJ1aWxk
+LWEtbWF0cml4LXdpdGgtY29uZGl0aW9uc10oaHR0cHM6Ly9naXRodWIuY29t
+L2ZjaG9pMS9MZWV0Y29kZS90cmVlL21hc3Rlci8yNDcyLWJ1aWxkLWEtbWF0
+cml4LXdpdGgtY29uZGl0aW9ucykgfAojIyBNYXRyaXgKfCAgfAp8IC0tLS0t
+LS0gfAp8IFsyNDcyLWJ1aWxkLWEtbWF0cml4LXdpdGgtY29uZGl0aW9uc10o
+aHR0cHM6Ly9naXRodWIuY29tL2ZjaG9pMS9MZWV0Y29kZS90cmVlL21hc3Rl
+ci8yNDcyLWJ1aWxkLWEtbWF0cml4LXdpdGgtY29uZGl0aW9ucykgfAojIyBE
+aXZpZGUgYW5kIENvbnF1ZXIKfCAgfAp8IC0tLS0tLS0gfAp8IFswOTQ4LXNv
+cnQtYW4tYXJyYXldKGh0dHBzOi8vZ2l0aHViLmNvbS9mY2hvaTEvTGVldGNv
+ZGUvdHJlZS9tYXN0ZXIvMDk0OC1zb3J0LWFuLWFycmF5KSB8CiMjIEhlYXAg
+KFByaW9yaXR5IFF1ZXVlKQp8ICB8CnwgLS0tLS0tLSB8CnwgWzA5NDgtc29y
+dC1hbi1hcnJheV0oaHR0cHM6Ly9naXRodWIuY29tL2ZjaG9pMS9MZWV0Y29k
+ZS90cmVlL21hc3Rlci8wOTQ4LXNvcnQtYW4tYXJyYXkpIHwKIyMgTWVyZ2Ug
+U29ydAp8ICB8CnwgLS0tLS0tLSB8CnwgWzA5NDgtc29ydC1hbi1hcnJheV0o
+aHR0cHM6Ly9naXRodWIuY29tL2ZjaG9pMS9MZWV0Y29kZS90cmVlL21hc3Rl
+ci8wOTQ4LXNvcnQtYW4tYXJyYXkpIHwKIyMgQnVja2V0IFNvcnQKfCAgfAp8
+IC0tLS0tLS0gfAp8IFswOTQ4LXNvcnQtYW4tYXJyYXldKGh0dHBzOi8vZ2l0
+aHViLmNvbS9mY2hvaTEvTGVldGNvZGUvdHJlZS9tYXN0ZXIvMDk0OC1zb3J0
+LWFuLWFycmF5KSB8CiMjIFJhZGl4IFNvcnQKfCAgfAp8IC0tLS0tLS0gfAp8
+IFswOTQ4LXNvcnQtYW4tYXJyYXldKGh0dHBzOi8vZ2l0aHViLmNvbS9mY2hv
+aTEvTGVldGNvZGUvdHJlZS9tYXN0ZXIvMDk0OC1zb3J0LWFuLWFycmF5KSB8
+CiMjIENvdW50aW5nIFNvcnQKfCAgfAp8IC0tLS0tLS0gfAp8IFswOTQ4LXNv
+cnQtYW4tYXJyYXldKGh0dHBzOi8vZ2l0aHViLmNvbS9mY2hvaTEvTGVldGNv
+ZGUvdHJlZS9tYXN0ZXIvMDk0OC1zb3J0LWFuLWFycmF5KSB8CnwgWzIxNjMt
+a3RoLWRpc3RpbmN0LXN0cmluZy1pbi1hbi1hcnJheV0oaHR0cHM6Ly9naXRo
+dWIuY29tL2ZjaG9pMS9MZWV0Y29kZS90cmVlL21hc3Rlci8yMTYzLWt0aC1k
+aXN0aW5jdC1zdHJpbmctaW4tYW4tYXJyYXkpIHwKIyMgRHluYW1pYyBQcm9n
+cmFtbWluZwp8ICB8CnwgLS0tLS0tLSB8CnwgWzE0NTYtZmluZC10aGUtY2l0
+eS13aXRoLXRoZS1zbWFsbGVzdC1udW1iZXItb2YtbmVpZ2hib3JzLWF0LWEt
+dGhyZXNob2xkLWRpc3RhbmNlXShodHRwczovL2dpdGh1Yi5jb20vZmNob2kx
+L0xlZXRjb2RlL3RyZWUvbWFzdGVyLzE0NTYtZmluZC10aGUtY2l0eS13aXRo
+LXRoZS1zbWFsbGVzdC1udW1iZXItb2YtbmVpZ2hib3JzLWF0LWEtdGhyZXNo
+b2xkLWRpc3RhbmNlKSB8CnwgWzE1MTEtY291bnQtbnVtYmVyLW9mLXRlYW1z
+XShodHRwczovL2dpdGh1Yi5jb20vZmNob2kxL0xlZXRjb2RlL3RyZWUvbWFz
+dGVyLzE1MTEtY291bnQtbnVtYmVyLW9mLXRlYW1zKSB8CiMjIFNob3J0ZXN0
+IFBhdGgKfCAgfAp8IC0tLS0tLS0gfAp8IFsxNDU2LWZpbmQtdGhlLWNpdHkt
+d2l0aC10aGUtc21hbGxlc3QtbnVtYmVyLW9mLW5laWdoYm9ycy1hdC1hLXRo
+cmVzaG9sZC1kaXN0YW5jZV0oaHR0cHM6Ly9naXRodWIuY29tL2ZjaG9pMS9M
+ZWV0Y29kZS90cmVlL21hc3Rlci8xNDU2LWZpbmQtdGhlLWNpdHktd2l0aC10
+aGUtc21hbGxlc3QtbnVtYmVyLW9mLW5laWdoYm9ycy1hdC1hLXRocmVzaG9s
+ZC1kaXN0YW5jZSkgfAp8IFsyMTcxLXNlY29uZC1taW5pbXVtLXRpbWUtdG8t
+cmVhY2gtZGVzdGluYXRpb25dKGh0dHBzOi8vZ2l0aHViLmNvbS9mY2hvaTEv
+TGVldGNvZGUvdHJlZS9tYXN0ZXIvMjE3MS1zZWNvbmQtbWluaW11bS10aW1l
+LXRvLXJlYWNoLWRlc3RpbmF0aW9uKSB8CnwgWzMyMzUtbWluaW11bS1jb3N0
+LXRvLWNvbnZlcnQtc3RyaW5nLWldKGh0dHBzOi8vZ2l0aHViLmNvbS9mY2hv
+aTEvTGVldGNvZGUvdHJlZS9tYXN0ZXIvMzIzNS1taW5pbXVtLWNvc3QtdG8t
+Y29udmVydC1zdHJpbmctaSkgfAojIyBCcmVhZHRoLUZpcnN0IFNlYXJjaAp8
+ICB8CnwgLS0tLS0tLSB8CnwgWzIxNzEtc2Vjb25kLW1pbmltdW0tdGltZS10
+by1yZWFjaC1kZXN0aW5hdGlvbl0oaHR0cHM6Ly9naXRodWIuY29tL2ZjaG9p
+MS9MZWV0Y29kZS90cmVlL21hc3Rlci8yMTcxLXNlY29uZC1taW5pbXVtLXRp
+bWUtdG8tcmVhY2gtZGVzdGluYXRpb24pIHwKIyMgQmluYXJ5IEluZGV4ZWQg
+VHJlZQp8ICB8CnwgLS0tLS0tLSB8CnwgWzE1MTEtY291bnQtbnVtYmVyLW9m
+LXRlYW1zXShodHRwczovL2dpdGh1Yi5jb20vZmNob2kxL0xlZXRjb2RlL3Ry
+ZWUvbWFzdGVyLzE1MTEtY291bnQtbnVtYmVyLW9mLXRlYW1zKSB8CiMjIFR3
+byBQb2ludGVycwp8ICB8CnwgLS0tLS0tLSB8CnwgWzE2MTUtcmFuZ2Utc3Vt
+LW9mLXNvcnRlZC1zdWJhcnJheS1zdW1zXShodHRwczovL2dpdGh1Yi5jb20v
+ZmNob2kxL0xlZXRjb2RlL3RyZWUvbWFzdGVyLzE2MTUtcmFuZ2Utc3VtLW9m
+LXNvcnRlZC1zdWJhcnJheS1zdW1zKSB8CiMjIEJpbmFyeSBTZWFyY2gKfCAg
+fAp8IC0tLS0tLS0gfAp8IFsxNjE1LXJhbmdlLXN1bS1vZi1zb3J0ZWQtc3Vi
+YXJyYXktc3Vtc10oaHR0cHM6Ly9naXRodWIuY29tL2ZjaG9pMS9MZWV0Y29k
+ZS90cmVlL21hc3Rlci8xNjE1LXJhbmdlLXN1bS1vZi1zb3J0ZWQtc3ViYXJy
+YXktc3VtcykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 
 <!---LeetCode Topics Start-->
 # LeetCode Topics
 ## Array
 |  |
 | ------- |
-| [0948-sort-an-array](https://github.com/fchoi1/Leetcode/tree/master/0948-sort-an-array) |
-| [1333-sort-the-jumbled-numbers](https://github.com/fchoi1/Leetcode/tree/master/1333-sort-the-jumbled-numbers) |
-| [1511-count-number-of-teams](https://github.com/fchoi1/Leetcode/tree/master/1511-count-number-of-teams) |
-| [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/fchoi1/Leetcode/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
-| [1615-range-sum-of-sorted-subarray-sums](https://github.com/fchoi1/Leetcode/tree/master/1615-range-sum-of-sorted-subarray-sums) |
-| [1741-sort-array-by-increasing-frequency](https://github.com/fchoi1/Leetcode/tree/master/1741-sort-array-by-increasing-frequency) |
-| [2163-kth-distinct-string-in-an-array](https://github.com/fchoi1/Leetcode/tree/master/2163-kth-distinct-string-in-an-array) |
-| [2472-build-a-matrix-with-conditions](https://github.com/fchoi1/Leetcode/tree/master/2472-build-a-matrix-with-conditions) |
-| [2502-sort-the-people](https://github.com/fchoi1/Leetcode/tree/master/2502-sort-the-people) |
-| [3235-minimum-cost-to-convert-string-i](https://github.com/fchoi1/Leetcode/tree/master/3235-minimum-cost-to-convert-string-i) |
+| [0999-regions-cut-by-slashes](https://github.com/fchoi1/Leetcode/tree/master/0999-regions-cut-by-slashes) |
 ## Hash Table
 |  |
 | ------- |
-| [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/fchoi1/Leetcode/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
-| [1741-sort-array-by-increasing-frequency](https://github.com/fchoi1/Leetcode/tree/master/1741-sort-array-by-increasing-frequency) |
-| [2163-kth-distinct-string-in-an-array](https://github.com/fchoi1/Leetcode/tree/master/2163-kth-distinct-string-in-an-array) |
-| [2502-sort-the-people](https://github.com/fchoi1/Leetcode/tree/master/2502-sort-the-people) |
-## Sorting
+| [0999-regions-cut-by-slashes](https://github.com/fchoi1/Leetcode/tree/master/0999-regions-cut-by-slashes) |
+## Depth-First Search
 |  |
 | ------- |
-| [0948-sort-an-array](https://github.com/fchoi1/Leetcode/tree/master/0948-sort-an-array) |
-| [1333-sort-the-jumbled-numbers](https://github.com/fchoi1/Leetcode/tree/master/1333-sort-the-jumbled-numbers) |
-| [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/fchoi1/Leetcode/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
-| [1615-range-sum-of-sorted-subarray-sums](https://github.com/fchoi1/Leetcode/tree/master/1615-range-sum-of-sorted-subarray-sums) |
-| [1741-sort-array-by-increasing-frequency](https://github.com/fchoi1/Leetcode/tree/master/1741-sort-array-by-increasing-frequency) |
-| [2502-sort-the-people](https://github.com/fchoi1/Leetcode/tree/master/2502-sort-the-people) |
-## String
-|  |
-| ------- |
-| [2163-kth-distinct-string-in-an-array](https://github.com/fchoi1/Leetcode/tree/master/2163-kth-distinct-string-in-an-array) |
-| [2502-sort-the-people](https://github.com/fchoi1/Leetcode/tree/master/2502-sort-the-people) |
-| [3235-minimum-cost-to-convert-string-i](https://github.com/fchoi1/Leetcode/tree/master/3235-minimum-cost-to-convert-string-i) |
-## Graph
-|  |
-| ------- |
-| [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/fchoi1/Leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
-| [2171-second-minimum-time-to-reach-destination](https://github.com/fchoi1/Leetcode/tree/master/2171-second-minimum-time-to-reach-destination) |
-| [2472-build-a-matrix-with-conditions](https://github.com/fchoi1/Leetcode/tree/master/2472-build-a-matrix-with-conditions) |
-| [3235-minimum-cost-to-convert-string-i](https://github.com/fchoi1/Leetcode/tree/master/3235-minimum-cost-to-convert-string-i) |
-## Topological Sort
-|  |
-| ------- |
-| [2472-build-a-matrix-with-conditions](https://github.com/fchoi1/Leetcode/tree/master/2472-build-a-matrix-with-conditions) |
-## Matrix
-|  |
-| ------- |
-| [2472-build-a-matrix-with-conditions](https://github.com/fchoi1/Leetcode/tree/master/2472-build-a-matrix-with-conditions) |
-## Divide and Conquer
-|  |
-| ------- |
-| [0948-sort-an-array](https://github.com/fchoi1/Leetcode/tree/master/0948-sort-an-array) |
-## Heap (Priority Queue)
-|  |
-| ------- |
-| [0948-sort-an-array](https://github.com/fchoi1/Leetcode/tree/master/0948-sort-an-array) |
-## Merge Sort
-|  |
-| ------- |
-| [0948-sort-an-array](https://github.com/fchoi1/Leetcode/tree/master/0948-sort-an-array) |
-## Bucket Sort
-|  |
-| ------- |
-| [0948-sort-an-array](https://github.com/fchoi1/Leetcode/tree/master/0948-sort-an-array) |
-## Radix Sort
-|  |
-| ------- |
-| [0948-sort-an-array](https://github.com/fchoi1/Leetcode/tree/master/0948-sort-an-array) |
-## Counting Sort
-|  |
-| ------- |
-| [0948-sort-an-array](https://github.com/fchoi1/Leetcode/tree/master/0948-sort-an-array) |
-| [2163-kth-distinct-string-in-an-array](https://github.com/fchoi1/Leetcode/tree/master/2163-kth-distinct-string-in-an-array) |
-## Dynamic Programming
-|  |
-| ------- |
-| [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/fchoi1/Leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
-| [1511-count-number-of-teams](https://github.com/fchoi1/Leetcode/tree/master/1511-count-number-of-teams) |
-## Shortest Path
-|  |
-| ------- |
-| [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/fchoi1/Leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
-| [2171-second-minimum-time-to-reach-destination](https://github.com/fchoi1/Leetcode/tree/master/2171-second-minimum-time-to-reach-destination) |
-| [3235-minimum-cost-to-convert-string-i](https://github.com/fchoi1/Leetcode/tree/master/3235-minimum-cost-to-convert-string-i) |
+| [0999-regions-cut-by-slashes](https://github.com/fchoi1/Leetcode/tree/master/0999-regions-cut-by-slashes) |
 ## Breadth-First Search
 |  |
 | ------- |
-| [2171-second-minimum-time-to-reach-destination](https://github.com/fchoi1/Leetcode/tree/master/2171-second-minimum-time-to-reach-destination) |
-## Binary Indexed Tree
+| [0999-regions-cut-by-slashes](https://github.com/fchoi1/Leetcode/tree/master/0999-regions-cut-by-slashes) |
+## Union Find
 |  |
 | ------- |
-| [1511-count-number-of-teams](https://github.com/fchoi1/Leetcode/tree/master/1511-count-number-of-teams) |
-## Two Pointers
+| [0999-regions-cut-by-slashes](https://github.com/fchoi1/Leetcode/tree/master/0999-regions-cut-by-slashes) |
+## Matrix
 |  |
 | ------- |
-| [1615-range-sum-of-sorted-subarray-sums](https://github.com/fchoi1/Leetcode/tree/master/1615-range-sum-of-sorted-subarray-sums) |
-## Binary Search
-|  |
-| ------- |
-| [1615-range-sum-of-sorted-subarray-sums](https://github.com/fchoi1/Leetcode/tree/master/1615-range-sum-of-sorted-subarray-sums) |
+| [0999-regions-cut-by-slashes](https://github.com/fchoi1/Leetcode/tree/master/0999-regions-cut-by-slashes) |
 <!---LeetCode Topics End-->
