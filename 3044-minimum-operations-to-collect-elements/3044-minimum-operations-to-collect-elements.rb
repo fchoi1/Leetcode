@@ -11,5 +11,4 @@ def min_operations(nums, k)
         seen.add(n)
         return i + 1 if curr == target
     end
-    -1
 end

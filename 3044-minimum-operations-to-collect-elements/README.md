@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/minimum-operations-to-collect-elements/">3044. Minimum Operations to Collect Elements</a></h2><h3>Easy</h3><hr><p>You are given an array <code>nums</code> of positive integers and an integer <code>k</code>.</p>
+<h2><a href="https://leetcode.com/problems/minimum-operations-to-collect-elements">3044. Minimum Operations to Collect Elements</a></h2><h3>Easy</h3><hr><p>You are given an array <code>nums</code> of positive integers and an integer <code>k</code>.</p>
 
 <p>In one operation, you can remove the last element of the array and add it to your collection.</p>
 
