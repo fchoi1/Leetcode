@@ -92,4 +92,8 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 |  |
 | ------- |
 | [0664-strange-printer](https://github.com/fchoi1/Leetcode/tree/master/0664-strange-printer) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0476-number-complement](https://github.com/fchoi1/Leetcode/tree/master/0476-number-complement) |
 <!---LeetCode Topics End-->
