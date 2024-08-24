@@ -1,6 +1,5 @@
 class Solution:
     def nearestPalindromic(self, n: str) -> str:
-        # half?
         if int(n) < 11:
             return str(int(n)-1)
 
@@ -24,7 +23,6 @@ class Solution:
         ans = ""
         palis = []
         for numStr in [num0, num1, num2, num3, num4, num5, num6, num7, "9"]:
-            print(numStr)
             if numStr.isnumeric():
                 palis.append(int(numStr))
         
