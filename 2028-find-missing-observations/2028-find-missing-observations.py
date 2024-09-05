@@ -12,18 +12,9 @@ class Solution:
         if diff > 0:
             affected = diff // (6-times)
             remain = diff - affected * (6 - times)
-
-            # print("remain", remain, affected)
-            # print("avg", sum(ans)/len(ans))
-
             if remain:
-                ans = [times + min(diff, 6-times)] * affected + [times] * (n-affected) + [times + remain]
-                return [times + min(diff, 6-times)] * affected + [times] * (n-affected-1) + [times + remain]
-
-
-            return [times + min(diff, 6-times)] * affected + [times] * (n-affected)
-
-
-        return [times] * n
+                return [times + min(diff, 6-times) for _ in range(affected)] + [times for _ in range(n-affected-1)] + [times + remain]
+            return [times + min(diff, 6-times) for _ in range(affected)] + [times for _ in range(n-affected)]
+        return [times for _ in range(n)]
 
         
