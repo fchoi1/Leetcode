@@ -9,19 +9,21 @@ class Solution:
         times = int(times)
         diff = missing - times * n
 
-        ans = [times] * n
-
-        print(times, missing, n, diff)
         if diff > 0:
-            for i in range(n):
-                if diff == 0:
-                    return ans
-                
-                add = 6 - ans[i]
-                ans[i] += min(add,diff)
-                diff -= min(add,diff)
+            affected = diff // (6-times)
+            remain = diff - affected * (6 - times)
+
+            # print("remain", remain, affected)
+            # print("avg", sum(ans)/len(ans))
+
+            if remain:
+                ans = [times + min(diff, 6-times)] * affected + [times] * (n-affected) + [times + remain]
+                return [times + min(diff, 6-times)] * affected + [times] * (n-affected-1) + [times + remain]
 
 
-        return ans
+            return [times + min(diff, 6-times)] * affected + [times] * (n-affected)
+
+
+        return [times] * n
 
         
