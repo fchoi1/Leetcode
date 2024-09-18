@@ -14,14 +14,11 @@ class Solution:
             else:
                 return 0
         
-        # Sort using the custom comparator
         nums.sort(key=cmp_to_key(compare))
         
-        # Handle the edge case where the largest number is "0"
         if nums[0] == '0':
             return '0'
         
-        # Join the sorted list into a single string
         return ''.join(nums)
 
 
