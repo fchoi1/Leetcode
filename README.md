@@ -31,6 +31,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 |  |
 | ------- |
 | [0145-binary-tree-postorder-traversal](https://github.com/fchoi1/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
+| [0386-lexicographical-numbers](https://github.com/fchoi1/Leetcode/tree/master/0386-lexicographical-numbers) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/fchoi1/Leetcode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [1484-linked-list-in-binary-tree](https://github.com/fchoi1/Leetcode/tree/master/1484-linked-list-in-binary-tree) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/fchoi1/Leetcode/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
@@ -154,4 +155,8 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 |  |
 | ------- |
 | [1786-count-the-number-of-consistent-strings](https://github.com/fchoi1/Leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
+## Trie
+|  |
+| ------- |
+| [0386-lexicographical-numbers](https://github.com/fchoi1/Leetcode/tree/master/0386-lexicographical-numbers) |
 <!---LeetCode Topics End-->
