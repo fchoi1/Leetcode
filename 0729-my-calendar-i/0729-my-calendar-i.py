@@ -4,7 +4,6 @@ class MyCalendar:
         self.heap = []
         
     def book(self, start: int, end: int) -> bool:
-        # print("book", self.heap, (start,end))
         if not self.heap or end <= self.heap[0][0]:
             heappush(self.heap, (start,end))
             return True
@@ -15,10 +14,8 @@ class MyCalendar:
     
         while self.heap and start >= self.heap[0][1]:
             currTime = heappop(self.heap)
-            # print("popped", currTime)
             heappush(temp, currTime)
 
-        # print("here", currTime,  (start, end), temp, self.heap)
         if not currTime:
             currTime = heappop(self.heap)
             heappush(temp, currTime)
@@ -35,5 +32,4 @@ class MyCalendar:
         while self.heap:
             heappush(temp, heappop(self.heap))
         self.heap = temp
-        # print("end", self.heap)
         return noOverlap
