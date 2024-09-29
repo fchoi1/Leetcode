@@ -62,6 +62,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 ## Design
 |  |
 | ------- |
+| [0432-all-oone-data-structure](https://github.com/fchoi1/Leetcode/tree/master/0432-all-oone-data-structure) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/fchoi1/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0859-design-circular-deque](https://github.com/fchoi1/Leetcode/tree/master/0859-design-circular-deque) |
 ## Binary Search Tree
@@ -115,6 +116,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 |  |
 | ------- |
 | [0264-ugly-number-ii](https://github.com/fchoi1/Leetcode/tree/master/0264-ugly-number-ii) |
+| [0432-all-oone-data-structure](https://github.com/fchoi1/Leetcode/tree/master/0432-all-oone-data-structure) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/fchoi1/Leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2755-extra-characters-in-a-string](https://github.com/fchoi1/Leetcode/tree/master/2755-extra-characters-in-a-string) |
 ## String
@@ -155,6 +157,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 ## Linked List
 |  |
 | ------- |
+| [0432-all-oone-data-structure](https://github.com/fchoi1/Leetcode/tree/master/0432-all-oone-data-structure) |
 | [0859-design-circular-deque](https://github.com/fchoi1/Leetcode/tree/master/0859-design-circular-deque) |
 | [1484-linked-list-in-binary-tree](https://github.com/fchoi1/Leetcode/tree/master/1484-linked-list-in-binary-tree) |
 | [2411-spiral-matrix-iv](https://github.com/fchoi1/Leetcode/tree/master/2411-spiral-matrix-iv) |
@@ -172,4 +175,8 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 |  |
 | ------- |
 | [0859-design-circular-deque](https://github.com/fchoi1/Leetcode/tree/master/0859-design-circular-deque) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0432-all-oone-data-structure](https://github.com/fchoi1/Leetcode/tree/master/0432-all-oone-data-structure) |
 <!---LeetCode Topics End-->
