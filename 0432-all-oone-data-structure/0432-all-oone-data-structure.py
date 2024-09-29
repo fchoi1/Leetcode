@@ -1,12 +1,10 @@
 class AllOne:
 
     def __init__(self):
-        times = 50_000
-        self.arr = [set() for _ in range(times)]
+        self.countMap = defaultdict(set)
         self.dict = {}
         self.currMax = 0
-        self.currMin = times - 1
-        
+        self.currMin = inf
     def inc(self, key: str) -> None:
         if key not in self.dict:
             self.dict[key] = 0
@@ -16,11 +14,11 @@ class AllOne:
         self.currMax = max(self.currMax, self.dict[key])
         self.currMin = min(self.currMin, self.dict[key])
 
-        if key in self.arr[self.currMin] and len(self.arr[self.currMin]) == 1:
+        if key in self.countMap[self.currMin] and len(self.countMap[self.currMin]) == 1:
             self.currMin += 1
 
-        self.arr[self.dict[key]-1].discard(key)
-        self.arr[self.dict[key]].add(key)
+        self.countMap[self.dict[key]-1].discard(key)
+        self.countMap[self.dict[key]].add(key)
 
     def dec(self, key: str) -> None:
         if key not in self.dict:
@@ -30,40 +28,33 @@ class AllOne:
 
         if self.dict[key] == 0:
             del self.dict[key]
-            self.arr[1].discard(key)
-            # print("dele",self.arr)
-            if len(self.arr[1]) == 0:
-                for i,s in enumerate(self.arr):
+            self.countMap[1].discard(key)
+            if len(self.countMap[1]) == 0:
+                self.currMin = inf
+                for k,s in self.countMap.items():
                     if len(s) > 0:
-                        self.currMin = i
-                        self.currMax = max(self.currMax, i)
-                        break
-            # print(self.currMax, self.currMin)
+                        self.currMin = min(self.currMin, k)
+                        self.currMax = max(self.currMax, k)
             return
-        if key in self.arr[self.currMax] and len(self.arr[self.currMax]) == 1:
+        if key in self.countMap[self.currMax] and len(self.countMap[self.currMax]) == 1:
             self.currMax -= 1
 
         self.currMax = max(self.currMax, self.dict[key])
         self.currMin = min(self.currMin, self.dict[key])
 
-        self.arr[self.dict[key]+1].discard(key)
-        self.arr[self.dict[key]].add(key)
+        self.countMap[self.dict[key]+1].discard(key)
+        self.countMap[self.dict[key]].add(key)
 
     def getMaxKey(self) -> str:
-        # print(self.arr, self.currMax)
-        if len(self.arr[self.currMax]) == 0:
+        if len(self.countMap[self.currMax]) == 0:
             return ""
-        return next(iter(self.arr[self.currMax]))
+        return next(iter(self.countMap[self.currMax]))
         
 
     def getMinKey(self) -> str:
-        # print(self.arr, self.currMin)
-        if len(self.arr[self.currMin]) == 0:
+        if len(self.countMap[self.currMin]) == 0:
             return ""
-        return next(iter(self.arr[self.currMin]))
-
-        
-
+        return next(iter(self.countMap[self.currMin]))
 
 # Your AllOne object will be instantiated and called as such:
 # obj = AllOne()
