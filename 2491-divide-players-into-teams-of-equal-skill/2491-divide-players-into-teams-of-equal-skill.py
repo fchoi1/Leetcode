@@ -6,11 +6,9 @@ class Solution:
         curr = 0
         for s in skill:
             diff = target - s
-            if diff not in counts:
+            if diff not in counts or counts[diff] == 0:
                 return -1
-            counts[diff] -=1
-            if not counts[diff]:
-                del counts[diff]
+            counts[diff] -= 1
             curr +=  diff * s
         return curr // 2
         
