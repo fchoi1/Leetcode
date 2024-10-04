@@ -1,15 +1,11 @@
 class Solution:
     def dividePlayers(self, skill: List[int]) -> int:
-        N = len(skill)
-
-        target = sum(skill) // (N//2)
-
+        N = len(skill) // 2
+        target = sum(skill) // N
         counts = Counter(skill)
         curr = 0
-        # print(counts, target)
         for s in skill:
             diff = target - s
-            # print(diff, s, counts)
             if diff not in counts:
                 return -1
             counts[diff] -=1
