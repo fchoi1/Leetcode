@@ -8,10 +8,7 @@ class Solution:
                 stack.append((n,i))
             
         for i in range(len(nums)-1, -1, -1):
-            left = nums[i]
-            # print
-            # if not stack or i - stack[-1][1] < maxWidth:
-            #     break
+            left = nums[i]       
             while stack and left >= stack[-1][0]:
                 _, j = stack.pop()
             maxWidth = max(maxWidth, i - j)
