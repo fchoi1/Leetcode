@@ -28,6 +28,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [1786-count-the-number-of-consistent-strings](https://github.com/fchoi1/Leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1923-sentence-similarity-iii](https://github.com/fchoi1/Leetcode/tree/master/1923-sentence-similarity-iii) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/fchoi1/Leetcode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
+| [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/fchoi1/Leetcode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/fchoi1/Leetcode/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2411-spiral-matrix-iv](https://github.com/fchoi1/Leetcode/tree/master/2411-spiral-matrix-iv) |
 | [2755-extra-characters-in-a-string](https://github.com/fchoi1/Leetcode/tree/master/2755-extra-characters-in-a-string) |
@@ -80,6 +81,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [0264-ugly-number-ii](https://github.com/fchoi1/Leetcode/tree/master/0264-ugly-number-ii) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/fchoi1/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1325-path-with-maximum-probability](https://github.com/fchoi1/Leetcode/tree/master/1325-path-with-maximum-probability) |
+| [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/fchoi1/Leetcode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2803-modify-graph-edge-weights](https://github.com/fchoi1/Leetcode/tree/master/2803-modify-graph-edge-weights) |
 ## Binary Tree
 |  |
@@ -124,6 +126,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [0567-permutation-in-string](https://github.com/fchoi1/Leetcode/tree/master/0567-permutation-in-string) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/fchoi1/Leetcode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/fchoi1/Leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
+| [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/fchoi1/Leetcode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2755-extra-characters-in-a-string](https://github.com/fchoi1/Leetcode/tree/master/2755-extra-characters-in-a-string) |
 ## String
 |  |
