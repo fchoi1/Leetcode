@@ -1,19 +1,40 @@
 class Solution:
     def smallestRange(self, nums: List[List[int]]) -> List[int]:
-        heap = []
-        cur_max = float('-inf')
-        for i in range(len(nums)):
-            heapq.heappush(heap, (nums[i][0], i, 0)) 
-            cur_max = max(cur_max, nums[i][0])
-        small = [float('-inf'), float('inf')]
-        while heap:
-            cur_min, list_idx, i = heapq.heappop(heap)
-            if (cur_max - cur_min < small[1] - small[0]) or ((cur_max - cur_min == small[1] - small[0]) and cur_min < small[0]):
-                small = [cur_min, cur_max]
-            if i + 1 < len(nums[list_idx]):
-                nxt = nums[list_idx][i + 1]
-                heapq.heappush(heap, (nxt, list_idx, i+1))
-                cur_max = max(cur_max, nxt)
-            else:
-                break
-        return small
+        self.r = [-inf, inf]
+        nums.sort(key=lambda x: x[0])
+        
+        def dfs(i, maxVal, minVal):
+            if i >= len(nums) or maxVal - minVal > self.r[1] - self.r[0]:
+                if maxVal - minVal < self.r[1] - self.r[0]:
+                    self.r = [minVal, maxVal]
+                return 
+
+            diff_top = diff_bot = inf
+            c_top = c_bot = None
+
+            for n in nums[i]:
+                if minVal <= n <= maxVal:
+                    dfs(i + 1, maxVal, minVal)
+                    return
+
+                if n < minVal and minVal - n < diff_bot:
+                    diff_bot = minVal - n
+                    c_bot = n
+
+                if n > maxVal and n - maxVal < diff_top:
+                    diff_top = n - maxVal
+                    c_top = n
+
+            if c_bot != None:
+                dfs(i + 1, maxVal, min(minVal, c_bot))
+
+            if c_top != None:
+                dfs(i + 1, max(maxVal, c_top), minVal)
+
+        curr = [-inf, inf]
+        # build ranges
+        for n1 in nums[0]:
+            dfs(1, n1, n1)
+            
+        return self.r
+ 
