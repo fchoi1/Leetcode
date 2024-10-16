@@ -4,6 +4,7 @@ class Solution:
         curr = sorted([(a,"a"), (b, "b"), (c, "c")], reverse=True)
         string = ""
         prev = None
+
         while sum(c for c,l in curr) > 0:
             count, letter = curr[0]
 
@@ -13,8 +14,7 @@ class Solution:
                 string += curr[1][1]
                 curr[1] = (curr[1][0] - 1, curr[1][1])
                 prev = None
-
-            elif count >= 2:
+            if count >= 2:
                 string += letter * 2
                 prev = letter
                 curr[0] = (count - 2,letter)
