@@ -105,6 +105,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [0564-find-the-closest-palindrome](https://github.com/fchoi1/Leetcode/tree/master/0564-find-the-closest-palindrome) |
 | [0592-fraction-addition-and-subtraction](https://github.com/fchoi1/Leetcode/tree/master/0592-fraction-addition-and-subtraction) |
 | [0650-2-keys-keyboard](https://github.com/fchoi1/Leetcode/tree/master/0650-2-keys-keyboard) |
+| [0670-maximum-swap](https://github.com/fchoi1/Leetcode/tree/master/0670-maximum-swap) |
 | [1240-stone-game-ii](https://github.com/fchoi1/Leetcode/tree/master/1240-stone-game-ii) |
 ## Dynamic Programming
 |  |
@@ -216,6 +217,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 |  |
 | ------- |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/fchoi1/Leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
+| [0670-maximum-swap](https://github.com/fchoi1/Leetcode/tree/master/0670-maximum-swap) |
 | [1304-longest-happy-string](https://github.com/fchoi1/Leetcode/tree/master/1304-longest-happy-string) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/fchoi1/Leetcode/tree/master/2616-maximal-score-after-applying-k-operations) |
 ## Sorting
