@@ -32,6 +32,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/fchoi1/Leetcode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/fchoi1/Leetcode/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2411-spiral-matrix-iv](https://github.com/fchoi1/Leetcode/tree/master/2411-spiral-matrix-iv) |
+| [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/fchoi1/Leetcode/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/fchoi1/Leetcode/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2755-extra-characters-in-a-string](https://github.com/fchoi1/Leetcode/tree/master/2755-extra-characters-in-a-string) |
 | [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/fchoi1/Leetcode/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
@@ -43,11 +44,13 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [0776-n-ary-tree-postorder-traversal](https://github.com/fchoi1/Leetcode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [1484-linked-list-in-binary-tree](https://github.com/fchoi1/Leetcode/tree/master/1484-linked-list-in-binary-tree) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/fchoi1/Leetcode/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
+| [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/fchoi1/Leetcode/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [1484-linked-list-in-binary-tree](https://github.com/fchoi1/Leetcode/tree/master/1484-linked-list-in-binary-tree) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/fchoi1/Leetcode/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
+| [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/fchoi1/Leetcode/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 ## Matrix
 |  |
 | ------- |
@@ -65,6 +68,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [0776-n-ary-tree-postorder-traversal](https://github.com/fchoi1/Leetcode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/fchoi1/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1484-linked-list-in-binary-tree](https://github.com/fchoi1/Leetcode/tree/master/1484-linked-list-in-binary-tree) |
+| [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/fchoi1/Leetcode/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 ## Design
 |  |
 | ------- |
@@ -94,6 +98,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [0145-binary-tree-postorder-traversal](https://github.com/fchoi1/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/fchoi1/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1484-linked-list-in-binary-tree](https://github.com/fchoi1/Leetcode/tree/master/1484-linked-list-in-binary-tree) |
+| [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/fchoi1/Leetcode/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 ## Data Stream
 |  |
 | ------- |
