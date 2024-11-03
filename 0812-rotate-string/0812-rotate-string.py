@@ -1,10 +1,4 @@
 class Solution:
     def rotateString(self, s: str, goal: str) -> bool:
+        return goal in s+s if len(s) <= len(goal) else False
         
-
-        for _ in range(len(s)):
-            if s == goal:
-                return  True
-            s = s[1:] + s[0]
-
-        return False
