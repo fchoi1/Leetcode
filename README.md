@@ -40,6 +40,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [2755-extra-characters-in-a-string](https://github.com/fchoi1/Leetcode/tree/master/2755-extra-characters-in-a-string) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/fchoi1/Leetcode/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 | [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/fchoi1/Leetcode/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
+| [3291-find-if-array-can-be-sorted](https://github.com/fchoi1/Leetcode/tree/master/3291-find-if-array-can-be-sorted) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -175,6 +176,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | ------- |
 | [0476-number-complement](https://github.com/fchoi1/Leetcode/tree/master/0476-number-complement) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/fchoi1/Leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
+| [3291-find-if-array-can-be-sorted](https://github.com/fchoi1/Leetcode/tree/master/3291-find-if-array-can-be-sorted) |
 ## Simulation
 |  |
 | ------- |
@@ -252,6 +254,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/fchoi1/Leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [2554-minimum-total-distance-traveled](https://github.com/fchoi1/Leetcode/tree/master/2554-minimum-total-distance-traveled) |
 | [2586-longest-square-streak-in-an-array](https://github.com/fchoi1/Leetcode/tree/master/2586-longest-square-streak-in-an-array) |
+| [3291-find-if-array-can-be-sorted](https://github.com/fchoi1/Leetcode/tree/master/3291-find-if-array-can-be-sorted) |
 ## Recursion
 |  |
 | ------- |
