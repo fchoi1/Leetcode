@@ -1,27 +1,20 @@
 class Solution:
     def maximumSubarraySum(self, nums: List[int], k: int) -> int:
-        dupe = defaultdict(int)
-        currSum = total = 0
-        for i in range(k):
-            dupe[nums[i]]+=1
-            currSum += nums[i]
-        if len(dupe) == k:
-            total = currSum
-        
-        for i in range(len(nums)-k):
-            currSum -= nums[i]
-            currSum += nums[i+k]
-            dupe[nums[i+k]]+=1
-            dupe[nums[i]]-=1
-            if dupe[nums[i]] <= 0:
-                del dupe[nums[i]]
-            if len(dupe) == k:
-                total = max(total,currSum)
-        
-        return total
+        maxSum = curr = i = count = 0
+        seen = set()
+        N = len(nums)
 
+        for n in nums:
+            curr += n
+            count += 1
+            while n in seen or count > k:
+                seen.remove(nums[i])
+                curr -= nums[i]
+                i += 1
+                count -= 1
 
+            if count == k:
+                maxSum = max(maxSum, curr)
+            seen.add(n)
 
-            
-
-        
+        return maxSum
