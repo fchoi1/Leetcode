@@ -26,6 +26,25 @@ class Solution:
                 new[pos], new[s] = new[s],new[pos]
                 dfs(new, steps + 1)
         
-        dfs([*board[0], *board[1]], 0)
-            
-        return self.ans if self.ans != inf else -1
+
+        q = [[*board[0], *board[1]]]
+        seen = set()
+        steps = 0
+        while q:
+            temp = []
+            for position in q:
+                if tuple(position) == solved:
+                    return steps
+
+                if tuple(position) in seen:
+                    continue
+                seen.add(tuple(position))
+
+                pos = position.index(0) 
+                for s in swaps[pos]:
+                    new = position.copy()
+                    new[pos], new[s] = new[s],new[pos]
+                    temp.append(new)
+            steps += 1
+            q = temp
+        return -1
