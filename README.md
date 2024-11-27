@@ -48,6 +48,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/fchoi1/Leetcode/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 | [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/fchoi1/Leetcode/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
 | [3291-find-if-array-can-be-sorted](https://github.com/fchoi1/Leetcode/tree/master/3291-find-if-array-can-be-sorted) |
+| [3517-shortest-distance-after-road-addition-queries-i](https://github.com/fchoi1/Leetcode/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/fchoi1/Leetcode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 ## Depth-First Search
 |  |
@@ -64,6 +65,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [1484-linked-list-in-binary-tree](https://github.com/fchoi1/Leetcode/tree/master/1484-linked-list-in-binary-tree) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/fchoi1/Leetcode/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/fchoi1/Leetcode/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
+| [3517-shortest-distance-after-road-addition-queries-i](https://github.com/fchoi1/Leetcode/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 ## Matrix
 |  |
 | ------- |
@@ -217,6 +219,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | ------- |
 | [1325-path-with-maximum-probability](https://github.com/fchoi1/Leetcode/tree/master/1325-path-with-maximum-probability) |
 | [2803-modify-graph-edge-weights](https://github.com/fchoi1/Leetcode/tree/master/2803-modify-graph-edge-weights) |
+| [3517-shortest-distance-after-road-addition-queries-i](https://github.com/fchoi1/Leetcode/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 ## Shortest Path
 |  |
 | ------- |
