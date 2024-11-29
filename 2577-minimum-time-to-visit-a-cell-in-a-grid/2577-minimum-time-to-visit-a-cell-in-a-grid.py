@@ -6,14 +6,11 @@ class Solution:
         seen = set()
         h = len(grid)
         w = len(grid[0])
-        goal = (h-1,w-1)
- 
         
         if grid[0][1] > 1 and grid[1][0] > 1:
             return -1
 
         while q:
-            temp = []
             steps, x, y = heapq.heappop(q)
             if (x,y) == (w-1, h-1):
                 return steps
