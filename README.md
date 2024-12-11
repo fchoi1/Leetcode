@@ -49,6 +49,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [2616-maximal-score-after-applying-k-operations](https://github.com/fchoi1/Leetcode/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2755-extra-characters-in-a-string](https://github.com/fchoi1/Leetcode/tree/master/2755-extra-characters-in-a-string) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/fchoi1/Leetcode/tree/master/2794-maximum-number-of-moves-in-a-grid) |
+| [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/fchoi1/Leetcode/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/fchoi1/Leetcode/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
 | [3291-find-if-array-can-be-sorted](https://github.com/fchoi1/Leetcode/tree/master/3291-find-if-array-can-be-sorted) |
 | [3427-special-array-ii](https://github.com/fchoi1/Leetcode/tree/master/3427-special-array-ii) |
@@ -111,6 +112,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/fchoi1/Leetcode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2164-two-best-non-overlapping-events](https://github.com/fchoi1/Leetcode/tree/master/2164-two-best-non-overlapping-events) |
 | [2586-longest-square-streak-in-an-array](https://github.com/fchoi1/Leetcode/tree/master/2586-longest-square-streak-in-an-array) |
+| [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/fchoi1/Leetcode/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/fchoi1/Leetcode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3427-special-array-ii](https://github.com/fchoi1/Leetcode/tree/master/3427-special-array-ii) |
 ## Heap (Priority Queue)
@@ -287,6 +289,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/fchoi1/Leetcode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1755-defuse-the-bomb](https://github.com/fchoi1/Leetcode/tree/master/1755-defuse-the-bomb) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/fchoi1/Leetcode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
+| [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/fchoi1/Leetcode/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/fchoi1/Leetcode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/fchoi1/Leetcode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 ## Greedy
@@ -306,6 +309,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [2164-two-best-non-overlapping-events](https://github.com/fchoi1/Leetcode/tree/master/2164-two-best-non-overlapping-events) |
 | [2554-minimum-total-distance-traveled](https://github.com/fchoi1/Leetcode/tree/master/2554-minimum-total-distance-traveled) |
 | [2586-longest-square-streak-in-an-array](https://github.com/fchoi1/Leetcode/tree/master/2586-longest-square-streak-in-an-array) |
+| [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/fchoi1/Leetcode/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3291-find-if-array-can-be-sorted](https://github.com/fchoi1/Leetcode/tree/master/3291-find-if-array-can-be-sorted) |
 ## Recursion
 |  |
