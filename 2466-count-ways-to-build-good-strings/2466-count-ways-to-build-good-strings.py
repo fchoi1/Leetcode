@@ -10,17 +10,16 @@ class Solution:
         modulo = 10**9 + 7
 
         for i in range(high + 1):
-            # zero
             zLen = i + zero
             oLen = i + one
             if zLen <= high:
-                dp[zLen] += dp[i]
+                dp[zLen] =  (dp[zLen] + dp[i]) % modulo
             if oLen <= high:
-                dp[oLen] += dp[i]
+                dp[oLen] = (dp[oLen] + dp[i]) % modulo
+            dp[i] = dp[i] % modulo
             if i >= low :
-                curr += dp[i] 
-
-        return curr % modulo
+                curr = (curr + dp[i]) % modulo
+        return curr
 
 
 
