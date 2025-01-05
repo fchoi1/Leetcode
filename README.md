@@ -370,4 +370,8 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 |  |
 | ------- |
 | [2868-continuous-subarrays](https://github.com/fchoi1/Leetcode/tree/master/2868-continuous-subarrays) |
+## Database
+|  |
+| ------- |
+| [2495-number-of-unique-subjects-taught-by-each-teacher](https://github.com/fchoi1/Leetcode/tree/master/2495-number-of-unique-subjects-taught-by-each-teacher) |
 <!---LeetCode Topics End-->
