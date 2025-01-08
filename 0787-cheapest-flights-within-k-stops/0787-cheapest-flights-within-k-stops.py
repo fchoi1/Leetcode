@@ -6,18 +6,19 @@ class Solution:
         for start, end, price in flights:
             adj[start].append((end, price))
 
-        q = deque([(src, 0)])
-        steps = 0
-        seen = defaultdict(lambda: float('inf'))
-        while q and steps <= k + 1:
-            for i in range(len(q)):
-                curr, price = q.popleft()
-                if (curr in seen and price >= seen[curr]) or price > seen[dst]:
-                    continue
-                seen[curr] = price
-                if curr == dst:
-                    continue
-                for node, p in adj[curr]:
-                    q.append((node,price+p))
-            steps += 1
-        return seen[dst] if seen[dst] != float('inf') else -1
+        q = [(0,src,0)]
+        visited = {}
+        
+        while q:
+            price, curr, stops = heappop(q)
+            if curr == dst:
+                return price
+            
+            if stops > k or (curr in visited and visited[curr] <= stops):
+                continue
+            visited[curr] = stops
+
+            for n,p in adj[curr]:
+                heappush(q, (p + price, n, stops + 1))
+        
+        return -1
