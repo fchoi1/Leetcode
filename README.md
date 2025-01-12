@@ -242,6 +242,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [1786-count-the-number-of-consistent-strings](https://github.com/fchoi1/Leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1807-partitioning-into-minimum-number-of-deci-binary-numbers](https://github.com/fchoi1/Leetcode/tree/master/1807-partitioning-into-minimum-number-of-deci-binary-numbers) |
 | [1923-sentence-similarity-iii](https://github.com/fchoi1/Leetcode/tree/master/1923-sentence-similarity-iii) |
+| [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/fchoi1/Leetcode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2465-shifting-letters-ii](https://github.com/fchoi1/Leetcode/tree/master/2465-shifting-letters-ii) |
 | [2580-circular-sentence](https://github.com/fchoi1/Leetcode/tree/master/2580-circular-sentence) |
 | [2755-extra-characters-in-a-string](https://github.com/fchoi1/Leetcode/tree/master/2755-extra-characters-in-a-string) |
@@ -277,6 +278,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [0776-n-ary-tree-postorder-traversal](https://github.com/fchoi1/Leetcode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [1197-parsing-a-boolean-expression](https://github.com/fchoi1/Leetcode/tree/master/1197-parsing-a-boolean-expression) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/fchoi1/Leetcode/tree/master/1497-design-a-stack-with-increment-operation) |
+| [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/fchoi1/Leetcode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/fchoi1/Leetcode/tree/master/2800-minimum-string-length-after-removing-substrings) |
 ## Graph
 |  |
@@ -352,6 +354,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [1807-partitioning-into-minimum-number-of-deci-binary-numbers](https://github.com/fchoi1/Leetcode/tree/master/1807-partitioning-into-minimum-number-of-deci-binary-numbers) |
 | [1917-maximum-average-pass-ratio](https://github.com/fchoi1/Leetcode/tree/master/1917-maximum-average-pass-ratio) |
 | [2089-maximum-matrix-sum](https://github.com/fchoi1/Leetcode/tree/master/2089-maximum-matrix-sum) |
+| [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/fchoi1/Leetcode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/fchoi1/Leetcode/tree/master/2616-maximal-score-after-applying-k-operations) |
 ## Sorting
 |  |
