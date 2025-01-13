@@ -224,6 +224,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [2586-longest-square-streak-in-an-array](https://github.com/fchoi1/Leetcode/tree/master/2586-longest-square-streak-in-an-array) |
 | [2755-extra-characters-in-a-string](https://github.com/fchoi1/Leetcode/tree/master/2755-extra-characters-in-a-string) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/fchoi1/Leetcode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
+| [3455-minimum-length-of-string-after-operations](https://github.com/fchoi1/Leetcode/tree/master/3455-minimum-length-of-string-after-operations) |
 ## String
 |  |
 | ------- |
@@ -251,6 +252,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3194-find-words-containing-character](https://github.com/fchoi1/Leetcode/tree/master/3194-find-words-containing-character) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/fchoi1/Leetcode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3451-string-compression-iii](https://github.com/fchoi1/Leetcode/tree/master/3451-string-compression-iii) |
+| [3455-minimum-length-of-string-after-operations](https://github.com/fchoi1/Leetcode/tree/master/3455-minimum-length-of-string-after-operations) |
 | [3567-convert-date-to-binary](https://github.com/fchoi1/Leetcode/tree/master/3567-convert-date-to-binary) |
 ## Bit Manipulation
 |  |
@@ -307,6 +309,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/fchoi1/Leetcode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/fchoi1/Leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/fchoi1/Leetcode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
+| [3455-minimum-length-of-string-after-operations](https://github.com/fchoi1/Leetcode/tree/master/3455-minimum-length-of-string-after-operations) |
 ## Trie
 |  |
 | ------- |
