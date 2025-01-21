@@ -1,15 +1,6 @@
 class Solution:
     def gridGame(self, grid: List[List[int]]) -> int:
-        # 2 bfs
-        # first optimal, highest cost
-        # second optimal, highest cost
 
-        # 2x2
-
-        # 1 1 1 2 1
-        # 1 2 1 1 1 
-
-        # prefix
 
         N =  len(grid[0])
         def getPrefix(arr):
@@ -23,26 +14,24 @@ class Solution:
                     pre_1.append(pre_1[-1] + a)
                     pre_2.append(pre_2[-1] + b)
             pre_2.reverse()
-            return pre_1, pre_2
+            return pre_1, pre_2, pre_1[-1], pre_2[0]
 
         # get switch index
-        player1_1, player1_2 = getPrefix(grid)
+        top, bot, top_total, bot_total = getPrefix(grid)
         switch = 0
-        curr = player1_1[0] + player1_2[0]
-        for i, (a,b) in enumerate(zip(player1_1,player1_2)):
+        curr = top[0] + bot[0]
+        p2_curr = 0
+        p2_min = inf
+        for i, (a,b) in enumerate(zip(top,bot)):
+
+
+            t = top_total - a
+            b = bot_total - b
+
+            p2_min = min(p2_min,max(t,b))
+            # bot
             if a + b > curr:
                 curr = a + b
                 switch = i
+        return p2_min
 
-        # update grid
-        for i in range(N):
-            if i <= switch:
-                grid[0][i] = 0
-            
-            if i >= switch:
-                grid[1][i] = 0
-
-        player2_1, player2_2 = getPrefix(grid)
-
-
-        return max(a + b for a,b in zip(player2_1, player2_2))
