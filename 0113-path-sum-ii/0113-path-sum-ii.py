@@ -7,23 +7,16 @@
 class Solution:
     def pathSum(self, root: Optional[TreeNode], targetSum: int) -> List[List[int]]:
         self.valid = []
-
-        def traverse(node, currSum, path):
+        def dfs(node, path, currSum):
             if not node:
                 return
-
-            path.append(node.val)
-
-            if not node.left and not node.right:
-                if currSum + node.val == targetSum:
-                    self.valid.append(path.copy())
-                if path:
-                    path.pop()
+            if  not node.left and not node.right:
+                if targetSum == currSum + node.val:
+                    self.valid.append(path + [node.val])
                 return
 
-            traverse(node.left, currSum + node.val, path)
-            traverse(node.right, currSum + node.val, path)
-            if path:
-                path.pop()
-        traverse(root, 0, [])
+            dfs(node.left, path + [node.val], currSum + node.val)
+            dfs(node.right, path + [node.val], currSum + node.val)
+        
+        dfs(root, [], 0)
         return self.valid
