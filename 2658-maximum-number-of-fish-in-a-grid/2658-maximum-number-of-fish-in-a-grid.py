@@ -15,6 +15,14 @@ class Solution:
                     if H > newY >= 0 and W > newX >= 0 and grid[newY][newX] > 0:
                         q.append((newX, newY))
             return fish
+        
+        def getfish2(x,y):
+            # x,y = node
+            if not(H > y >= 0 and W > x >= 0) or grid[y][x] == 0:
+                return 0
+            currVal = grid[y][x]
+            grid[y][x] = 0
+            return currVal + getfish2(x-1, y) + getfish2(x+1, y) + getfish2(x, y-1) + getfish2(x, y+1)
                     
 
         W = len(grid[0])
@@ -24,7 +32,8 @@ class Solution:
         for y in range(H):
             for x in range(W):
                 if grid[y][x]:
-                    maxFish = max(maxFish, getfish(deque([(x,y)])))
+                    maxFish = max(maxFish, getfish2(x, y))
+                    # maxFish = max(maxFish, getfish2(deque([(x,y)])))
         return maxFish
 
         
