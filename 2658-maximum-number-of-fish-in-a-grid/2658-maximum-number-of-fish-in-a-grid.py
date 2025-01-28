@@ -16,7 +16,6 @@ class Solution:
                         q.append((newX, newY))
             return fish
                     
-        # largest island value?
 
         W = len(grid[0])
         H = len(grid)
