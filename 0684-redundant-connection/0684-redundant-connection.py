@@ -6,8 +6,6 @@ class Solution:
             adjMap[a].add(b)
             adjMap[b].add(a)
 
-        
-        # get cycle and check edge
         self.seen = {}
         self.cycle = None
 
@@ -27,9 +25,7 @@ class Solution:
         for a,b in zip(self.cycle, self.cycle[1:]):
             e.add((min(a,b),max(a,b)))
         
-        remove = None
-        for a,b in edges:
+        for a,b in edges[::-1]:
             if (min(a,b), max(a,b)) in e:
-                remove = (a,b)
+                return (a,b)
 
-        return remove
