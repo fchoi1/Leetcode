@@ -5,13 +5,11 @@ class Solution:
         used = set()
 
         for a,b in zip(s,t):
-            if a in letterMap:
-                if letterMap[a] != b:
-                    return False
-            elif b in used:
+            if a in letterMap and letterMap[a] == b:
+                continue
+            if b in used or (a in letterMap and letterMap[a] != b):
                 return  False
-            else:
-                used.add(b)
-                letterMap[a] = b
+            used.add(b)
+            letterMap[a] = b
         return True
         
