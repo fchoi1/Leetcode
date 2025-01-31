@@ -1,17 +1,17 @@
 class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:
-        charMap = {}
+
+        letterMap = {}
         used = set()
-        if len(s) != len(s):
-            return False
 
         for a,b in zip(s,t):
-            if a in charMap and charMap[a] != b:
-                return False
-            if b in used and (a not in charMap or charMap[a] != b):
-                return False
-            charMap[a] = b
-            used.add(b)
+            if a in letterMap:
+                if letterMap[a] != b:
+                    return False
+            elif b in used:
+                return  False
+            else:
+                used.add(b)
+                letterMap[a] = b
         return True
-
         
