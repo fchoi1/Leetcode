@@ -1,7 +1,7 @@
 class Solution:
     def findDifferentBinaryString(self, nums: List[str]) -> str:
         N = len(nums[0])
-        maxN = 2 ** N - 1
+        maxN = 2 ** N 
 
         curr = set()
         for n in nums:
