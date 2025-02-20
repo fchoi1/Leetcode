@@ -1,13 +1,1 @@
-WITH 
-res AS (
-    SELECT 
-        id, 
-        LAG(temperature) OVER (ORDER BY recordDate ASC) AS prev, 
-        LAG(recordDate)  OVER (ORDER BY recordDate ASC) AS prevDate, 
-        temperature AS curr,
-        recordDate as currDate
-    FROM Weather
-)
-SELECT id
-FROM res 
-WHERE curr > prev and DATEDIFF(currDate, prevDate) = 1
+select t1.id from Weather t1 Join Weather t2 where t1.temperature > t2.temperature and  DATEDIFF(t1.recordDate, t2.recordDate) = 1
