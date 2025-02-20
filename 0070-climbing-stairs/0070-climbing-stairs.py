@@ -1,10 +1,12 @@
 class Solution:
+    @cache
     def climbStairs(self, n: int) -> int:
-        steps = []
-
-        for i in range(n):
-            if i in [0, 1]:
-                steps.append(i + 1)
-                continue
-            steps.append(steps[i-1] +  steps[i-2])
-        return steps[-1]
+        
+        if n == 1:
+            return 1
+        
+        if n == 2:
+            return 2
+        
+        return self.climbStairs(n-1) + self.climbStairs(n-2)
+        
