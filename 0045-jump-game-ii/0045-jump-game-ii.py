@@ -4,22 +4,22 @@ class Solution:
         N = len(nums)
         steps = i = 0
 
-        while i < N:
-            if i == N - 1:
-                break
+        while i < N - 1:
             currSteps = nums[i]
-            # if i + currSteps >= N - 1:
-            #     return steps + 1
-
             furthest = currI = 0
+
+            if i + currSteps >= N - 1:
+                return steps + 1
 
             for j in range(currSteps):
                 if j + i + 1 >= N:
-                    return steps + 1
+                    break
 
                 if i + j + nums[j + i + 1] + 1 > furthest:
                     currI = j + 1
                     furthest = i + j + nums[j + i + 1] + 1 
+
             i += currI
             steps += 1
+
         return steps
