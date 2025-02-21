@@ -10,28 +10,25 @@ class FindElements:
     def __init__(self, root: Optional[TreeNode]):
         # store in   dict
         self.nodes = set()
-        self.traverse(root, 0)
+        if root:
+            root.val = 0
+        self.traverse(root)
 
-        # clean
-
-    def traverse(self, node, val):
+    def traverse(self, node):
         if not node:
             return
-
+        val = node.val
         self.nodes.add(val)
+
         if node.left:
             node.left.val = val * 2 + 1
-            self.traverse(node.left, node.left.val)
+            self.traverse(node.left)
         
         if node.right:
             node.right.val = val * 2 + 2
-            self.traverse(node.right, node.right.val)
-        
-
-        
-
+            self.traverse(node.right)
+    
     def find(self, target: int) -> bool:
-        # retrieve from dict
         return target in self.nodes
         
 
