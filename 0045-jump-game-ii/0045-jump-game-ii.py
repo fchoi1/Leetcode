@@ -7,19 +7,15 @@ class Solution:
         while i < N - 1:
             currSteps = nums[i]
             furthest = currI = 0
-
             if i + currSteps >= N - 1:
                 return steps + 1
 
-            for j in range(currSteps):
-                if j + i + 1 >= N:
-                    break
+            for j in range(i + 1, min(i + currSteps + 1, N)):
+                if j + nums[j] > furthest:
+                    currI = j 
+                    furthest = j + nums[j] 
 
-                if i + j + nums[j + i + 1] + 1 > furthest:
-                    currI = j + 1
-                    furthest = i + j + nums[j + i + 1] + 1 
-
-            i += currI
+            i = currI
             steps += 1
 
         return steps
