@@ -1,23 +1,26 @@
 class Solution:
     def jump(self, nums: List[int]) -> int:
-
-        # 
-        # backwards
+        
         N = len(nums)
-        dp = [inf] * N 
-        dp[0] = 0
+        steps = i = 0
 
-        for i,n in enumerate(nums):
-            for j in range(n):
-                # print("index", i, j, "len", len(dp))
+        while i < N:
+            if i == N - 1:
+                break
+            currSteps = nums[i]
+            if i + currSteps >= N - 1:
+                return steps + 1
+            print("at index", i, currSteps)
+
+            furthest = currI = 0
+            for j in range(currSteps):
+                print("loop", j)
                 if j + i + 1 >= N:
                     break
-                # print("set index", i+j, dp[i+j], dp[i])
-                dp[i + j + 1] = min(dp[i + j + 1], dp[i] + 1)
-                # print("done set index", i+j, dp[i+j])
-        print(dp)
-                
-
-
-
-        return dp[-1]
+                if i + j + nums[j + i + 1] + 1 > furthest:
+                    currI = j + 1
+                    furthest = i + j + nums[j + i + 1] + 1 
+                    print("found furthest", nums[j + i + 1], "currI",  currI )
+            i += currI
+            steps += 1
+        return steps
