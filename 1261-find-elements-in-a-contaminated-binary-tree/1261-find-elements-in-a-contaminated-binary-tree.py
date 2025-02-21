@@ -30,9 +30,3 @@ class FindElements:
     
     def find(self, target: int) -> bool:
         return target in self.nodes
-        
-
-
-# Your FindElements object will be instantiated and called as such:
-# obj = FindElements(root)
-# param_1 = obj.find(target)
