@@ -6,48 +6,50 @@
 #         self.right = right
 class Solution:
     def recoverFromPreorder(self, traversal: str) -> Optional[TreeNode]:
-        d = i = 0
-        nodes = [] # (node, depth)
+        i = 0
         N = len(traversal)
+        # get root value
+        rootStr = ''
+        while i < N and traversal[i] != '-':
+            rootStr += traversal[i] 
+            i += 1
+        root = TreeNode(int(rootStr))
+        
+        
+        stack = [root]
+        prevDepth = currDepth = 0
         while i < N:
             if traversal[i] =='-':
-                d += 1
+                currDepth += 1
                 i += 1
             else:
+                # we see a node
                 num = ''
                 while i < N and traversal[i] != '-':
                     num += traversal[i]
                     i += 1
-                nodes.append((int(num),d))
-                d = 0
-        
-
-        root = TreeNode(nodes[0][0])
-
-        stack = [root]
-        prevDepth = 0
-
-        for currNode in nodes[1:]:
-            val, depth = currNode
-
-            newNode = TreeNode(val)
-            diff = depth - prevDepth
-
-            print("d", depth, prevDepth)
-
-            if diff >= 1:
-                parent = stack[-1]
-                parent.left = newNode
-            else:
-                for _ in range(abs(diff) + 1):
-                    if len(stack) == 1:
-                        break
-                    stack.pop()
                 
-                parent = stack[-1]
-                parent.right = newNode 
-      
-            stack.append(newNode)
-            prevDepth = depth
+                val = int(num)
+                newNode = TreeNode(val)
+                diff = currDepth - prevDepth
 
+                # Add to left child
+                if diff >= 1:
+                    parent = stack[-1]
+                    parent.left = newNode
+                
+                # Add to right child
+                else:
+                    for _ in range(abs(diff) + 1):
+                        if len(stack) == 1:
+                            break
+                        stack.pop()
+                    
+                    parent = stack[-1]
+                    parent.right = newNode 
+        
+                stack.append(newNode)
+                prevDepth = currDepth
+                currDepth = 0
+          
         return root
