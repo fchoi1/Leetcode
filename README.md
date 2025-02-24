@@ -60,6 +60,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/fchoi1/Leetcode/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/fchoi1/Leetcode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2554-minimum-total-distance-traveled](https://github.com/fchoi1/Leetcode/tree/master/2554-minimum-total-distance-traveled) |
+| [2564-most-profitable-path-in-a-tree](https://github.com/fchoi1/Leetcode/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2586-longest-square-streak-in-an-array](https://github.com/fchoi1/Leetcode/tree/master/2586-longest-square-streak-in-an-array) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/fchoi1/Leetcode/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2685-first-completely-painted-row-or-column](https://github.com/fchoi1/Leetcode/tree/master/2685-first-completely-painted-row-or-column) |
@@ -93,6 +94,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [2201-valid-arrangement-of-pairs](https://github.com/fchoi1/Leetcode/tree/master/2201-valid-arrangement-of-pairs) |
 | [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/fchoi1/Leetcode/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/fchoi1/Leetcode/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
+| [2564-most-profitable-path-in-a-tree](https://github.com/fchoi1/Leetcode/tree/master/2564-most-profitable-path-in-a-tree) |
 | [3058-maximum-number-of-k-divisible-components](https://github.com/fchoi1/Leetcode/tree/master/3058-maximum-number-of-k-divisible-components) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/fchoi1/Leetcode/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 ## Breadth-First Search
@@ -107,6 +109,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/fchoi1/Leetcode/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/fchoi1/Leetcode/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/fchoi1/Leetcode/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
+| [2564-most-profitable-path-in-a-tree](https://github.com/fchoi1/Leetcode/tree/master/2564-most-profitable-path-in-a-tree) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/fchoi1/Leetcode/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/fchoi1/Leetcode/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 ## Matrix
@@ -139,6 +142,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [1484-linked-list-in-binary-tree](https://github.com/fchoi1/Leetcode/tree/master/1484-linked-list-in-binary-tree) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/fchoi1/Leetcode/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/fchoi1/Leetcode/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
+| [2564-most-profitable-path-in-a-tree](https://github.com/fchoi1/Leetcode/tree/master/2564-most-profitable-path-in-a-tree) |
 | [3058-maximum-number-of-k-divisible-components](https://github.com/fchoi1/Leetcode/tree/master/3058-maximum-number-of-k-divisible-components) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/fchoi1/Leetcode/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 ## Design
@@ -340,6 +344,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [1558-course-schedule-iv](https://github.com/fchoi1/Leetcode/tree/master/1558-course-schedule-iv) |
 | [2201-valid-arrangement-of-pairs](https://github.com/fchoi1/Leetcode/tree/master/2201-valid-arrangement-of-pairs) |
 | [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/fchoi1/Leetcode/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
+| [2564-most-profitable-path-in-a-tree](https://github.com/fchoi1/Leetcode/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2803-modify-graph-edge-weights](https://github.com/fchoi1/Leetcode/tree/master/2803-modify-graph-edge-weights) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/fchoi1/Leetcode/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/fchoi1/Leetcode/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
