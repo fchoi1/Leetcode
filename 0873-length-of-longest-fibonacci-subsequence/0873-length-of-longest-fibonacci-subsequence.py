@@ -2,8 +2,9 @@ class Solution:
     def lenLongestFibSubseq(self, arr: List[int]) -> int:
         
         arrSet = set(arr)
-        maxLen = 0
         seen = set()
+        maxLen = 0
+
         for i, a in enumerate(arr):
             for b in arr[i+1:]:
                 currLen = 0
@@ -11,6 +12,7 @@ class Solution:
                 curr = b
                 if (a,b) in seen:
                     continue 
+                    
                 while prev + curr in arrSet:
                     currLen += 1
                     prev,curr = curr, prev + curr
