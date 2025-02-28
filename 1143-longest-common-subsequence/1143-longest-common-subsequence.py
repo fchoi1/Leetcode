@@ -20,33 +20,21 @@ class Solution:
         # arr[2][2] = 2
         # arr[3] [....] = 2
 
-        # N1 = len(text1)
-        # N2 = len(text2)
-        # dp = [[0 for _ in range(N2 + 1)] for _ in range(N1 + 1)]
+        N1 = len(text1)
+        N2 = len(text2)
+        dp = [[0 for _ in range(N2 + 1)] for _ in range(N1 + 1)]
 
-        # for i in range(1, N1 + 1):
-        #     for j in range(1, N2 + 1):
-        #         print(text1[i-1], text2[j-1])
-        #         if text1[i-1] == text2[j-1]:
-        #             dp[i][j] = 1 + dp[i - 1][j -1]
-        #         else:
-        #             dp[i][j] = max(dp[i][j-1], dp[i-1][j])
-
-        # print(dp)
-
-        # return dp[N1][N2]
-        m = len(text1)
-        n = len(text2)
-        memo = [[0 for _ in range(n + 1)] for _ in range(m + 1)]
-
-        for row in range(1, m + 1):
-            for col in range(1, n + 1):
-                if text1[row - 1] == text2[col - 1]:
-                    memo[row][col] = 1 + memo[row - 1][col - 1]
+        for i in range(1, N1 + 1):
+            for j in range(1, N2 + 1):
+                if text1[i-1] == text2[j-1]:
+                    dp[i][j] = 1 + dp[i - 1][j -1]
                 else:
-                    memo[row][col] = max(memo[row][col - 1], memo[row - 1][col])
+                    dp[i][j] = max(dp[i][j-1], dp[i-1][j])
 
-        return memo[m][n]
+        print(dp)
+
+        return dp[N1][N2]
+
 
         '''
         1 . . . . .
