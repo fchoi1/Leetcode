@@ -34,7 +34,7 @@ class Solution:
                 elif nextFolder != '..':
                     stack.append(nextFolder) # [home, foo]
             else:
-                print("err")
+                print('err')
 
 
         return "/" + "/".join(stack)
