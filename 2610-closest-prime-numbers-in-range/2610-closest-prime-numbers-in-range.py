@@ -5,26 +5,28 @@ class Solution:
 
     # 1200 primes in 10^6
 
-        primes = set(range(2, right + 1))
-
+        primes = [True] * (right + 1)
+        primes[0] = False
+        primes[1] = False
         i = 2
-        while i <= int(right ** 0.5):
-            for j in range(2 * i, right + 1, i):
-                primes.discard(j)
-            i += 1
-            while i not in primes and i <= int(right ** 0.5):
-                i += 1
+        for i in range(2, int(right ** 0.5) + 1):
+            if primes[i]:
+                for j in range(2 * i, right + 1, i):
+                    primes[j] = False
+           
 
-        primes = list(primes)
+        primeRange = primes[left:right+1]
         minRange = inf
-        ans = (-1, -1)
-        for n1, n2 in zip(primes, primes[1:]):
-            if n1 < left:
-                continue
-            if n2 - n1 < minRange:
-                ans = (n1, n2)
-                minRange = n2 - n1
-    
+        ans = (-1, -1)  
+        prev = None
+        
+        for i, isPrime in enumerate(primeRange):
+            if isPrime:
+                if prev and left + i - prev < minRange:
+                    minRange = left + i - prev
+                    ans = (prev, left + i)
+                prev = left + i
+      
         return ans
 
         
