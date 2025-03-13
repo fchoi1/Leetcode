@@ -1,14 +1,22 @@
 class Solution:
     def canPlaceFlowers(self, flowerbed: List[int], n: int) -> bool:
-        count = 0
-        prev = 0  # Initialize prev as 0 (no flower before the first pot)
-        size = len(flowerbed)
+        if n == 0:
+            return True
 
-        for i in range(size):
-            if flowerbed[i] == 0:
-                if (i == 0 or flowerbed[i - 1] == 0) and (i == size - 1 or flowerbed[i + 1] == 0):
-                    flowerbed[i] = 1  # Place a flower at the current position
-                    count += 1
+        i = 0
+        left = None
+        while i < len(flowerbed):
+            
+            right =  flowerbed[i + 1] if i + 1 < len(flowerbed) else 0
 
-        return count >= n
+            if not left and not flowerbed[i] and not right:
+                n -= 1
+                flowerbed[i] = 1
+            
+            left = flowerbed[i]
+            if n <= 0:
+                return True
+            i += 1
+
+        return False
         
