@@ -22,11 +22,25 @@ class Solution:
 
         seen = set()
        
-        for y in range(N):
-            for x in range(N):
-                if grid[y][x]:
-                    traverse(x, y)
+        # for y in range(N):
+        #     for x in range(N):
+        #         if grid[y][x]:
+        #             traverse(x, y)
     
+        self.safe = [[inf] * N for _ in range(N)]
+        for i in range(N):
+            for j in range(N):
+                if grid[i][j] == 1:
+                    self.safe[i][j] = 0
+                else:
+                    self.safe[i][j] = 1 + min(self.safe[i-1][j] if i - 1 >= 0 else inf, 
+                                    self.safe[i][j-1] if j - 1 >= 0 else inf)
+        for i in range(N-1, -1, -1):
+            for j in range(N-1, -1, -1):
+                if grid[i][j] == 0:
+                    self.safe[i][j] = min(self.safe[i][j],
+                        (1 + self.safe[i+1][j]) if i + 1 < N else inf, 
+                        (1 + self.safe[i][j+1]) if j + 1 < N else inf)
         # dfs
         q = [[-self.safe[0][0],0,0]]
 
@@ -37,7 +51,6 @@ class Solution:
                 return curr
 
             if (x,y) in seen:
-                print("hih", x,y)
                 continue
             seen.add((x,y))         
             for dx, dy in [(0,1), (1,0), (-1,0), (0, -1)]:
