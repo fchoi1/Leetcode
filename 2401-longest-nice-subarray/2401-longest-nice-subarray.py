@@ -7,12 +7,8 @@ class Solution:
         # arr of 30, need each to be only 1, else keep going
 
         arr = [0] * 30
-
-        prefix = []
-        curr =  0xffffffff
         l = 0
         maxLen = 1
-
 
         def isValid(arr):
             return all(c < 2 for c in arr)
@@ -21,7 +17,7 @@ class Solution:
             binary = bin(n)[2:].zfill(30)
             for i,c in enumerate(binary):
                 if c == '1':
-                    arr[i] = arr[i] + 1 if subtract else arr[i] - 1
+                    arr[i] = arr[i] - 1 if subtract else arr[i] + 1
             return arr
 
         for r,n in enumerate(nums):
