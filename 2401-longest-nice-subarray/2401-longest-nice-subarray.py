@@ -21,10 +21,7 @@ class Solution:
             binary = bin(n)[2:].zfill(30)
             for i,c in enumerate(binary):
                 if c == '1':
-                    if subtract:
-                        arr[i] -= 1
-                    else:
-                        arr[i] += 1
+                    arr[i] = arr[i] + 1 if subtract else arr[i] - 1
             return arr
 
         for r,n in enumerate(nums):
