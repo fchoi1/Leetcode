@@ -8,13 +8,10 @@ class Solution:
         weights = {}
 
         def find(node):
-       
-            while node != parent[node]:
-                parent[node] = parent[parent[node]]
-                node = parent[node]
-            
-            return parent[node]
-        
+            if node == parent[node]:
+                return node
+            return find(parent[node])
+   
         def union(n1, n2, weight):
             r1 = find(n1)
             r2 = find(n2)
