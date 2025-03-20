@@ -3,14 +3,13 @@
 class Solution:
     def minimumCost(self, n: int, edges: List[List[int]], query: List[List[int]]) -> List[int]:
 
-        parent = {i:i for i in range(n)} # key: rep and wieght
+        parent = {i:i for i in range(n)} 
         size = defaultdict(int)
         weights = {}
 
         def find(node):
        
             while node != parent[node]:
-                # compress
                 parent[node] = parent[parent[node]]
                 node = parent[node]
             
@@ -20,7 +19,6 @@ class Solution:
             r1 = find(n1)
             r2 = find(n2)
 
-            print("\nunion", n1, n2, weight)
             if r1 in weights:
                 weight &= weights[r1]
             if r2 in weights:
@@ -41,15 +39,6 @@ class Solution:
                 weights[r2] = weight
                 size[r2] += 1
         
-
-
-        # Dijstras? bfs
-        # priority q
-
-        # preprocess?
-        
-
-        # groups?
         adj = defaultdict(set)
         weights = {}
 
