@@ -24,12 +24,10 @@ class Solution:
             if r2 in weights:
                 weight &= weights[r2]
 
-            # already same
             if r1 == r2:
                 weights[r1] = weight
                 return
             
-            # set larger as parent  
             if size[r1] > size[r2]:
                 parent[r2] = r1
                 weights[r1] = weight
