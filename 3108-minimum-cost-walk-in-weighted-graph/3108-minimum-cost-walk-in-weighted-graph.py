@@ -8,6 +8,7 @@ class Solution:
         weights = {}
 
         def find(node):
+
             if node == parent[node]:
                 return node
             return find(parent[node])
@@ -21,32 +22,30 @@ class Solution:
             if r2 in weights:
                 weight &= weights[r2]
 
+            weights[r1] = weight
+            weights[r2] = weight
+
             if r1 == r2:
-                weights[r1] = weight
                 return
             
             if size[r1] > size[r2]:
                 parent[r2] = r1
-                weights[r1] = weight
                 size[r1] += 1
             else:
                 parent[r1] = r2
-                weights[r2] = weight
                 size[r2] += 1
         
-        adj = defaultdict(set)
         weights = {}
-
 
         for a,b,w in edges:
             union(a,b,w) 
-
             
         ans = []
         for start,end in query:
             
             r1 = find(start)
             r2 = find(end)
+            
             if r1 != r2:
                 ans.append(-1)
             else:
