@@ -8,13 +8,15 @@ class Solution:
             adj[b].add(a)
 
         def traverse(node):
+            nonlocal seen
             if node in seen:
                 return
-            seen.add(node)
-            
+            seen.add
             for nextNode in adj[node]:
                 seen.add(nextNode)
                 if adj[node] | set([node]) != adj[nextNode] | set([nextNode]):
+                    seen |= adj[nextNode]
+                    seen |= adj[node]
                     return False
             return True
 
