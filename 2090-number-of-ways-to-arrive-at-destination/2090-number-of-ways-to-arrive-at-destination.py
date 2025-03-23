@@ -1,12 +1,20 @@
 class Solution:
     def countPaths(self, n: int, roads: List[List[int]]) -> int:
-        adj = defaultdict(set)
+        adj = defaultdict(dict)
 
         for x,y, time in roads:
-            adj[x].add((y, time))
-            adj[y].add((x, time))
-           
-        count = 0
+
+            if y in adj[x]:
+                adj[x][y] = min(adj[x][y], time)
+            else:
+                adj[x][y] = time
+
+            if x in adj[y]:
+                adj[y][x] = min(adj[y][x], time)
+            else:
+                adj[y][x] = time
+        
+        mod = (10 ** 9 + 7)
         seen = set()
         q = [(0,0,1)] # cost, node, dupes 
         shortest = None
@@ -19,15 +27,15 @@ class Solution:
                 dupes += d
 
             if curr == n - 1:
-                return dupes % (10 ** 9 + 7)
+                return dupes % mod
     
             if curr in seen: 
                 continue
 
             seen.add(curr)
 
-            for nextNode, time in adj[curr]:
-                heappush(q, (cost + time, nextNode, dupes))
+            for nextNode, time in adj[curr].items():
+                heappush(q, (cost + time, nextNode, dupes % mod))
  
         return count
 
