@@ -1,44 +1,37 @@
 class Solution:
     def checkValidCuts(self, n: int, rectangles: List[List[int]]) -> bool:
-        # check horizontal
-        
-        # check vertical
 
-        # O(N)
+        rectangles.sort()
 
-        vert = [[0,0] for _ in range(n + 1)]
-        hori = [[0,0] for _ in range(n + 1)]
+        v_start = 0
+        v_end = 0
+        v_line = 0
 
-        for a,b,x,y in rectangles:
-            vert[a][0] += 1
-            vert[x][1] += 1
-            hori[b][0] += 1
-            hori[y][1] += 1
+        h_start = 0
+        h_end = 0
+        h_line = 0
 
-        curr = prev = 0
-        lines = 0
+        for x1,y1,x2,y2 in rectangles[1:]:
 
-        for start, end in vert:
+            # check at each start
+            v_start = max(v_start, x1)
 
-            curr -= end
-            if curr == 0 and prev != 0:
+            if v_end <= v_start:
                 lines += 1
-                if lines == 3:
+                if line == 2:
                     return True
-            curr += start
-            prev = curr
 
-        
-        curr = prev = 0
-        lines = 0
+            v_end = max(v_end, x2)
 
-        for start, end in hori:
-            curr -= end
-            if curr == 0 and prev != 0:
+            v_start = max(v_start, x1)
 
+            if v_end <= v_start:
                 lines += 1
-                if lines == 3:
+                if line == 2:
                     return True
-            curr += start
-            prev = curr
+
+            v_end = max(v_end, x2)
         return False
+
+            
+           
