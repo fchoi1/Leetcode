@@ -1,7 +1,7 @@
 class Solution:
     def checkValidCuts(self, n: int, rectangles: List[List[int]]) -> bool:
 
-        rectangles.sort()
+        
 
         v_start = 0
         v_end = 0
@@ -11,27 +11,30 @@ class Solution:
         h_end = 0
         h_line = 0
 
-        for x1,y1,x2,y2 in rectangles[1:]:
+        def check(dim):
 
-            # check at each start
-            v_start = max(v_start, x1)
+            s_rect = sorted(rectangles, key=lambda x: x[dim])
+            start = s_rect[0][0] if not dim else s_rect[0][1]
+            end = s_rect[0][2] if not dim else s_rect[0][3]
+            line = 0
+            
+            for x1,y1,x2,y2 in s_rect[1:]:
+                if not dim:
+                    s,e = x1, x2
+                else:
+                    s,e = y1, y2
+                start = max(start, s)
 
-            if v_end <= v_start:
-                lines += 1
-                if line == 2:
-                    return True
 
-            v_end = max(v_end, x2)
+                if end <= start:
+                    line += 1
+                    if line == 2:
+                        return True
 
-            v_start = max(v_start, x1)
+                end = max(end, e)
+            return False
 
-            if v_end <= v_start:
-                lines += 1
-                if line == 2:
-                    return True
-
-            v_end = max(v_end, x2)
-        return False
+        return check(0) or check(1)
 
             
            
