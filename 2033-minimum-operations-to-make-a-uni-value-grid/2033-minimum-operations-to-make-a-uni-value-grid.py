@@ -4,35 +4,32 @@ class Solution:
         # multiple 
         # get avg?
         
-        def getPrefix(arr):
-            prefix = [0]
+        # no need for prefix
+        def getHalf(arr, isLeft=True):
+            curr = 0
             prev = base = arr[0]
-            
-            for i, n in enumerate(arr):
+            odd = len(arr) % 2 == 1
+            mid = len(arr) // 2 + 1 if isLeft or odd else len(arr) // 2
+
+            for i, n in enumerate(arr[:mid]):
                 if (n - base) % x != 0:
-                    return None
+                    return -1
                 remain = abs(n - prev) // x
                 prev = n
-                prefix.append(prefix[-1] + remain * i)
-            return prefix
+                curr += remain * i
+            return curr
 
         flat = [item for row in grid for item in row]
 
         if len(flat) == 1:
             return 0
+
         flat.sort()
 
-        left = getPrefix(flat)
-        if not left:
+        left = getHalf(flat)
+        right = getHalf(flat[::-1], False)
+
+        if left == -1 or right == -1:
             return -1
-        right = getPrefix(flat[::-1])
-
-        
-        # median
-        even = (len(left) - 1) % 2 == 0
-        mid = len(left) // 2
-        l = mid
-        r = mid + 1 if even else mid
-
-        
-        return left[l] + right[r]
+            
+        return left + right
