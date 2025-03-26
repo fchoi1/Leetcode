@@ -3,6 +3,7 @@ class Solution:
         # divisble?
         # multiple 
         # get avg?
+        
         def getPrefix(arr):
             prefix = [0]
             prev = base = arr[0]
@@ -16,6 +17,9 @@ class Solution:
             return prefix
 
         flat = [item for row in grid for item in row]
+
+        if len(flat) == 1:
+            return 0
         flat.sort()
 
         left = getPrefix(flat)
@@ -23,19 +27,12 @@ class Solution:
             return -1
         right = getPrefix(flat[::-1])
 
-
-        l = 1
-        r = len(right) - 1
-        ops = inf
-        while l < len(left):
-            ops = min(ops, left[l] + right[r])
-            r -= 1
-            l += 1
+        
+        # median
+        even = (len(left) - 1) % 2 == 0
+        mid = len(left) // 2
+        l = mid
+        r = mid + 1 if even else mid
 
         
-        
-        print(left)
-        print(right)
-
-    
-        return ops
+        return left[l] + right[r]
