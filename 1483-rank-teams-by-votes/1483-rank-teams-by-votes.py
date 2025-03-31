@@ -1,21 +1,12 @@
 class Solution:
     def rankTeams(self, votes: List[str]) -> str:
     
-        N = len(votes[0])
-        counts = [[0 for _ in range(26)] for _ in range(N)]
-
-        
-
+        team_scores = defaultdict(lambda: [0] * len(votes[0]))
         for v in votes:
-            for i,c in enumerate(v):
-                counts[i][ord(c) - ord('A')] += 1
-    
-        # organzie into tuples
-        sorted_v = []
-        for i in range(26):
-            sorted_v.append((tuple(counts[j][i] for j in range(N)), -i, chr(65 + i)))
-        sorted_v.sort(reverse=True)
+            for i,team in enumerate(v):
+                team_scores[team][i] += 1
 
-        return "".join([char for _,_,char in sorted_v[:N]])
+        sorted_teams = sorted(team_scores.keys(), key=lambda team: (team_scores[team], -ord(team)), reverse=True)
+        return "".join(sorted_teams)
 
         
