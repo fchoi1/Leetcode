@@ -92,6 +92,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/fchoi1/Leetcode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/fchoi1/Leetcode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/fchoi1/Leetcode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
+| [3639-zero-array-transformation-i](https://github.com/fchoi1/Leetcode/tree/master/3639-zero-array-transformation-i) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -269,6 +270,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/fchoi1/Leetcode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2465-shifting-letters-ii](https://github.com/fchoi1/Leetcode/tree/master/2465-shifting-letters-ii) |
 | [3427-special-array-ii](https://github.com/fchoi1/Leetcode/tree/master/3427-special-array-ii) |
+| [3639-zero-array-transformation-i](https://github.com/fchoi1/Leetcode/tree/master/3639-zero-array-transformation-i) |
 ## Game Theory
 |  |
 | ------- |
