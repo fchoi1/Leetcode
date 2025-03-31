@@ -3,12 +3,29 @@ class Solution:
 
     def __init__(self, w: List[int]):
 
-        total = sum(w)
-        self.prob = [weight/total for weight in w]
-        self.index = list(range(len(w)))
+        curr = 0
+        self.prob = []
+        for weight in w:
+            curr += weight
+            self.prob.append(curr)
+        
+        self.total = self.prob[-1]
 
     def pickIndex(self) -> int:
-        return random.choices(self.index, weights=self.prob)[0]
+        i = random.randint(1, self.total)
+
+        l = 0
+        r = len(self.prob) - 1
+        mid = 0
+        while l < r:
+            mid = (l + r) // 2
+            if i == self.prob[mid]:
+                return mid
+            if i > self.prob[mid]:
+                l = mid + 1
+            else:
+                r = mid 
+        return l
         
 
 
