@@ -21,6 +21,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | ------- |
 | [0162-find-peak-element](https://github.com/fchoi1/Leetcode/tree/master/0162-find-peak-element) |
 | [0334-increasing-triplet-subsequence](https://github.com/fchoi1/Leetcode/tree/master/0334-increasing-triplet-subsequence) |
+| [0399-evaluate-division](https://github.com/fchoi1/Leetcode/tree/master/0399-evaluate-division) |
 | [0407-trapping-rain-water-ii](https://github.com/fchoi1/Leetcode/tree/master/0407-trapping-rain-water-ii) |
 | [0463-island-perimeter](https://github.com/fchoi1/Leetcode/tree/master/0463-island-perimeter) |
 | [0621-task-scheduler](https://github.com/fchoi1/Leetcode/tree/master/0621-task-scheduler) |
@@ -102,6 +103,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [0145-binary-tree-postorder-traversal](https://github.com/fchoi1/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/fchoi1/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0386-lexicographical-numbers](https://github.com/fchoi1/Leetcode/tree/master/0386-lexicographical-numbers) |
+| [0399-evaluate-division](https://github.com/fchoi1/Leetcode/tree/master/0399-evaluate-division) |
 | [0463-island-perimeter](https://github.com/fchoi1/Leetcode/tree/master/0463-island-perimeter) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/fchoi1/Leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/fchoi1/Leetcode/tree/master/0776-n-ary-tree-postorder-traversal) |
@@ -119,6 +121,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 ## Breadth-First Search
 |  |
 | ------- |
+| [0399-evaluate-division](https://github.com/fchoi1/Leetcode/tree/master/0399-evaluate-division) |
 | [0407-trapping-rain-water-ii](https://github.com/fchoi1/Leetcode/tree/master/0407-trapping-rain-water-ii) |
 | [0463-island-perimeter](https://github.com/fchoi1/Leetcode/tree/master/0463-island-perimeter) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/fchoi1/Leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
@@ -325,6 +328,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 ## String
 |  |
 | ------- |
+| [0399-evaluate-division](https://github.com/fchoi1/Leetcode/tree/master/0399-evaluate-division) |
 | [0564-find-the-closest-palindrome](https://github.com/fchoi1/Leetcode/tree/master/0564-find-the-closest-palindrome) |
 | [0567-permutation-in-string](https://github.com/fchoi1/Leetcode/tree/master/0567-permutation-in-string) |
 | [0592-fraction-addition-and-subtraction](https://github.com/fchoi1/Leetcode/tree/master/0592-fraction-addition-and-subtraction) |
@@ -400,6 +404,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 ## Graph
 |  |
 | ------- |
+| [0399-evaluate-division](https://github.com/fchoi1/Leetcode/tree/master/0399-evaluate-division) |
 | [1325-path-with-maximum-probability](https://github.com/fchoi1/Leetcode/tree/master/1325-path-with-maximum-probability) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/fchoi1/Leetcode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1558-course-schedule-iv](https://github.com/fchoi1/Leetcode/tree/master/1558-course-schedule-iv) |
@@ -415,6 +420,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 ## Shortest Path
 |  |
 | ------- |
+| [0399-evaluate-division](https://github.com/fchoi1/Leetcode/tree/master/0399-evaluate-division) |
 | [1325-path-with-maximum-probability](https://github.com/fchoi1/Leetcode/tree/master/1325-path-with-maximum-probability) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/fchoi1/Leetcode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/fchoi1/Leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
@@ -552,6 +558,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 ## Union Find
 |  |
 | ------- |
+| [0399-evaluate-division](https://github.com/fchoi1/Leetcode/tree/master/0399-evaluate-division) |
 | [2793-count-the-number-of-complete-components](https://github.com/fchoi1/Leetcode/tree/master/2793-count-the-number-of-complete-components) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/fchoi1/Leetcode/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 ## Topological Sort
