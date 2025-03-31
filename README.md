@@ -23,6 +23,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [0334-increasing-triplet-subsequence](https://github.com/fchoi1/Leetcode/tree/master/0334-increasing-triplet-subsequence) |
 | [0407-trapping-rain-water-ii](https://github.com/fchoi1/Leetcode/tree/master/0407-trapping-rain-water-ii) |
 | [0463-island-perimeter](https://github.com/fchoi1/Leetcode/tree/master/0463-island-perimeter) |
+| [0621-task-scheduler](https://github.com/fchoi1/Leetcode/tree/master/0621-task-scheduler) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/fchoi1/Leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0717-1-bit-and-2-bit-characters](https://github.com/fchoi1/Leetcode/tree/master/0717-1-bit-and-2-bit-characters) |
 | [0859-design-circular-deque](https://github.com/fchoi1/Leetcode/tree/master/0859-design-circular-deque) |
@@ -191,6 +192,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | ------- |
 | [0264-ugly-number-ii](https://github.com/fchoi1/Leetcode/tree/master/0264-ugly-number-ii) |
 | [0407-trapping-rain-water-ii](https://github.com/fchoi1/Leetcode/tree/master/0407-trapping-rain-water-ii) |
+| [0621-task-scheduler](https://github.com/fchoi1/Leetcode/tree/master/0621-task-scheduler) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/fchoi1/Leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0778-reorganize-string](https://github.com/fchoi1/Leetcode/tree/master/0778-reorganize-string) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/fchoi1/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -277,6 +279,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [0264-ugly-number-ii](https://github.com/fchoi1/Leetcode/tree/master/0264-ugly-number-ii) |
 | [0432-all-oone-data-structure](https://github.com/fchoi1/Leetcode/tree/master/0432-all-oone-data-structure) |
 | [0567-permutation-in-string](https://github.com/fchoi1/Leetcode/tree/master/0567-permutation-in-string) |
+| [0621-task-scheduler](https://github.com/fchoi1/Leetcode/tree/master/0621-task-scheduler) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/fchoi1/Leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0768-partition-labels](https://github.com/fchoi1/Leetcode/tree/master/0768-partition-labels) |
 | [0778-reorganize-string](https://github.com/fchoi1/Leetcode/tree/master/0778-reorganize-string) |
@@ -410,6 +413,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 ## Counting
 |  |
 | ------- |
+| [0621-task-scheduler](https://github.com/fchoi1/Leetcode/tree/master/0621-task-scheduler) |
 | [0778-reorganize-string](https://github.com/fchoi1/Leetcode/tree/master/0778-reorganize-string) |
 | [1160-letter-tile-possibilities](https://github.com/fchoi1/Leetcode/tree/master/1160-letter-tile-possibilities) |
 | [1502-construct-k-palindrome-strings](https://github.com/fchoi1/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
@@ -470,6 +474,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 |  |
 | ------- |
 | [0334-increasing-triplet-subsequence](https://github.com/fchoi1/Leetcode/tree/master/0334-increasing-triplet-subsequence) |
+| [0621-task-scheduler](https://github.com/fchoi1/Leetcode/tree/master/0621-task-scheduler) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/fchoi1/Leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0670-maximum-swap](https://github.com/fchoi1/Leetcode/tree/master/0670-maximum-swap) |
 | [0768-partition-labels](https://github.com/fchoi1/Leetcode/tree/master/0768-partition-labels) |
@@ -487,6 +492,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 ## Sorting
 |  |
 | ------- |
+| [0621-task-scheduler](https://github.com/fchoi1/Leetcode/tree/master/0621-task-scheduler) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/fchoi1/Leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0778-reorganize-string](https://github.com/fchoi1/Leetcode/tree/master/0778-reorganize-string) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/fchoi1/Leetcode/tree/master/1468-check-if-n-and-its-double-exist) |
