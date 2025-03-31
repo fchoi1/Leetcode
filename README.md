@@ -189,6 +189,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [0264-ugly-number-ii](https://github.com/fchoi1/Leetcode/tree/master/0264-ugly-number-ii) |
 | [0407-trapping-rain-water-ii](https://github.com/fchoi1/Leetcode/tree/master/0407-trapping-rain-water-ii) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/fchoi1/Leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
+| [0778-reorganize-string](https://github.com/fchoi1/Leetcode/tree/master/0778-reorganize-string) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/fchoi1/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/fchoi1/Leetcode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1304-longest-happy-string](https://github.com/fchoi1/Leetcode/tree/master/1304-longest-happy-string) |
@@ -275,6 +276,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [0567-permutation-in-string](https://github.com/fchoi1/Leetcode/tree/master/0567-permutation-in-string) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/fchoi1/Leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0768-partition-labels](https://github.com/fchoi1/Leetcode/tree/master/0768-partition-labels) |
+| [0778-reorganize-string](https://github.com/fchoi1/Leetcode/tree/master/0778-reorganize-string) |
 | [0782-jewels-and-stones](https://github.com/fchoi1/Leetcode/tree/master/0782-jewels-and-stones) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/fchoi1/Leetcode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/fchoi1/Leetcode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
@@ -305,6 +307,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [0592-fraction-addition-and-subtraction](https://github.com/fchoi1/Leetcode/tree/master/0592-fraction-addition-and-subtraction) |
 | [0664-strange-printer](https://github.com/fchoi1/Leetcode/tree/master/0664-strange-printer) |
 | [0768-partition-labels](https://github.com/fchoi1/Leetcode/tree/master/0768-partition-labels) |
+| [0778-reorganize-string](https://github.com/fchoi1/Leetcode/tree/master/0778-reorganize-string) |
 | [0782-jewels-and-stones](https://github.com/fchoi1/Leetcode/tree/master/0782-jewels-and-stones) |
 | [0812-rotate-string](https://github.com/fchoi1/Leetcode/tree/master/0812-rotate-string) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/fchoi1/Leetcode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
@@ -403,6 +406,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 ## Counting
 |  |
 | ------- |
+| [0778-reorganize-string](https://github.com/fchoi1/Leetcode/tree/master/0778-reorganize-string) |
 | [1160-letter-tile-possibilities](https://github.com/fchoi1/Leetcode/tree/master/1160-letter-tile-possibilities) |
 | [1502-construct-k-palindrome-strings](https://github.com/fchoi1/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/fchoi1/Leetcode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
@@ -464,6 +468,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/fchoi1/Leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0670-maximum-swap](https://github.com/fchoi1/Leetcode/tree/master/0670-maximum-swap) |
 | [0768-partition-labels](https://github.com/fchoi1/Leetcode/tree/master/0768-partition-labels) |
+| [0778-reorganize-string](https://github.com/fchoi1/Leetcode/tree/master/0778-reorganize-string) |
 | [1304-longest-happy-string](https://github.com/fchoi1/Leetcode/tree/master/1304-longest-happy-string) |
 | [1502-construct-k-palindrome-strings](https://github.com/fchoi1/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/fchoi1/Leetcode/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
@@ -478,6 +483,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 |  |
 | ------- |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/fchoi1/Leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
+| [0778-reorganize-string](https://github.com/fchoi1/Leetcode/tree/master/0778-reorganize-string) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/fchoi1/Leetcode/tree/master/1468-check-if-n-and-its-double-exist) |
 | [2164-two-best-non-overlapping-events](https://github.com/fchoi1/Leetcode/tree/master/2164-two-best-non-overlapping-events) |
 | [2554-minimum-total-distance-traveled](https://github.com/fchoi1/Leetcode/tree/master/2554-minimum-total-distance-traveled) |
