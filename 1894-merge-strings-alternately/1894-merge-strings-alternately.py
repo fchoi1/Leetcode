@@ -1,15 +1,13 @@
-from collections import deque
-
 class Solution:
     def mergeAlternately(self, word1: str, word2: str) -> str:
-        newStr =  ''
+        i = j = 0
+        s = ''
+        while i < len(word1) or j < len(word2):
+            if i < len(word1):
+                s += word1[i]
+                i += 1
+            if j < len(word2):
+                s += word2[j]
+                j += 1
 
-        w1 =  deque(word1)
-        w2 =  deque(word2)
-        while w1 and w2:
-            newStr += w1.popleft() + w2.popleft()
-
-        newStr += "".join(w1) + "".join(w2)
-        return newStr
-
-        
+        return s
