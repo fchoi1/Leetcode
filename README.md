@@ -19,6 +19,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 ## Array
 |  |
 | ------- |
+| [0162-find-peak-element](https://github.com/fchoi1/Leetcode/tree/master/0162-find-peak-element) |
 | [0334-increasing-triplet-subsequence](https://github.com/fchoi1/Leetcode/tree/master/0334-increasing-triplet-subsequence) |
 | [0407-trapping-rain-water-ii](https://github.com/fchoi1/Leetcode/tree/master/0407-trapping-rain-water-ii) |
 | [0463-island-perimeter](https://github.com/fchoi1/Leetcode/tree/master/0463-island-perimeter) |
@@ -171,6 +172,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 ## Binary Search Tree
 |  |
 | ------- |
+| [0162-find-peak-element](https://github.com/fchoi1/Leetcode/tree/master/0162-find-peak-element) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/fchoi1/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/fchoi1/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/fchoi1/Leetcode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
