@@ -2,6 +2,7 @@ class Solution:
     def leastInterval(self, tasks: List[str], n: int) -> int:
         count = Counter(tasks)
         heap = [-freq for val, freq in count.items()]
+        heapify(heap)
         cycles = 0
         while heap:
             temp = []
