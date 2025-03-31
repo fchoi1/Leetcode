@@ -317,6 +317,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/fchoi1/Leetcode/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/fchoi1/Leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1807-partitioning-into-minimum-number-of-deci-binary-numbers](https://github.com/fchoi1/Leetcode/tree/master/1807-partitioning-into-minimum-number-of-deci-binary-numbers) |
+| [1894-merge-strings-alternately](https://github.com/fchoi1/Leetcode/tree/master/1894-merge-strings-alternately) |
 | [1923-sentence-similarity-iii](https://github.com/fchoi1/Leetcode/tree/master/1923-sentence-similarity-iii) |
 | [2190-count-common-words-with-one-occurrence](https://github.com/fchoi1/Leetcode/tree/master/2190-count-common-words-with-one-occurrence) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/fchoi1/Leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
@@ -434,6 +435,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [0567-permutation-in-string](https://github.com/fchoi1/Leetcode/tree/master/0567-permutation-in-string) |
 | [0768-partition-labels](https://github.com/fchoi1/Leetcode/tree/master/0768-partition-labels) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/fchoi1/Leetcode/tree/master/1468-check-if-n-and-its-double-exist) |
+| [1894-merge-strings-alternately](https://github.com/fchoi1/Leetcode/tree/master/1894-merge-strings-alternately) |
 | [1923-sentence-similarity-iii](https://github.com/fchoi1/Leetcode/tree/master/1923-sentence-similarity-iii) |
 | [1972-rotating-the-box](https://github.com/fchoi1/Leetcode/tree/master/1972-rotating-the-box) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/fchoi1/Leetcode/tree/master/2265-partition-array-according-to-given-pivot) |
