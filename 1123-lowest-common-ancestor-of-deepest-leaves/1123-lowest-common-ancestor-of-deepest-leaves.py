@@ -18,7 +18,6 @@ class Solution:
 
             left_lca, left_depth = isDeepest(node.left, d + 1) if node.left else (node, d)
             right_lca, right_depth = isDeepest(node.right, d + 1) if node.right else (node, d)
-            
 
             if left_depth == right_depth:
                 self.cache[(node,d)] = (node, left_depth)
