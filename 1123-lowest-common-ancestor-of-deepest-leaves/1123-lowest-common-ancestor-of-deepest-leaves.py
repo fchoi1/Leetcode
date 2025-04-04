@@ -11,7 +11,6 @@ class Solution:
 
         def isDeepest(node, d): # returns lca and depth
             if (node, d) in self.cache:
-                print("CACACACC")
                 return self.cache[(node,d)]
 
             if not node.left and not node.right:
