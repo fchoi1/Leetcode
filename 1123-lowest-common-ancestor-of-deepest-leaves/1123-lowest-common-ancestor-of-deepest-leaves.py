@@ -7,27 +7,27 @@
 class Solution:
     def lcaDeepestLeaves(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
 
-        self.depth = 0
-        self.lca = None
         self.cache = {}
 
-        def isDeepest(node, d):
-            if (node,d) in self.cache:
+        def isDeepest(node, d): # returns lca and depth
+            if (node, d) in self.cache:
+                print("CACACACC")
                 return self.cache[(node,d)]
 
-            if not node:
-                self.depth = max(self.depth, d)
-                return d  
+            if not node.left and not node.right:
+                return node, d
 
-            left = isDeepest(node.left, d + 1)
-            right = isDeepest(node.right, d + 1)
+            left_lca, left_depth = isDeepest(node.left, d + 1) if node.left else (node, d)
+            right_lca, right_depth = isDeepest(node.right, d + 1) if node.right else (node, d)
             
-            if left == right and left == self.depth:
-                self.lca = node
 
-            self.cache[(node,d)] = max(left, right)
+            if left_depth == right_depth:
+                self.cache[(node,d)] = (node, left_depth)
+            else:
+                self.cache[(node,d)] = (left_lca, left_depth) if left_depth > right_depth else (right_lca, right_depth)
+  
             return self.cache[(node,d)]
 
-        isDeepest(root,0)
-        return self.lca
+        lca, _ = isDeepest(root,0)
+        return lca
         
