@@ -63,6 +63,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [2169-simple-bank-system](https://github.com/fchoi1/Leetcode/tree/master/2169-simple-bank-system) |
 | [2190-count-common-words-with-one-occurrence](https://github.com/fchoi1/Leetcode/tree/master/2190-count-common-words-with-one-occurrence) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/fchoi1/Leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
+| [2227-sum-of-subarray-ranges](https://github.com/fchoi1/Leetcode/tree/master/2227-sum-of-subarray-ranges) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/fchoi1/Leetcode/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2308-divide-array-into-equal-pairs](https://github.com/fchoi1/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2411-spiral-matrix-iv](https://github.com/fchoi1/Leetcode/tree/master/2411-spiral-matrix-iv) |
@@ -403,6 +404,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [1197-parsing-a-boolean-expression](https://github.com/fchoi1/Leetcode/tree/master/1197-parsing-a-boolean-expression) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/fchoi1/Leetcode/tree/master/1497-design-a-stack-with-increment-operation) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/fchoi1/Leetcode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
+| [2227-sum-of-subarray-ranges](https://github.com/fchoi1/Leetcode/tree/master/2227-sum-of-subarray-ranges) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/fchoi1/Leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/fchoi1/Leetcode/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [3447-clear-digits](https://github.com/fchoi1/Leetcode/tree/master/3447-clear-digits) |
@@ -599,4 +601,8 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 |  |
 | ------- |
 | [0912-random-pick-with-weight](https://github.com/fchoi1/Leetcode/tree/master/0912-random-pick-with-weight) |
+## Monotonic Stack
+|  |
+| ------- |
+| [2227-sum-of-subarray-ranges](https://github.com/fchoi1/Leetcode/tree/master/2227-sum-of-subarray-ranges) |
 <!---LeetCode Topics End-->
