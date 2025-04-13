@@ -370,6 +370,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/fchoi1/Leetcode/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
 | [3194-find-words-containing-character](https://github.com/fchoi1/Leetcode/tree/master/3194-find-words-containing-character) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/fchoi1/Leetcode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
+| [3426-minimum-number-of-chairs-in-a-waiting-room](https://github.com/fchoi1/Leetcode/tree/master/3426-minimum-number-of-chairs-in-a-waiting-room) |
 | [3447-clear-digits](https://github.com/fchoi1/Leetcode/tree/master/3447-clear-digits) |
 | [3451-string-compression-iii](https://github.com/fchoi1/Leetcode/tree/master/3451-string-compression-iii) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/fchoi1/Leetcode/tree/master/3455-minimum-length-of-string-after-operations) |
@@ -397,6 +398,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [2411-spiral-matrix-iv](https://github.com/fchoi1/Leetcode/tree/master/2411-spiral-matrix-iv) |
 | [2551-apply-operations-to-an-array](https://github.com/fchoi1/Leetcode/tree/master/2551-apply-operations-to-an-array) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/fchoi1/Leetcode/tree/master/2800-minimum-string-length-after-removing-substrings) |
+| [3426-minimum-number-of-chairs-in-a-waiting-room](https://github.com/fchoi1/Leetcode/tree/master/3426-minimum-number-of-chairs-in-a-waiting-room) |
 | [3447-clear-digits](https://github.com/fchoi1/Leetcode/tree/master/3447-clear-digits) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/fchoi1/Leetcode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Stack
