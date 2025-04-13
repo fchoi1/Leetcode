@@ -250,6 +250,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [0670-maximum-swap](https://github.com/fchoi1/Leetcode/tree/master/0670-maximum-swap) |
 | [0912-random-pick-with-weight](https://github.com/fchoi1/Leetcode/tree/master/0912-random-pick-with-weight) |
 | [1240-stone-game-ii](https://github.com/fchoi1/Leetcode/tree/master/1240-stone-game-ii) |
+| [2050-count-good-numbers](https://github.com/fchoi1/Leetcode/tree/master/2050-count-good-numbers) |
 | [2448-count-number-of-bad-pairs](https://github.com/fchoi1/Leetcode/tree/master/2448-count-number-of-bad-pairs) |
 | [2556-convert-the-temperature](https://github.com/fchoi1/Leetcode/tree/master/2556-convert-the-temperature) |
 | [2610-closest-prime-numbers-in-range](https://github.com/fchoi1/Leetcode/tree/master/2610-closest-prime-numbers-in-range) |
@@ -543,6 +544,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | ------- |
 | [1197-parsing-a-boolean-expression](https://github.com/fchoi1/Leetcode/tree/master/1197-parsing-a-boolean-expression) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/fchoi1/Leetcode/tree/master/1667-find-kth-bit-in-nth-binary-string) |
+| [2050-count-good-numbers](https://github.com/fchoi1/Leetcode/tree/master/2050-count-good-numbers) |
 ## String Matching
 |  |
 | ------- |
