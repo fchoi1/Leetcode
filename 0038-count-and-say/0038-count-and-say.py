@@ -1,19 +1,17 @@
 class Solution:
     def countAndSay(self, n: int) -> str:
-        s = '1'
+        string = "1"
         for _ in range(n-1):
-
-            prev = s[0]
-            new = ''
+            new = ""
             count = 1
-            for char in s[1:]:
-                if char == prev:
+            prev = string[0]
+            for c in string[1:]:
+                if prev == c:
                     count += 1
                 else:
-                    new += f'{str(count)}{prev}'
+                    new += str(count) + prev
                     count = 1
-                prev = char
-            new += f'{str(count)}{prev}'
-            s = new
-        return s
-        
+                prev = c
+            new  += str(count) + prev
+            string = new
+        return string
