@@ -1,19 +1,19 @@
 class Solution:
     def countAndSay(self, n: int) -> str:
-        # memo
-        string = "1"
-
+        s = '1'
         for _ in range(n-1):
-            new = ""
+
+            prev = s[0]
+            new = ''
             count = 1
-            prev = string[0]
-            for c in string[1:]:
-                if prev == c:
+            for char in s[1:]:
+                if char == prev:
                     count += 1
                 else:
-                    new += str(count) + prev
+                    new += f'{str(count)}{prev}'
                     count = 1
-                prev = c
-            new  += str(count) + prev
-            string = new
-        return string
+                prev = char
+            new += f'{str(count)}{prev}'
+            s = new
+        return s
+        
