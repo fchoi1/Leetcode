@@ -339,6 +339,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 ## String
 |  |
 | ------- |
+| [0038-count-and-say](https://github.com/fchoi1/Leetcode/tree/master/0038-count-and-say) |
 | [0399-evaluate-division](https://github.com/fchoi1/Leetcode/tree/master/0399-evaluate-division) |
 | [0564-find-the-closest-palindrome](https://github.com/fchoi1/Leetcode/tree/master/0564-find-the-closest-palindrome) |
 | [0567-permutation-in-string](https://github.com/fchoi1/Leetcode/tree/master/0567-permutation-in-string) |
