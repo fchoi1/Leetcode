@@ -1,9 +1,7 @@
 class Solution:
     def numberOfArrays(self, differences: List[int], lower: int, upper: int) -> int:
 
-        maxVal = 0
-        minVal = 0
-        curr = 0
+        maxVal = minVal = curr = 0
         for d in differences:
             curr += d
             maxVal = max(maxVal, curr)
