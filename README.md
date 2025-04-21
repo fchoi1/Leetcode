@@ -66,6 +66,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [2190-count-common-words-with-one-occurrence](https://github.com/fchoi1/Leetcode/tree/master/2190-count-common-words-with-one-occurrence) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/fchoi1/Leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2227-sum-of-subarray-ranges](https://github.com/fchoi1/Leetcode/tree/master/2227-sum-of-subarray-ranges) |
+| [2249-count-the-hidden-sequences](https://github.com/fchoi1/Leetcode/tree/master/2249-count-the-hidden-sequences) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/fchoi1/Leetcode/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2308-divide-array-into-equal-pairs](https://github.com/fchoi1/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2411-spiral-matrix-iv](https://github.com/fchoi1/Leetcode/tree/master/2411-spiral-matrix-iv) |
@@ -294,6 +295,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [1537-maximum-score-after-splitting-a-string](https://github.com/fchoi1/Leetcode/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1940-maximum-xor-for-each-query](https://github.com/fchoi1/Leetcode/tree/master/1940-maximum-xor-for-each-query) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/fchoi1/Leetcode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
+| [2249-count-the-hidden-sequences](https://github.com/fchoi1/Leetcode/tree/master/2249-count-the-hidden-sequences) |
 | [2465-shifting-letters-ii](https://github.com/fchoi1/Leetcode/tree/master/2465-shifting-letters-ii) |
 | [3427-special-array-ii](https://github.com/fchoi1/Leetcode/tree/master/3427-special-array-ii) |
 | [3639-zero-array-transformation-i](https://github.com/fchoi1/Leetcode/tree/master/3639-zero-array-transformation-i) |
