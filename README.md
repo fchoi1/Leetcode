@@ -257,6 +257,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [0797-rabbits-in-forest](https://github.com/fchoi1/Leetcode/tree/master/0797-rabbits-in-forest) |
 | [0912-random-pick-with-weight](https://github.com/fchoi1/Leetcode/tree/master/0912-random-pick-with-weight) |
 | [1240-stone-game-ii](https://github.com/fchoi1/Leetcode/tree/master/1240-stone-game-ii) |
+| [1500-count-largest-group](https://github.com/fchoi1/Leetcode/tree/master/1500-count-largest-group) |
 | [2050-count-good-numbers](https://github.com/fchoi1/Leetcode/tree/master/2050-count-good-numbers) |
 | [2448-count-number-of-bad-pairs](https://github.com/fchoi1/Leetcode/tree/master/2448-count-number-of-bad-pairs) |
 | [2556-convert-the-temperature](https://github.com/fchoi1/Leetcode/tree/master/2556-convert-the-temperature) |
@@ -320,6 +321,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [1160-letter-tile-possibilities](https://github.com/fchoi1/Leetcode/tree/master/1160-letter-tile-possibilities) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/fchoi1/Leetcode/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1483-rank-teams-by-votes](https://github.com/fchoi1/Leetcode/tree/master/1483-rank-teams-by-votes) |
+| [1500-count-largest-group](https://github.com/fchoi1/Leetcode/tree/master/1500-count-largest-group) |
 | [1502-construct-k-palindrome-strings](https://github.com/fchoi1/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/fchoi1/Leetcode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/fchoi1/Leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
