@@ -14,9 +14,9 @@ class Solution:
             if (x,y) == (W-1, H-1):
                 return currTime + 1
 
-            if (x,y) in seen:
-                continue
-            seen.add((x,y))
+            # if (x,y) in seen:
+            #     continue
+            # seen.add((x,y))
 
             for dx, dy in [(0,1), (1,0), (-1,0), (0,-1)]:
                 nx = x + dx
