@@ -8,11 +8,9 @@ class Solution:
         seen = set()
         while heap:
             currTime, x, y = heapq.heappop(heap)
+            
             if (x,y) == (W-1, H-1):
                 return currTime
-
-            if (x,y) == (W-1, H-1):
-                return currTime + 1
 
             if (x,y) in seen:
                 continue
