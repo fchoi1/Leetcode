@@ -38,6 +38,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/fchoi1/Leetcode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/fchoi1/Leetcode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1240-stone-game-ii](https://github.com/fchoi1/Leetcode/tree/master/1240-stone-game-ii) |
+| [1293-three-consecutive-odds](https://github.com/fchoi1/Leetcode/tree/master/1293-three-consecutive-odds) |
 | [1325-path-with-maximum-probability](https://github.com/fchoi1/Leetcode/tree/master/1325-path-with-maximum-probability) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/fchoi1/Leetcode/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1483-rank-teams-by-votes](https://github.com/fchoi1/Leetcode/tree/master/1483-rank-teams-by-votes) |
