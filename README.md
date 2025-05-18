@@ -137,6 +137,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [2793-count-the-number-of-complete-components](https://github.com/fchoi1/Leetcode/tree/master/2793-count-the-number-of-complete-components) |
 | [3058-maximum-number-of-k-divisible-components](https://github.com/fchoi1/Leetcode/tree/master/3058-maximum-number-of-k-divisible-components) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/fchoi1/Leetcode/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
+| [3845-maximum-sum-of-edge-values-in-a-graph](https://github.com/fchoi1/Leetcode/tree/master/3845-maximum-sum-of-edge-values-in-a-graph) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -462,6 +463,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [2803-modify-graph-edge-weights](https://github.com/fchoi1/Leetcode/tree/master/2803-modify-graph-edge-weights) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/fchoi1/Leetcode/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/fchoi1/Leetcode/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
+| [3845-maximum-sum-of-edge-values-in-a-graph](https://github.com/fchoi1/Leetcode/tree/master/3845-maximum-sum-of-edge-values-in-a-graph) |
 ## Shortest Path
 |  |
 | ------- |
@@ -569,6 +571,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [2681-put-marbles-in-bags](https://github.com/fchoi1/Leetcode/tree/master/2681-put-marbles-in-bags) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/fchoi1/Leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/fchoi1/Leetcode/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
+| [3845-maximum-sum-of-edge-values-in-a-graph](https://github.com/fchoi1/Leetcode/tree/master/3845-maximum-sum-of-edge-values-in-a-graph) |
 ## Sorting
 |  |
 | ------- |
@@ -588,6 +591,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/fchoi1/Leetcode/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3291-find-if-array-can-be-sorted](https://github.com/fchoi1/Leetcode/tree/master/3291-find-if-array-can-be-sorted) |
 | [3430-count-days-without-meetings](https://github.com/fchoi1/Leetcode/tree/master/3430-count-days-without-meetings) |
+| [3845-maximum-sum-of-edge-values-in-a-graph](https://github.com/fchoi1/Leetcode/tree/master/3845-maximum-sum-of-edge-values-in-a-graph) |
 ## Recursion
 |  |
 | ------- |
