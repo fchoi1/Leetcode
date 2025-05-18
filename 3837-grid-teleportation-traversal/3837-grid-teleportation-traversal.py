@@ -15,7 +15,7 @@ class Solution:
         q = deque([(0,0,0)]) # cost, x,y , portal
 
         steps = 0
-        seen = {}
+        seen = set()
         used = set()
         while q:            
             cost,x,y = q.popleft()
@@ -23,13 +23,8 @@ class Solution:
 
             if (x,y) == (W-1, H-1):
                 return cost 
-                
-            if (x,y) in seen and seen[(x,y)] <= cost:
-                continue
-                
-            seen[(x,y)] = cost
 
-            if cell not in used:
+            if cell not in '#.' and cell not in used:
                 used.add(cell)
                 for (lx, ly) in portal[cell]:
                     if (lx, ly) == (W-1, H-1):
@@ -39,6 +34,10 @@ class Solution:
             for dx, dy in dir:
                 nx = x + dx
                 ny = y + dy
+                if (nx,ny) in seen:
+                    continue
+                    
+                seen.add((nx,ny))
                 if 0 <= nx < W and 0 <= ny < H and matrix[ny][nx] != '#':
                     q.append((cost + 1, nx, ny))
                 
