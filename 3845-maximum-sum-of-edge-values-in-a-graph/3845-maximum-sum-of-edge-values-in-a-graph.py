@@ -1,6 +1,6 @@
 class Solution:
     def maxScore(self, n: int, edges: List[List[int]]) -> int:
-
+        # O(NLogN+E)
         adj = defaultdict(set)
 
         for a,b in edges:
