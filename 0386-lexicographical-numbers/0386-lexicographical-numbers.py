@@ -2,7 +2,10 @@ class Solution:
     def lexicalOrder(self, n: int) -> List[int]:
         arr = []
         def append_num(arr, start, end):
+            
             for i in range(start,end):
+                if n < i:
+                    return
                 if n >= i:
                     arr.append(i)
                 if n >= i * 10:
