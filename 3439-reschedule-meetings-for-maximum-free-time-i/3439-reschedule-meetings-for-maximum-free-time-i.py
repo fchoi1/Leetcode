@@ -2,8 +2,7 @@ class Solution:
     def maxFreeTime(self, eventTime: int, k: int, startTime: List[int], endTime: List[int]) -> int:
 
         N = len(startTime)
-        prevE = 0
-        maxFree = 0
+        prevE = maxFree = 0
         for i in range(k + 1):
             if i >= N:
                 return maxFree + eventTime - prevE
@@ -12,15 +11,13 @@ class Solution:
             maxFree += s - prevE
             prevE = e
 
-
-        firstS = s
-        firstE = endTime[0]
         currFree = maxFree
         for i in range(k + 1, N + 1):
 
             firstS = startTime[i - k - 1]
             firstE = endTime[i - k - 2] if i - k - 2 >= 0 else 0
 
+            # End condition
             if i >= N:
                 currFree += eventTime - prevE
                 currFree -= firstS - firstE
@@ -30,9 +27,11 @@ class Solution:
         
             currFree -= firstS - firstE
             currFree += s - prevE
+            prevE = e
+
             maxFree = max(maxFree, currFree)
             
-            prevE = e
+
         # shouldn't reach ever
         return maxFree
 
