@@ -286,6 +286,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [0797-rabbits-in-forest](https://github.com/fchoi1/Leetcode/tree/master/0797-rabbits-in-forest) |
 | [0912-random-pick-with-weight](https://github.com/fchoi1/Leetcode/tree/master/0912-random-pick-with-weight) |
 | [1240-stone-game-ii](https://github.com/fchoi1/Leetcode/tree/master/1240-stone-game-ii) |
+| [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/fchoi1/Leetcode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1500-count-largest-group](https://github.com/fchoi1/Leetcode/tree/master/1500-count-largest-group) |
 | [2050-count-good-numbers](https://github.com/fchoi1/Leetcode/tree/master/2050-count-good-numbers) |
 | [2202-sum-of-k-mirror-numbers](https://github.com/fchoi1/Leetcode/tree/master/2202-sum-of-k-mirror-numbers) |
@@ -507,6 +508,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/fchoi1/Leetcode/tree/master/0082-remove-duplicates-from-sorted-list-ii) |
 | [0432-all-oone-data-structure](https://github.com/fchoi1/Leetcode/tree/master/0432-all-oone-data-structure) |
 | [0859-design-circular-deque](https://github.com/fchoi1/Leetcode/tree/master/0859-design-circular-deque) |
+| [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/fchoi1/Leetcode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1484-linked-list-in-binary-tree](https://github.com/fchoi1/Leetcode/tree/master/1484-linked-list-in-binary-tree) |
 | [2411-spiral-matrix-iv](https://github.com/fchoi1/Leetcode/tree/master/2411-spiral-matrix-iv) |
 ## Counting
