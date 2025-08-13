@@ -288,6 +288,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | ------- |
 | [0231-power-of-two](https://github.com/fchoi1/Leetcode/tree/master/0231-power-of-two) |
 | [0264-ugly-number-ii](https://github.com/fchoi1/Leetcode/tree/master/0264-ugly-number-ii) |
+| [0326-power-of-three](https://github.com/fchoi1/Leetcode/tree/master/0326-power-of-three) |
 | [0564-find-the-closest-palindrome](https://github.com/fchoi1/Leetcode/tree/master/0564-find-the-closest-palindrome) |
 | [0592-fraction-addition-and-subtraction](https://github.com/fchoi1/Leetcode/tree/master/0592-fraction-addition-and-subtraction) |
 | [0650-2-keys-keyboard](https://github.com/fchoi1/Leetcode/tree/master/0650-2-keys-keyboard) |
@@ -670,6 +671,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 |  |
 | ------- |
 | [0231-power-of-two](https://github.com/fchoi1/Leetcode/tree/master/0231-power-of-two) |
+| [0326-power-of-three](https://github.com/fchoi1/Leetcode/tree/master/0326-power-of-three) |
 | [1197-parsing-a-boolean-expression](https://github.com/fchoi1/Leetcode/tree/master/1197-parsing-a-boolean-expression) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/fchoi1/Leetcode/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [2050-count-good-numbers](https://github.com/fchoi1/Leetcode/tree/master/2050-count-good-numbers) |
