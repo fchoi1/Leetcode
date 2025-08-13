@@ -1,8 +1,8 @@
+
 class Solution:
     def isPowerOfThree(self, n: int) -> bool:
-        if n == 0:
+        if n <= 0:
             return False
-        while n % 3 == 0:
-            n //= 3
-        return n == 1
-        
+        log_val = math.log(n, 3)
+        print(log_val)
+        return math.isclose(log_val, round(log_val), rel_tol=1e-12)
