@@ -1,43 +1,62 @@
-from typing import List
-import itertools
-import operator
-
 class Solution:
     def judgePoint24(self, cards: List[int]) -> bool:
-        # Map symbols to actual operation functions
+
+        # brute force
+        # 4! = 4 * 3 * 2 * 1 = 24
+
+        # brackets for plus and minus order
+
+
+        # allocate symbols for  * + - /
+        # solve after
+
+        self.valid = False
+
+        def allocate(strOp):
+            if self.valid:
+                return
+            if len(strOp) == 3:
+                check(strOp)
+                return
+            
+            for sym in "*-/+":
+                allocate(strOp + sym)
+
+        
+        operations = [[0,1,2], [0,2,1], [1,0,2], [1,2,0], [2,1,0], [2,0,1]]
+       
         ops = {
             '+': operator.add,
             '-': operator.sub,
             '*': operator.mul,
-            '/': lambda a, b: a / b if abs(b) > 1e-6 else float('inf')  # handle div by zero
+            '/': operator.truediv  
         }
+        # Try all bracket placements for one permutation and one operator combo
+        def check(strOp):
+            for nums in itertools.permutations(cards):
+                a, b, c, d = nums
+                op1, op2, op3 = strOp[0], strOp[1], strOp[2]
 
-        # Try all the 5 valid parenthesis combinations
-        def try_all_expressions(a, b, c, d, op1, op2, op3):
-            try:
-                # ((a op1 b) op2 c) op3 d
-                if abs(ops[op3](ops[op2](ops[op1](a, b), c), d) - 24) < 1e-6:
-                    return True
-                # (a op1 (b op2 c)) op3 d
-                if abs(ops[op3](ops[op1](a, ops[op2](b, c)), d) - 24) < 1e-6:
-                    return True
-                # a op1 ((b op2 c) op3 d)
-                if abs(ops[op1](a, ops[op3](ops[op2](b, c), d)) - 24) < 1e-6:
-                    return True
-                # a op1 (b op2 (c op3 d))
-                if abs(ops[op1](a, ops[op2](b, ops[op3](c, d))) - 24) < 1e-6:
-                    return True
-                # (a op1 b) op2 (c op3 d)
-                if abs(ops[op2](ops[op1](a, b), ops[op3](c, d)) - 24) < 1e-6:
-                    return True
-            except ZeroDivisionError:
-                return False
-            return False
+                try:
+                    # ((a op1 b) op2 c) op3 d
+                    res1 = ops[op3](ops[op2](ops[op1](a, b), c), d)
+                    # (a op1 (b op2 c)) op3 d
+                    res2 = ops[op3](ops[op1](a, ops[op2](b, c)), d)
+                    # a op1 ((b op2 c) op3 d)
+                    res3 = ops[op1](a, ops[op3](ops[op2](b, c), d))
+                    # a op1 (b op2 (c op3 d))
+                    res4 = ops[op1](a, ops[op2](b, ops[op3](c, d)))
+                    # (a op1 b) op2 (c op3 d)
+                    res5 = ops[op2](ops[op1](a, b), ops[op3](c, d))
 
-        # Try every permutation of numbers and every combination of 3 operators
-        for nums in itertools.permutations(cards):
-            for ops_combo in itertools.product(['+', '-', '*', '/'], repeat=3):
-                if try_all_expressions(*nums, *ops_combo):
-                    return True
+                    for res in [res1, res2, res3, res4, res5]:
+                        if abs(res - 24) < 1e-6:
+                            self.valid = True
+                            return
+                except ZeroDivisionError:
+                    continue
 
-        return False
+        # Start generating operator combinations
+        allocate("")
+        return self.valid
+        
