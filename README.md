@@ -86,6 +86,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [2316-count-hills-and-valleys-in-an-array](https://github.com/fchoi1/Leetcode/tree/master/2316-count-hills-and-valleys-in-an-array) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/fchoi1/Leetcode/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2411-spiral-matrix-iv](https://github.com/fchoi1/Leetcode/tree/master/2411-spiral-matrix-iv) |
+| [2432-number-of-zero-filled-subarrays](https://github.com/fchoi1/Leetcode/tree/master/2432-number-of-zero-filled-subarrays) |
 | [2448-count-number-of-bad-pairs](https://github.com/fchoi1/Leetcode/tree/master/2448-count-number-of-bad-pairs) |
 | [2465-shifting-letters-ii](https://github.com/fchoi1/Leetcode/tree/master/2465-shifting-letters-ii) |
 | [2479-meeting-rooms-iii](https://github.com/fchoi1/Leetcode/tree/master/2479-meeting-rooms-iii) |
@@ -305,6 +306,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [1500-count-largest-group](https://github.com/fchoi1/Leetcode/tree/master/1500-count-largest-group) |
 | [2050-count-good-numbers](https://github.com/fchoi1/Leetcode/tree/master/2050-count-good-numbers) |
 | [2202-sum-of-k-mirror-numbers](https://github.com/fchoi1/Leetcode/tree/master/2202-sum-of-k-mirror-numbers) |
+| [2432-number-of-zero-filled-subarrays](https://github.com/fchoi1/Leetcode/tree/master/2432-number-of-zero-filled-subarrays) |
 | [2448-count-number-of-bad-pairs](https://github.com/fchoi1/Leetcode/tree/master/2448-count-number-of-bad-pairs) |
 | [2556-convert-the-temperature](https://github.com/fchoi1/Leetcode/tree/master/2556-convert-the-temperature) |
 | [2610-closest-prime-numbers-in-range](https://github.com/fchoi1/Leetcode/tree/master/2610-closest-prime-numbers-in-range) |
