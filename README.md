@@ -51,6 +51,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [1497-design-a-stack-with-increment-operation](https://github.com/fchoi1/Leetcode/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/fchoi1/Leetcode/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/fchoi1/Leetcode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
+| [1628-count-submatrices-with-all-ones](https://github.com/fchoi1/Leetcode/tree/master/1628-count-submatrices-with-all-ones) |
 | [1656-count-good-triplets](https://github.com/fchoi1/Leetcode/tree/master/1656-count-good-triplets) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/fchoi1/Leetcode/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1755-defuse-the-bomb](https://github.com/fchoi1/Leetcode/tree/master/1755-defuse-the-bomb) |
@@ -181,6 +182,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [0463-island-perimeter](https://github.com/fchoi1/Leetcode/tree/master/0463-island-perimeter) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/fchoi1/Leetcode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/fchoi1/Leetcode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [1628-count-submatrices-with-all-ones](https://github.com/fchoi1/Leetcode/tree/master/1628-count-submatrices-with-all-ones) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/fchoi1/Leetcode/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1972-rotating-the-box](https://github.com/fchoi1/Leetcode/tree/master/1972-rotating-the-box) |
 | [2089-maximum-matrix-sum](https://github.com/fchoi1/Leetcode/tree/master/2089-maximum-matrix-sum) |
@@ -329,6 +331,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [0867-new-21-game](https://github.com/fchoi1/Leetcode/tree/master/0867-new-21-game) |
 | [1025-minimum-cost-for-tickets](https://github.com/fchoi1/Leetcode/tree/master/1025-minimum-cost-for-tickets) |
 | [1240-stone-game-ii](https://github.com/fchoi1/Leetcode/tree/master/1240-stone-game-ii) |
+| [1628-count-submatrices-with-all-ones](https://github.com/fchoi1/Leetcode/tree/master/1628-count-submatrices-with-all-ones) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/fchoi1/Leetcode/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/fchoi1/Leetcode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/fchoi1/Leetcode/tree/master/1986-largest-color-value-in-a-directed-graph) |
@@ -499,6 +502,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [0776-n-ary-tree-postorder-traversal](https://github.com/fchoi1/Leetcode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [1197-parsing-a-boolean-expression](https://github.com/fchoi1/Leetcode/tree/master/1197-parsing-a-boolean-expression) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/fchoi1/Leetcode/tree/master/1497-design-a-stack-with-increment-operation) |
+| [1628-count-submatrices-with-all-ones](https://github.com/fchoi1/Leetcode/tree/master/1628-count-submatrices-with-all-ones) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/fchoi1/Leetcode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2227-sum-of-subarray-ranges](https://github.com/fchoi1/Leetcode/tree/master/2227-sum-of-subarray-ranges) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/fchoi1/Leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
@@ -757,6 +761,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 ## Monotonic Stack
 |  |
 | ------- |
+| [1628-count-submatrices-with-all-ones](https://github.com/fchoi1/Leetcode/tree/master/1628-count-submatrices-with-all-ones) |
 | [2227-sum-of-subarray-ranges](https://github.com/fchoi1/Leetcode/tree/master/2227-sum-of-subarray-ranges) |
 ## Combinatorics
 |  |
