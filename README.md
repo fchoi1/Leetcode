@@ -20,6 +20,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/fchoi1/Leetcode/tree/master/0036-valid-sudoku) |
+| [0037-sudoku-solver](https://github.com/fchoi1/Leetcode/tree/master/0037-sudoku-solver) |
 | [0075-sort-colors](https://github.com/fchoi1/Leetcode/tree/master/0075-sort-colors) |
 | [0162-find-peak-element](https://github.com/fchoi1/Leetcode/tree/master/0162-find-peak-element) |
 | [0334-increasing-triplet-subsequence](https://github.com/fchoi1/Leetcode/tree/master/0334-increasing-triplet-subsequence) |
@@ -184,6 +185,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/fchoi1/Leetcode/tree/master/0036-valid-sudoku) |
+| [0037-sudoku-solver](https://github.com/fchoi1/Leetcode/tree/master/0037-sudoku-solver) |
 | [0407-trapping-rain-water-ii](https://github.com/fchoi1/Leetcode/tree/master/0407-trapping-rain-water-ii) |
 | [0463-island-perimeter](https://github.com/fchoi1/Leetcode/tree/master/0463-island-perimeter) |
 | [0498-diagonal-traverse](https://github.com/fchoi1/Leetcode/tree/master/0498-diagonal-traverse) |
@@ -379,6 +381,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/fchoi1/Leetcode/tree/master/0036-valid-sudoku) |
+| [0037-sudoku-solver](https://github.com/fchoi1/Leetcode/tree/master/0037-sudoku-solver) |
 | [0264-ugly-number-ii](https://github.com/fchoi1/Leetcode/tree/master/0264-ugly-number-ii) |
 | [0347-top-k-frequent-elements](https://github.com/fchoi1/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0432-all-oone-data-structure](https://github.com/fchoi1/Leetcode/tree/master/0432-all-oone-data-structure) |
@@ -741,6 +744,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 ## Backtracking
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/fchoi1/Leetcode/tree/master/0037-sudoku-solver) |
 | [0679-24-game](https://github.com/fchoi1/Leetcode/tree/master/0679-24-game) |
 | [1160-letter-tile-possibilities](https://github.com/fchoi1/Leetcode/tree/master/1160-letter-tile-possibilities) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/fchoi1/Leetcode/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
