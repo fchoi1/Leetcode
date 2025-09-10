@@ -23,10 +23,10 @@ class Solution:
 
         # loop each language
         # start at friend
-        min_count = n
+        min_count = len(friendships)
         for i in range(1,n+1):
             count = 0
-            print("\n lang", i)
+            # print("\n lang", i)
             for curr in adj_map:
                 # for other in adj_map[curr]:
                 #     if i in lang[other] and i in lang[curr]:
@@ -36,7 +36,7 @@ class Solution:
                     count += 1
                     # elif i not in lang[other] and i not in lang[curr]:
                     #     count += 2
-                print("checking", curr, "count", count)
+            # print("checking", lang, "count", count)
             min_count = min(min_count, count)
                 
 
