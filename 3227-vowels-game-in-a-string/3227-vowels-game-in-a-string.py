@@ -3,7 +3,8 @@ class Solution:
         vowels = 'aeiou'
         total = 0
         for char in s:
-            total += (char in vowels)
+            if char == 'a' or char == 'e' or char == 'i' or char == 'o' or char == 'u':
+                total += 1
             
         starts_ends_with_vowel = s[0] in vowels or s[-1] in vowels
         has_consonants = len(s) - total > 0
