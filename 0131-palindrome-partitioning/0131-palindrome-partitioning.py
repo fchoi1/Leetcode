@@ -1,29 +1,22 @@
 class Solution:
     def partition(self, s: str) -> List[List[str]]:
+        res = []
+        part = []
 
-        # partiion
-        # backtrack
-
-        N = len(s)
-
-        # optimize?
         def isPali(string):
-            return string[::-1] == string
+            extra = (len(string) % 2 == 0) 
+            return string[:len(string) // 2] == string[len(string):len(string) // 2-extra:-1]
 
+        def backtrack(i):
 
-        partitions = []
-        def backtrack(index, parts):
-            if index >= N:
-                partitions.append(parts[::])
+            if i == len(s):
+                res.append(part[:])
                 return
-            
-            curr_str = ''
-            for i in range(index,N):
-                curr_str += s[i]
-                if isPali(curr_str):
-                    parts.append(curr_str)
-                    backtrack(i + 1, parts)
-                    parts.pop()
-
-        backtrack(0, [])
-        return partitions
+            for j in range(i, len(s)):
+                if isPali(s[i: j+1]):
+                    part.append(s[i:j+1])
+                    backtrack(j+1)
+                    part.pop()
+        
+        backtrack(0)
+        return res
