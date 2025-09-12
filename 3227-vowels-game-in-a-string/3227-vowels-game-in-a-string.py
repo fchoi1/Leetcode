@@ -1,24 +1,15 @@
 class Solution:
     def doesAliceWin(self, s: str) -> bool:
         vowels = 'aeiou'
-
-        counts = Counter(s)
         total = 0
-        for char in vowels:
-            total += counts[char]
-
-        
+        for char in s:
+            total += int(char in vowels)
+            
         starts_ends_with_vowel = s[0] in vowels or s[-1] in vowels
         has_consonants = len(s) - total > 0
 
         if total == 0:
             return False
+        return True
         
-        
-        if total % 2 == 1:
-            return True
-        else:
-            return True
-
-        # really only care about vowels
         
