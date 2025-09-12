@@ -6,9 +6,6 @@ class Solution:
             if char == 'a' or char == 'e' or char == 'i' or char == 'o' or char == 'u':
                 total += 1
             
-        starts_ends_with_vowel = s[0] in vowels or s[-1] in vowels
-        has_consonants = len(s) - total > 0
-
         if total == 0:
             return False
         return True
