@@ -12,10 +12,9 @@ class MovieRentingSystem:
 
     def search(self, movie: int) -> List[int]:
         heap = self.unrented[movie]
-        count = 0
         cheapest = []
         prev = None
-        while heap and count < 5:
+        while heap and len(cheapest) < 5:
             curr = heappop(heap)
             _, shop = curr
 
@@ -23,7 +22,6 @@ class MovieRentingSystem:
             if prev == curr or ((shop, movie) in self.prices and self.prices[(shop,movie)][1]):
                 continue
             cheapest.append(curr)
-            count += 1
             prev = curr
         
         for curr in cheapest:
@@ -51,17 +49,15 @@ class MovieRentingSystem:
         heappush(self.unrented[movie], (p, shop))
         
     def report(self) -> List[List[int]]:
-        count = 0
         cheapest = []
         prev = None
 
-        while self.rented and count < 5:
+        while self.rented and len(cheapest) < 5:
             curr = heappop(self.rented)
             _, shop, movie = curr
             if prev == curr or ((shop, movie) in self.prices and not self.prices[(shop,movie)][1]):
                 continue
             cheapest.append(curr)
-            count += 1
             prev = curr
         
         for curr in cheapest:
