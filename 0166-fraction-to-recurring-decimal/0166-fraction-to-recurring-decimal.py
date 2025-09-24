@@ -41,6 +41,5 @@ class Solution:
             idx += 1
 
         i = seen[dividend]
-
         return sign + str(a) + '.' + repeat[:i] + '(' + repeat[i:] + ')'
         
