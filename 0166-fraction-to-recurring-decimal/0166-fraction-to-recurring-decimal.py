@@ -1,33 +1,18 @@
-def trunc_divmod(a, b):
-    q = a // b    # truncate toward zero
-    r = abs(a - b * q)
-    return q, r
 
 class Solution:
     def fractionToDecimal(self, numerator: int, denominator: int) -> str:
-        a, b = trunc_divmod(numerator, denominator)
+        a, b = divmod(numerator, denominator)
         
         if b == 0:
             return str(a)
 
+        # Edge case negative
         sign = ''
         if a < 0:
             a = int(numerator/denominator)
             b = r = abs(numerator - denominator * a)
             sign = '-'
 
-        # 333/4
-        # 
-        # 0.01
-
-        # 400 - 333 = 67
-        # 670 - 666 = 4
-        # 40 -  =
-        # 40
-        # 
-
-        # 2 / 1
-        # 
 
         seen = {}
         repeat = ''
@@ -47,7 +32,7 @@ class Solution:
                 idx += 1
                 seen[dividend] = idx
       
-            q, remain = trunc_divmod(dividend, divisor)
+            q, remain = divmod(dividend, divisor)
             repeat += str(q)
 
             if remain == 0:
