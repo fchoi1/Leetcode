@@ -18,8 +18,8 @@ class Solution:
         repeat = ''
         divisor = abs(denominator) 
         dividend = abs(b * 10)
-        remain = 0
-        idx = 0
+        remain = idx = 0
+        
         while dividend not in seen:
             seen[dividend] = idx
             count = 0
