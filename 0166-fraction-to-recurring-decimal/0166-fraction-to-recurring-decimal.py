@@ -10,7 +10,7 @@ class Solution:
         sign = ''
         if a < 0:
             a = int(numerator/denominator)
-            b = r = abs(numerator - denominator * a)
+            b = abs(numerator - denominator * a)
             sign = '-'
 
 
@@ -19,7 +19,7 @@ class Solution:
         divisor = abs(denominator) 
         dividend = abs(b * 10)
         remain = idx = 0
-        
+
         while dividend not in seen:
             seen[dividend] = idx
             count = 0
