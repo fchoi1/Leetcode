@@ -1,12 +1,19 @@
 class Solution:
     def minimumTotal(self, triangle: List[List[int]]) -> int:
-
-        # dfs 
-        N = len(triangle)
-
-        @lru_cache
-        def dfs(index, row):
-            return triangle[row][index] + min( dfs(index, row + 1), dfs(index + 1, row + 1)) if row < N else 0
-       
-
-        return dfs(0,0)
+        prev = triangle[0]
+        minVal = prev[0]
+        for row in triangle[1:]:
+            temp = []
+            minVal = float('inf')
+            for i in range(len(row)):
+                if i == 0:
+                    val = prev[0] + row[i]
+                elif i >= len(prev):
+                    val = prev[-1] + row[i]
+                else:
+                    val = min(prev[i], prev[i-1]) + row[i]
+                minVal = min(minVal, val)
+                temp.append(val)
+            prev = temp
+            
+        return minVal
