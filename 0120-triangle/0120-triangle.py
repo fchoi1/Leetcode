@@ -2,24 +2,11 @@ class Solution:
     def minimumTotal(self, triangle: List[List[int]]) -> int:
 
         # dfs 
-        cache = {}
         N = len(triangle)
 
-        # get min, sum at node
+        @lru_cache
         def dfs(index, row):
-            if (index, row) in cache:
-               return cache[(index,row)]
+            return triangle[row][index] + min( dfs(index, row + 1), dfs(index + 1, row + 1)) if row < N else 0
+       
 
-            if row < N:
-                left = dfs(index, row + 1)
-                right = dfs(index + 1, row + 1)
-                
-                cache[(index, row)] = triangle[row][index] + min(left, right)
-                return cache[(index, row)]
-            else:
-                return 0
-
-    
-        
-        dfs(0,0)
-        return cache[(0,0)]
+        return dfs(0,0)
