@@ -331,6 +331,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [1440-convert-integer-to-the-sum-of-two-no-zero-integers](https://github.com/fchoi1/Leetcode/tree/master/1440-convert-integer-to-the-sum-of-two-no-zero-integers) |
 | [1448-maximum-69-number](https://github.com/fchoi1/Leetcode/tree/master/1448-maximum-69-number) |
 | [1500-count-largest-group](https://github.com/fchoi1/Leetcode/tree/master/1500-count-largest-group) |
+| [1642-water-bottles](https://github.com/fchoi1/Leetcode/tree/master/1642-water-bottles) |
 | [2050-count-good-numbers](https://github.com/fchoi1/Leetcode/tree/master/2050-count-good-numbers) |
 | [2202-sum-of-k-mirror-numbers](https://github.com/fchoi1/Leetcode/tree/master/2202-sum-of-k-mirror-numbers) |
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/fchoi1/Leetcode/tree/master/2307-replace-non-coprime-numbers-in-array) |
@@ -522,6 +523,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | ------- |
 | [0498-diagonal-traverse](https://github.com/fchoi1/Leetcode/tree/master/0498-diagonal-traverse) |
 | [0592-fraction-addition-and-subtraction](https://github.com/fchoi1/Leetcode/tree/master/0592-fraction-addition-and-subtraction) |
+| [1642-water-bottles](https://github.com/fchoi1/Leetcode/tree/master/1642-water-bottles) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/fchoi1/Leetcode/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/fchoi1/Leetcode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2048-build-array-from-permutation](https://github.com/fchoi1/Leetcode/tree/master/2048-build-array-from-permutation) |
