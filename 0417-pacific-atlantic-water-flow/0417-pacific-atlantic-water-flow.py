@@ -1,36 +1,43 @@
 class Solution:
     def pacificAtlantic(self, heights: List[List[int]]) -> List[List[int]]:
-        pacific = set()
-        alantic = set()
-        width = len(heights[0])
-        height = len(heights)
+        # dfs on each? 
+        # dp to track seen (pacific, atlantic)
 
-        def inBounds(x,y):
-            return 0 <= x < width and 0 <= y < height
+        cache = {}
+        both = []
 
-        def dfs(pos, seen, prevHieght):
-            x,y = pos
-            currHeight = heights[y][x]
-            if pos in seen or currHeight < prevHieght:
-                return
-            seen.add(pos)
-            for dx, dy in [[0,1],[1,0],[0,-1],[-1,0]]:
-                newX, newY = x + dx, y + dy
-                if inBounds(newX, newY):
-                    dfs((newX, newY), seen, currHeight)
+        W = len(heights[0])
+        H = len(heights)
+        p = []
+        # bfs 
 
-        for x in range(width):
-            dfs((x,0), pacific, 0)
-            dfs((x, height-1), alantic, 0)
+        def bfs(x,y,reach):
+            q = [(x,y)]
 
-        for y in range(height):
-            dfs((0,y), pacific, 0)
-            dfs((width-1, y), alantic, 0)
+            while q:
+                temp = []
+                for x,y in q:
+                    if (x,y) in reach:
+                        continue
+                    for dx, dy in [(0,1), (0,-1), (1,0), (-1,0)]:
+                        nx, ny = x + dx, y + dy
 
-        res = []
-        for y in range(height):
-            for x in range(width):
-                pos = (x, y)
-                if pos in alantic and pos in pacific:
-                    res.append([y,x])
-        return res
+                        if 0 <= nx < W and 0 <= ny < H:
+                            if heights[ny][nx] >= heights[y][x]:
+                                temp.append((nx, ny))
+                        reach.add((x,y))
+                q = temp
+        p = set()
+        a = set()
+        for x in range(W):
+            bfs(x,0,p)
+            bfs(x,H-1,a)
+        for y in range(H):
+            bfs(0,y,p)
+            bfs(W-1,y,a)
+
+        for y in range(H):
+            for x in range(W):
+                if (x,y) in p and (x,y) in a:
+                    both.append((y,x))
+        return both
