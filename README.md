@@ -148,6 +148,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/fchoi1/Leetcode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/fchoi1/Leetcode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/fchoi1/Leetcode/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
+| [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/fchoi1/Leetcode/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
 | [3639-zero-array-transformation-i](https://github.com/fchoi1/Leetcode/tree/master/3639-zero-array-transformation-i) |
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/fchoi1/Leetcode/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 | [3699-count-special-subsequences](https://github.com/fchoi1/Leetcode/tree/master/3699-count-special-subsequences) |
@@ -276,6 +277,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/fchoi1/Leetcode/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/fchoi1/Leetcode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3427-special-array-ii](https://github.com/fchoi1/Leetcode/tree/master/3427-special-array-ii) |
+| [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/fchoi1/Leetcode/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
 | [3827-implement-router](https://github.com/fchoi1/Leetcode/tree/master/3827-implement-router) |
 ## Heap (Priority Queue)
 |  |
