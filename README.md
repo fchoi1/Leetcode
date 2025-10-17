@@ -393,6 +393,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [2882-ways-to-express-an-integer-as-sum-of-powers](https://github.com/fchoi1/Leetcode/tree/master/2882-ways-to-express-an-integer-as-sum-of-powers) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/fchoi1/Leetcode/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/fchoi1/Leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
+| [3233-maximize-the-number-of-partitions-after-operations](https://github.com/fchoi1/Leetcode/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -521,6 +522,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/fchoi1/Leetcode/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/fchoi1/Leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3194-find-words-containing-character](https://github.com/fchoi1/Leetcode/tree/master/3194-find-words-containing-character) |
+| [3233-maximize-the-number-of-partitions-after-operations](https://github.com/fchoi1/Leetcode/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/fchoi1/Leetcode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3426-minimum-number-of-chairs-in-a-waiting-room](https://github.com/fchoi1/Leetcode/tree/master/3426-minimum-number-of-chairs-in-a-waiting-room) |
 | [3447-clear-digits](https://github.com/fchoi1/Leetcode/tree/master/3447-clear-digits) |
@@ -538,6 +540,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [1940-maximum-xor-for-each-query](https://github.com/fchoi1/Leetcode/tree/master/1940-maximum-xor-for-each-query) |
 | [2308-divide-array-into-equal-pairs](https://github.com/fchoi1/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2529-range-product-queries-of-powers](https://github.com/fchoi1/Leetcode/tree/master/2529-range-product-queries-of-powers) |
+| [3233-maximize-the-number-of-partitions-after-operations](https://github.com/fchoi1/Leetcode/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
 | [3291-find-if-array-can-be-sorted](https://github.com/fchoi1/Leetcode/tree/master/3291-find-if-array-can-be-sorted) |
 ## Simulation
 |  |
@@ -877,4 +880,8 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 |  |
 | ------- |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/fchoi1/Leetcode/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
+## Bitmask
+|  |
+| ------- |
+| [3233-maximize-the-number-of-partitions-after-operations](https://github.com/fchoi1/Leetcode/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
 <!---LeetCode Topics End-->
