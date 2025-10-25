@@ -352,6 +352,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [1448-maximum-69-number](https://github.com/fchoi1/Leetcode/tree/master/1448-maximum-69-number) |
 | [1500-count-largest-group](https://github.com/fchoi1/Leetcode/tree/master/1500-count-largest-group) |
 | [1642-water-bottles](https://github.com/fchoi1/Leetcode/tree/master/1642-water-bottles) |
+| [1817-calculate-money-in-leetcode-bank](https://github.com/fchoi1/Leetcode/tree/master/1817-calculate-money-in-leetcode-bank) |
 | [2050-count-good-numbers](https://github.com/fchoi1/Leetcode/tree/master/2050-count-good-numbers) |
 | [2202-sum-of-k-mirror-numbers](https://github.com/fchoi1/Leetcode/tree/master/2202-sum-of-k-mirror-numbers) |
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/fchoi1/Leetcode/tree/master/2307-replace-non-coprime-numbers-in-array) |
