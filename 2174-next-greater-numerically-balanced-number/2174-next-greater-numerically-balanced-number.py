@@ -5,7 +5,8 @@ class Solution:
         combos = []
         num_str = str(n)
         N = len(num_str)
-
+        
+        # Optimized permutation finding, in ascending order
         def getCombos(i,val,targetLen):
 
             if len(val) > targetLen:
@@ -27,6 +28,8 @@ class Solution:
 
         valid = inf
         for combo in combos:
+
+            # check if the largest possible permutation is valid first
             if n >= int(combo[::-1]):
                 continue
 
