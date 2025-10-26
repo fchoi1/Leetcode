@@ -9,10 +9,8 @@ class Bank:
             if not self.deposit(account2, money):
                 self.deposit(account1, money)
                 return False
-            else:
-                return True
-        else:
-            return False
+            return True
+        return False
         
     def deposit(self, account: int, money: int) -> bool:
         if not 0 <= account - 1 <= self.N:
