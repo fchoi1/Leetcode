@@ -1,10 +1,12 @@
 class Solution:
     def getSneakyNumbers(self, nums: List[int]) -> List[int]:
-        digits = [0] * len(nums)
-        sneaky = []
-        for n in nums:
-            digits[n] += 1
-            if digits[n] == 2:
-                sneaky.append(n)
-                if len(sneaky) == 2:
-                    return sneaky
+        N = len(nums)
+        i = 0
+        ans = []
+        while i < N:
+            target = nums[i]
+            if nums[i] != nums[target]:
+                nums[i], nums[target] = nums[target], nums[i]
+            else:
+                i += 1
+        return [nums[-1], nums[-2]]
