@@ -149,6 +149,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/fchoi1/Leetcode/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/fchoi1/Leetcode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/fchoi1/Leetcode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
+| [3581-the-two-sneaky-numbers-of-digitville](https://github.com/fchoi1/Leetcode/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/fchoi1/Leetcode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/fchoi1/Leetcode/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/fchoi1/Leetcode/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
@@ -374,6 +375,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3548-find-the-count-of-good-integers](https://github.com/fchoi1/Leetcode/tree/master/3548-find-the-count-of-good-integers) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/fchoi1/Leetcode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3567-convert-date-to-binary](https://github.com/fchoi1/Leetcode/tree/master/3567-convert-date-to-binary) |
+| [3581-the-two-sneaky-numbers-of-digitville](https://github.com/fchoi1/Leetcode/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/fchoi1/Leetcode/tree/master/3676-smallest-number-with-all-set-bits) |
 | [3699-count-special-subsequences](https://github.com/fchoi1/Leetcode/tree/master/3699-count-special-subsequences) |
 ## Dynamic Programming
@@ -484,6 +486,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3455-minimum-length-of-string-after-operations](https://github.com/fchoi1/Leetcode/tree/master/3455-minimum-length-of-string-after-operations) |
 | [3548-find-the-count-of-good-integers](https://github.com/fchoi1/Leetcode/tree/master/3548-find-the-count-of-good-integers) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/fchoi1/Leetcode/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
+| [3581-the-two-sneaky-numbers-of-digitville](https://github.com/fchoi1/Leetcode/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/fchoi1/Leetcode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 | [3699-count-special-subsequences](https://github.com/fchoi1/Leetcode/tree/master/3699-count-special-subsequences) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/fchoi1/Leetcode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
