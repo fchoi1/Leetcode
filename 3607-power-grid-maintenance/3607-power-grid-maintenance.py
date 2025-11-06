@@ -25,7 +25,6 @@ class Solution:
                 group = []
                 q = [i]
                 while q:
-                    print(q)
                     t = []
                     for node in q:
                         if node in stations:
@@ -41,8 +40,6 @@ class Solution:
                     q = t
                 groups.append(group)
         
-        print(groups)
-
         # process queries
         ans = []
         for a, s in queries:
