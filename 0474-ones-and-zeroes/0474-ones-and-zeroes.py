@@ -5,7 +5,7 @@ class Solution:
 
         for s in strs:
             zeros = s.count('0')
-            ones = len(s) - zeros
+            ones = s.count('1')
             if zeros > m or ones > n:
                 continue
 
