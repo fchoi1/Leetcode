@@ -14,16 +14,10 @@ class Solution:
                     factors.add(n // i)
             return factors
 
-        factors = None
-
+        curr_gcd = nums[0]
         for n in nums:
-            if factors == None:
-                factors = get_factors(n)
-            else:
-                factors &= get_factors(n)
-            print(n, get_factors(n))
-
-        if len(factors) > 1:
+            curr_gcd = math.gcd(curr_gcd, n)
+        if curr_gcd > 1:
             return -1
        
 
