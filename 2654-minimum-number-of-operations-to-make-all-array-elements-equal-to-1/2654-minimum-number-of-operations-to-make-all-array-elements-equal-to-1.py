@@ -26,15 +26,7 @@ class Solution:
         if len(factors) > 1:
             return -1
 
-        def is_prime(n):
-            if n <= 1:
-                return False 
-            
-            for i in range(2, int(math.sqrt(n)) + 1):
-                if n % i == 0:
-                    return False 
-            
-            return True 
+      
 
         def get_gcd(a, b):
             while b:
@@ -42,10 +34,8 @@ class Solution:
             return a
         
 
-        # look for prime gcd if possible which should have it
         ans = 0
         while True:
-            print("start", nums)
             for i in range(N - 1):
                 prev = nums[i]
                 curr = nums[i + 1]
@@ -61,8 +51,8 @@ class Solution:
 
             ans += 1
 
-        print("huh")
-        return N + ans
+        print("ERROR")
+        return -1
                 
 
             
