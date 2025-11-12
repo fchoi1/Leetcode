@@ -25,14 +25,7 @@ class Solution:
 
         if len(factors) > 1:
             return -1
-
-      
-
-        def get_gcd(a, b):
-            while b:
-                a, b = b, a % b
-            return a
-        
+       
 
         ans = 0
         while True:
@@ -40,7 +33,7 @@ class Solution:
                 prev = nums[i]
                 curr = nums[i + 1]
 
-                gcd = get_gcd(prev, curr)
+                gcd = math.gcd(prev, curr)
                 if prev == curr:
                     continue
    
