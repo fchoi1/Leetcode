@@ -2,7 +2,7 @@ class Solution:
     def rangeAddQueries(self, n: int, queries: List[List[int]]) -> List[List[int]]:
 
         mat = [[0 for _ in range(n)] for _ in range(n)]
-
+        
         for y1, x1, y2, x2 in queries:
             for y in range(y1, y2 + 1):
                 mat[y][x1] += 1
