@@ -1,11 +1,10 @@
 class Solution:
     def kLengthApart(self, nums: List[int], k: int) -> bool:
-        prev = None
-        for i, n in enumerate(nums):
-            if n:
-                if prev != None and i - prev <= k:
+        last = -k - 1
+        for i,n in enumerate(nums):
+            if n == 1:
+                if i - last <= k:
                     return False
-                prev = i
-        return True
-                
-        
+                last = i
+        return  True
+      
