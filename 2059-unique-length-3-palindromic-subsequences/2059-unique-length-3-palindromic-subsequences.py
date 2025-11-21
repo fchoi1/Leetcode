@@ -5,7 +5,6 @@ class Solution:
 
         def getCounts(char):
             found = False
-
             unique = set()
             count = 0
 
@@ -24,7 +23,6 @@ class Solution:
         # check unique letters between first and last occurence of a letter
         ans = 0
         for c in 'abcdefghijklmnopqrstuvwxyz':
-            count = getCounts(c)
-            ans += count  
+            ans += getCounts(c)  
 
         return ans
