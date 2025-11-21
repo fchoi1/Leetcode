@@ -1,20 +1,30 @@
 class Solution:
     def countPalindromicSubsequence(self, s: str) -> int:
-        pali = set()
+        # how many 3 letter palis are there?
+        # 26 * 26
 
-        # just need counts of dupes and in between>
-        counts = Counter(s)
-        print(counts)
+        def getCounts(char):
+            found = False
 
+            unique = set()
+            count = 0
 
-        pali = 0
+            for i in range(len(s)):
+                if s[i] == char:
+                    if not found:
+                        found = True
+                        continue
+                    count = len(unique)
 
-        for char, c in counts.items():
+                if found:
+                    unique.add(s[i])
 
-            if c < 2:
-                continue
-            start = s.index(char)
-            end = len(s) - s[::-1].index(char)
-            unique = set(s[start+1:end-1])
-            pali += len(unique)
-        return pali
+            return count
+
+        # check unique letters between first and last occurence of a letter
+        ans = 0
+        for c in 'abcdefghijklmnopqrstuvwxyz':
+            count = getCounts(c)
+            ans += count  
+
+        return ans
