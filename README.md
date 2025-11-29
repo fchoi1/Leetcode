@@ -165,6 +165,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/fchoi1/Leetcode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/fchoi1/Leetcode/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
 | [3827-implement-router](https://github.com/fchoi1/Leetcode/tree/master/3827-implement-router) |
+| [3846-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/fchoi1/Leetcode/tree/master/3846-minimum-operations-to-make-array-sum-divisible-by-k) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -386,6 +387,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/fchoi1/Leetcode/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/fchoi1/Leetcode/tree/master/3676-smallest-number-with-all-set-bits) |
 | [3699-count-special-subsequences](https://github.com/fchoi1/Leetcode/tree/master/3699-count-special-subsequences) |
+| [3846-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/fchoi1/Leetcode/tree/master/3846-minimum-operations-to-make-array-sum-divisible-by-k) |
 ## Dynamic Programming
 |  |
 | ------- |
