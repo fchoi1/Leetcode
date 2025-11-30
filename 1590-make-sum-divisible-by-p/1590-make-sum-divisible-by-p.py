@@ -1,16 +1,20 @@
 class Solution:
     def minSubarray(self, nums: List[int], p: int) -> int:
-        remainder = sum(nums) % p 
-        if remainder == 0:
+
+        target = sum(nums) % p
+        if target == 0:
             return 0
-        keys = {0: -1}
+
+        remain = {0:-1}
+        smallest = inf
         curr = 0
-        minLen = inf
+
         for i,n in enumerate(nums):
             curr += n
-            target = (curr % p - remainder) % p
-            if target in keys:
-                minLen = min(minLen, i - keys[target])
-            keys[curr % p] = i
+            r = curr % p
+            key = (r - target) % p
+            if key in remain:
+                smallest = min(smallest, i - remain[key])
+            remain[r] = i
 
-        return minLen if minLen < len(nums) else -1
+        return smallest if smallest < len(nums) else -1
