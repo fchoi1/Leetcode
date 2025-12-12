@@ -18,7 +18,6 @@ class Solution:
                     ids.append(int(k))
             return ids
 
-        print(events)
         for action, time, mention in events:
             t = int(time)
             checkOffline(time)
