@@ -6,11 +6,6 @@ class Solution:
         mentions = [0 for _ in range(numberOfUsers)]
         events.sort(key=lambda x: (int(x[1]), -ord(x[0][0])))
 
-        def checkOffline(time):
-            for k,v in status.items():
-                if int(time) >= v:
-                    status[k] = -1
-        
         def getOnline(time):
             ids = []
             for k,v in status.items():
@@ -20,7 +15,6 @@ class Solution:
 
         for action, time, mention in events:
             t = int(time)
-            checkOffline(time)
 
             if action == "OFFLINE":
                 status[mention] = t + 60
