@@ -1,53 +1,40 @@
 class Solution:
     def maxProfit(self, prices: List[int], strategy: List[int], k: int) -> int:
-        # sliding window
-        profit = 0
-        for p, s in zip(prices, strategy):
-            profit += s * p
+        
+        N = len(strategy)
 
-        # idx = 0
-        idx = 0
-        # hold
-        currProfit = profit
-        maxProfit = profit
-        # print('curr', profit)
-        while idx < k // 2:
-            p,s = prices[idx], strategy[idx]
+        maxProfit = profitTemp = 0
+        for i, (p,s) in enumerate(zip(prices, strategy)):
+            maxProfit += p * s
+            if i < k:
+                profitTemp += p * s
 
-            currProfit -= p * s
-            idx += 1
-
-        # sell
-        while idx < k:
-            p,s = prices[idx], strategy[idx]
-
-            if s == 0:
-                currProfit += p
-            elif s == -1:
-                currProfit += 2 * p
-            idx += 1
-
-        # print("forst", currProfit)
+        profit = sum(prices[k//2:k])
+        currProfit = maxProfit - profitTemp + profit
         maxProfit = max(maxProfit, currProfit)
 
-        for i in range(k, len(prices)):
-            prevP, prevS = prices[i - k], strategy[i - k]
-            halfP, halfS = prices[i - k//2], strategy[i - k//2]
+        # sliding window
+        for i in range(k, N):
             
-            currProfit += prevP * prevS
-            
-            currProfit -= halfP 
-          
-            
-            p,s = prices[i], strategy[i]
+            # add previous profit
+            currProfit += prices[i-k] * strategy[i-k]
 
-            if s == 0:
-                currProfit += p
-            elif s == -1:
-                currProfit += 2 * p
-                
-            # print("after",  currProfit, p, s, prevP * prevS, halfP * halfS)
+            # nullify curr
+            currProfit -= prices[i] * strategy[i]
+
+            # sell curr
+            currProfit += prices[i]
+
+            # hold mid
+            mid = i - k//2
+            currProfit -= prices[mid]
+
+
+            # print(currProfit, "prev",  prices[i-k] , strategy[i-k], "miod", mid,  prices[mid], "curr", i, prices[i] )
 
             maxProfit = max(maxProfit, currProfit)
+
             
+
+        
         return maxProfit
