@@ -15,10 +15,8 @@ class Solution:
             diag2 = grid[y+2][x] + grid[y + 1][x + 1] + grid[y][x + 2] != target
             if  diag1 or diag2 or seen != {1,2,3,4,5,6,7,8,9}:
                 return  False
-            
             return True
             
-
         rows = len(grid)
         cols = len(grid[0])
         
