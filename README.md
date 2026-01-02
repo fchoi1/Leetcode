@@ -45,6 +45,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/fchoi1/Leetcode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [0912-random-pick-with-weight](https://github.com/fchoi1/Leetcode/tree/master/0912-random-pick-with-weight) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/fchoi1/Leetcode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
+| [1001-n-repeated-element-in-size-2n-array](https://github.com/fchoi1/Leetcode/tree/master/1001-n-repeated-element-in-size-2n-array) |
 | [1006-vowel-spellchecker](https://github.com/fchoi1/Leetcode/tree/master/1006-vowel-spellchecker) |
 | [1025-minimum-cost-for-tickets](https://github.com/fchoi1/Leetcode/tree/master/1025-minimum-cost-for-tickets) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/fchoi1/Leetcode/tree/master/1049-minimum-domino-rotations-for-equal-row) |
@@ -457,6 +458,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [0833-bus-routes](https://github.com/fchoi1/Leetcode/tree/master/0833-bus-routes) |
 | [0900-reordered-power-of-2](https://github.com/fchoi1/Leetcode/tree/master/0900-reordered-power-of-2) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/fchoi1/Leetcode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
+| [1001-n-repeated-element-in-size-2n-array](https://github.com/fchoi1/Leetcode/tree/master/1001-n-repeated-element-in-size-2n-array) |
 | [1006-vowel-spellchecker](https://github.com/fchoi1/Leetcode/tree/master/1006-vowel-spellchecker) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/fchoi1/Leetcode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1160-letter-tile-possibilities](https://github.com/fchoi1/Leetcode/tree/master/1160-letter-tile-possibilities) |
