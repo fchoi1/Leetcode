@@ -400,6 +400,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [0867-new-21-game](https://github.com/fchoi1/Leetcode/tree/master/0867-new-21-game) |
 | [1025-minimum-cost-for-tickets](https://github.com/fchoi1/Leetcode/tree/master/1025-minimum-cost-for-tickets) |
 | [1240-stone-game-ii](https://github.com/fchoi1/Leetcode/tree/master/1240-stone-game-ii) |
+| [1527-number-of-ways-to-paint-n-3-grid](https://github.com/fchoi1/Leetcode/tree/master/1527-number-of-ways-to-paint-n-3-grid) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/fchoi1/Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1628-count-submatrices-with-all-ones](https://github.com/fchoi1/Leetcode/tree/master/1628-count-submatrices-with-all-ones) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/fchoi1/Leetcode/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
