@@ -22,6 +22,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [0011-container-with-most-water](https://github.com/fchoi1/Leetcode/tree/master/0011-container-with-most-water) |
 | [0036-valid-sudoku](https://github.com/fchoi1/Leetcode/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/fchoi1/Leetcode/tree/master/0037-sudoku-solver) |
+| [0051-n-queens](https://github.com/fchoi1/Leetcode/tree/master/0051-n-queens) |
 | [0075-sort-colors](https://github.com/fchoi1/Leetcode/tree/master/0075-sort-colors) |
 | [0162-find-peak-element](https://github.com/fchoi1/Leetcode/tree/master/0162-find-peak-element) |
 | [0334-increasing-triplet-subsequence](https://github.com/fchoi1/Leetcode/tree/master/0334-increasing-triplet-subsequence) |
@@ -866,6 +867,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/fchoi1/Leetcode/tree/master/0037-sudoku-solver) |
+| [0051-n-queens](https://github.com/fchoi1/Leetcode/tree/master/0051-n-queens) |
 | [0679-24-game](https://github.com/fchoi1/Leetcode/tree/master/0679-24-game) |
 | [1160-letter-tile-possibilities](https://github.com/fchoi1/Leetcode/tree/master/1160-letter-tile-possibilities) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/fchoi1/Leetcode/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
