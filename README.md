@@ -66,6 +66,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [1497-design-a-stack-with-increment-operation](https://github.com/fchoi1/Leetcode/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/fchoi1/Leetcode/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1569-max-dot-product-of-two-subsequences](https://github.com/fchoi1/Leetcode/tree/master/1569-max-dot-product-of-two-subsequences) |
+| [1580-shuffle-the-array](https://github.com/fchoi1/Leetcode/tree/master/1580-shuffle-the-array) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/fchoi1/Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/fchoi1/Leetcode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1628-count-submatrices-with-all-ones](https://github.com/fchoi1/Leetcode/tree/master/1628-count-submatrices-with-all-ones) |
