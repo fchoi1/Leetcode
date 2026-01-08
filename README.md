@@ -68,6 +68,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/fchoi1/Leetcode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/fchoi1/Leetcode/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/fchoi1/Leetcode/tree/master/1510-find-lucky-integer-in-an-array) |
+| [1552-build-an-array-with-stack-operations](https://github.com/fchoi1/Leetcode/tree/master/1552-build-an-array-with-stack-operations) |
 | [1569-max-dot-product-of-two-subsequences](https://github.com/fchoi1/Leetcode/tree/master/1569-max-dot-product-of-two-subsequences) |
 | [1580-shuffle-the-array](https://github.com/fchoi1/Leetcode/tree/master/1580-shuffle-the-array) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/fchoi1/Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
@@ -603,6 +604,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | ------- |
 | [0498-diagonal-traverse](https://github.com/fchoi1/Leetcode/tree/master/0498-diagonal-traverse) |
 | [0592-fraction-addition-and-subtraction](https://github.com/fchoi1/Leetcode/tree/master/0592-fraction-addition-and-subtraction) |
+| [1552-build-an-array-with-stack-operations](https://github.com/fchoi1/Leetcode/tree/master/1552-build-an-array-with-stack-operations) |
 | [1642-water-bottles](https://github.com/fchoi1/Leetcode/tree/master/1642-water-bottles) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/fchoi1/Leetcode/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/fchoi1/Leetcode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
@@ -629,6 +631,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [0776-n-ary-tree-postorder-traversal](https://github.com/fchoi1/Leetcode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [1197-parsing-a-boolean-expression](https://github.com/fchoi1/Leetcode/tree/master/1197-parsing-a-boolean-expression) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/fchoi1/Leetcode/tree/master/1497-design-a-stack-with-increment-operation) |
+| [1552-build-an-array-with-stack-operations](https://github.com/fchoi1/Leetcode/tree/master/1552-build-an-array-with-stack-operations) |
 | [1628-count-submatrices-with-all-ones](https://github.com/fchoi1/Leetcode/tree/master/1628-count-submatrices-with-all-ones) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/fchoi1/Leetcode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2227-sum-of-subarray-ranges](https://github.com/fchoi1/Leetcode/tree/master/2227-sum-of-subarray-ranges) |
