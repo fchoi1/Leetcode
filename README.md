@@ -65,6 +65,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/fchoi1/Leetcode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/fchoi1/Leetcode/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/fchoi1/Leetcode/tree/master/1510-find-lucky-integer-in-an-array) |
+| [1569-max-dot-product-of-two-subsequences](https://github.com/fchoi1/Leetcode/tree/master/1569-max-dot-product-of-two-subsequences) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/fchoi1/Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/fchoi1/Leetcode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1628-count-submatrices-with-all-ones](https://github.com/fchoi1/Leetcode/tree/master/1628-count-submatrices-with-all-ones) |
@@ -411,6 +412,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [1025-minimum-cost-for-tickets](https://github.com/fchoi1/Leetcode/tree/master/1025-minimum-cost-for-tickets) |
 | [1240-stone-game-ii](https://github.com/fchoi1/Leetcode/tree/master/1240-stone-game-ii) |
 | [1527-number-of-ways-to-paint-n-3-grid](https://github.com/fchoi1/Leetcode/tree/master/1527-number-of-ways-to-paint-n-3-grid) |
+| [1569-max-dot-product-of-two-subsequences](https://github.com/fchoi1/Leetcode/tree/master/1569-max-dot-product-of-two-subsequences) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/fchoi1/Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1628-count-submatrices-with-all-ones](https://github.com/fchoi1/Leetcode/tree/master/1628-count-submatrices-with-all-ones) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/fchoi1/Leetcode/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
