@@ -1,13 +1,9 @@
 class Solution:
     def timeRequiredToBuy(self, tickets: List[int], k: int) -> int:
-        # for vals < tickets[k] = time lese
+        target = tickets[k]
 
         time = 0
-        val = tickets[k]
-        for i, t in enumerate(tickets):
-            if i > k:
-                time += min(val-1, t)
-            else:
-                time += min(val, t)
-        # 24 24 5 24 24 24 24  8 
+        for i,t in enumerate(tickets):
+            time += min(t, target) if i <= k else min(t, target-1)
+            
         return time
