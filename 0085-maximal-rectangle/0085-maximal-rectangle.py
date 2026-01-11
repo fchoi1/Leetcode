@@ -1,6 +1,5 @@
 class Solution:
     def maximalRectangle(self, matrix: List[List[str]]) -> int:
-        # prefix sum
         W = len(matrix[0])
         H = len(matrix)
         prev = []
@@ -12,6 +11,8 @@ class Solution:
                 val = int(matrix[y][x])
                 if prev and val == 1:
                     val += prev[x]
+
+                # stack logic max Area
                 if stack and val < stack[-1][0]:
                     while stack and val < stack[-1][0]:
                         height, index = stack.pop()
@@ -23,14 +24,13 @@ class Solution:
                     stack.append((val, i))
                 row.append(val)
 
-
-            print(stack, row, maxArea, y)
+            # Empty Stack afterwards
             while stack:
                 height, index = stack.pop()
                 width = W - index
-                print("stack remain", height, width, index)
                 maxArea = max(maxArea, height* width)
-    
+            
+            # set prev row
             prev = row
 
         return maxArea
