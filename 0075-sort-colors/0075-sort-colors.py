@@ -3,15 +3,17 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        counts = Counter(nums)
-        zero = counts[0]
-        one = counts[1]
+        # 2 end 
+        # 0 start
+        zeroes = 0
 
-        for i in range(zero):
+        c = Counter(nums)
+        print(c)
+        for i in range(c[0]):
             nums[i] = 0
-        for i in range(zero, zero+one):
-            nums[i] = 1
-        for i in range(zero+one, len(nums)):
-            nums[i] = 2
-
         
+        for i in range(c[0], c[0] + c[1]):
+            nums[i] = 1
+        
+        for i in range(c[0] + c[1], len(nums)):
+            nums[i] = 2
