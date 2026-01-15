@@ -11,10 +11,8 @@ class Solution:
 
         for i, h in enumerate(heights):
             currPop = 0
-            print("\n")
             while stack and h > stack[-1][0]:
                 _, idx = stack.pop()
-                print('pop', idx, currPop)
                 currPop += 1
                 ans[idx] += 1
                 if stack:
@@ -24,9 +22,5 @@ class Solution:
             
         for i, (_, idx) in enumerate(stack[:-1]):
             ans[idx] += 1
-
-        print("end", stack)
-        print(ans)
-
 
         return ans
