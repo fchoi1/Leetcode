@@ -1,26 +1,32 @@
 class Solution:
     def canSeePersonsCount(self, heights: List[int]) -> List[int]:
-        # at each step we want to get the count of tallest values
-        # reverse?
 
-        arr = [0]
-        prev = heights[-1]
-        stack = [prev]
-        # heap  to track highest
-        for h in heights[:-1][::-1]:
-            seen = 0
-            if h > prev:
-                while stack and h > stack[-1]:
-                    stack.pop()
-                    seen += 1
-                if stack and prev != stack[-1]:
-                    seen += 1
-        
-            stack.append(h)
-            arr.append(max(seen, 1))
-            prev = h
+        # forwards then backwards pass
+
+        # start from lower - increasing
+
+        N = len(heights)
+        ans = [0 for _ in range(N)]
+        stack = [] # height, index        
+
+        for i, h in enumerate(heights):
+            currPop = 0
+            print("\n")
+            while stack and h > stack[-1][0]:
+                _, idx = stack.pop()
+                print('pop', idx, currPop)
+                currPop += 1
+                ans[idx] += 1
+                if stack:
+                    ans[stack[-1][1]] += 1
+                
+            stack.append((h,i))
             
-        return arr[::-1]
+        for i, (_, idx) in enumerate(stack[:-1]):
+            ans[idx] += 1
+
+        print("end", stack)
+        print(ans)
 
 
-
+        return ans
