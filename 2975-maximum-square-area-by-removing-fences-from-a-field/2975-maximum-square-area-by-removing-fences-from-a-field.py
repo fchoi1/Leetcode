@@ -1,16 +1,23 @@
 class Solution:
     def maximizeSquareArea(self, m: int, n: int, hFences: List[int], vFences: List[int]) -> int:
-        maxArea = -1
-        pairs = set()
-        hFences.extend([1,m]), vFences.extend([1,n])
-        hFences.sort(), vFences.sort()
-        for i, h1 in enumerate(hFences[:-1]):
+        # get the various lengths of the hFennces
+        hFences.sort()
+        vFences.sort()
+
+        hFences = [1] + hFences + [m]
+        vFences = [1] + vFences + [n]
+        
+
+        hLengths = set()
+        for i, h1 in enumerate(hFences):
             for h2 in hFences[i+1:]:
-                pairs.add(h2-h1)
-        for i, v1 in enumerate(vFences[:-1]):
+                hLengths.add(h2 - h1) 
+        
+        maxArea = -1
+        mod = 10 ** 9 + 7
+        for i, v1 in enumerate(vFences):
             for v2 in vFences[i+1:]:
-                if (v2-v1)in pairs:
-                    maxArea = max(maxArea,(v2-v1)**2)
-        if maxArea == -1:
-            return -1
-        return maxArea % (10**9 + 7)
+                if (v2 - v1) in hLengths:
+                    maxArea = max(maxArea, ((v2 - v1) ** 2))
+        
+        return -1 if maxArea == -1 else maxArea % mod 
