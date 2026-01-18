@@ -28,18 +28,10 @@ class Solution:
         W = len(grid[0])
         H = len(grid)
 
-        maxK = 1
-        
-
-        for n in range(1, min(W, H) + 1):
-            found = False
+        for n in range(min(W, H), 1, -1):
             for y in range(H - n + 1):
                 for x in range(W - n + 1):
                     if isMagic(x, y, n):
-                        maxK = n
-                        found = True
-                        break
-                if found:
-                    break
+                        return n
    
-        return maxK
+        return 1
