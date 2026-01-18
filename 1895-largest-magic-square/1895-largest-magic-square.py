@@ -30,14 +30,16 @@ class Solution:
 
         maxK = 1
         
+
         for n in range(1, min(W, H) + 1):
+            found = False
             for y in range(H - n + 1):
                 for x in range(W - n + 1):
-                    if isMagic(x,y,n):
+                    if isMagic(x, y, n):
                         maxK = n
-            #             break
-            #     else:
-            #         break
-            # else:
-            #     break
+                        found = True
+                        break
+                if found:
+                    break
+   
         return maxK
