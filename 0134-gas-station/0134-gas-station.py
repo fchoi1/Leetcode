@@ -18,13 +18,8 @@ class Solution:
         for i, (c, g) in enumerate(zip(cost, gas)):
             currCost += c
             currGas += g
-            print(i, currCost, currGas, (c,g), "ans", idx)
             if currCost > currGas:
-                # if g >= c:
-                #     idx = i
-                # else:
                 idx = i + 1
-
                 currCost = 0
                 currGas = 0
 
