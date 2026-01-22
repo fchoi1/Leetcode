@@ -1,11 +1,34 @@
 class Solution:
     def canCompleteCircuit(self, gas: List[int], cost: List[int]) -> int:
-        if sum(cost) > sum(gas):
+        
+        # check each station
+        # no
+
+
+        # gas = 15
+        # cost = 15
+        if sum(gas) < sum(cost):
             return -1
-        diff = station = 0
-        for i,(c, g)in enumerate(zip(cost, gas)):
-            diff += g - c
-            if diff < 0:
-                station = i + 1
-                diff = 0
-        return station
+        
+        # there should be a solution
+
+        currCost = 0
+        currGas = 0
+        idx = 0
+        for i, (c, g) in enumerate(zip(cost, gas)):
+            currCost += c
+            currGas += g
+            print(i, currCost, currGas, (c,g), "ans", idx)
+            if currCost > currGas:
+                # if g >= c:
+                #     idx = i
+                # else:
+                idx = i + 1
+
+                currCost = 0
+                currGas = 0
+
+        return idx 
+
+        # gas  1 2 3 4 5
+        # cost 5 4 3 2 1 
