@@ -1,22 +1,49 @@
 class Solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
-        L = 0
-        T = 0
-        R = len(matrix[0]) - 1
-        B = len(matrix) - 1
+        # top
+        # right 
+        # bottom 
+        # left
+        H = len(matrix)
+        W = len(matrix[0])
+ 
         res = []
-        while R >= L and B >= T:
-            # Top
-            res += matrix[T][L:R+1]
-            T += 1
-            # Right
-            res += [x[R] for x in matrix[T:B+1]]
-            R -= 1
-            # Bot
-            res += matrix[B][L:R+1][::-1]
-            B -= 1
-            # Left
-            res += [x[L] for x in matrix[T:B+1]][::-1]
-            L += 1
 
-        return res[: len(matrix[0]) *  len(matrix) ]
+        h_loops = (H + 1) // 2
+        w_loops = (W + 1) // 2
+        odd = H % 2 == 1
+        
+        print(h_loops, w_loops)
+        for l in range(max(h_loops, w_loops)):
+
+            if l < h_loops:
+                # top
+                for x in range(l, W - l):
+                    res.append(matrix[l][x])
+            
+            print(res, "top",1 + l, H - l)
+            if l < w_loops:
+                # right
+                for y in range(1 + l, H - l):
+                    res.append(matrix[y][-l-1])
+
+            print(res, "right",W - 2 - l,  l -1 )
+            if l < H - l - 1:
+                # bot
+                for x in range(W - 2 - l,  l - 1, -1):
+                    res.append(matrix[H - 1 - l][x])
+
+            print(res, "bot",H - 2 - l, l)
+            if l < W - l - 1:
+                # left
+                for y in range(H - 2 - l, l, -1):
+                    res.append(matrix[y][l])
+
+        # one more pass 
+        # print("odd")
+        # if odd:
+        #     for x in range(loops, W - loops):
+        #         res.append(matrix[loops][x])
+
+
+        return res
