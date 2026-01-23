@@ -26,6 +26,8 @@ class Solution:
             # construct heap
             heappush(heap, (prev + curr, i))
 
+        if len(remove) == 0:
+            return 0
 
         ops = 0
 
@@ -57,7 +59,7 @@ class Solution:
             nums[idx] = lowest
 
             #### Double linked list updates - The main complex logic
-            
+
             # Update/add prev idx to heap
             if prevIdx != None:
                 
