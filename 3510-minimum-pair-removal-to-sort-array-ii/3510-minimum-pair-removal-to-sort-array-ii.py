@@ -34,22 +34,16 @@ class Solution:
             # construct heap
             heappush(heap, (prev + curr, i))
 
-        if len(remove) == 0:
-            return 0
+        # if len(remove) == 0:
+        #     return 0
 
-        # print("linked", linked)
-        # print("heap", heap)
-        # print("remove", remove)
+
         ops = 0
         while heap and len(remove) > 0:
-            # print("\n in WHile: ")
-            # print("linked", linked)
-            # print("heap", heap)
-            # print("remove", remove)
-            # print("nums", nums)
-            # print("popped heap", heap)
+      
             lowest, idx = heappop(heap)
             prevIdx, nextIdx = linked[idx]
+
             # already removed
             if nums[idx] == None:
                 continue
