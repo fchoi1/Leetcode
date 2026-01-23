@@ -1,24 +1,16 @@
 class Solution:
     def minimumPairRemoval(self, nums: List[int]) -> int:
-        # heap + map?
-
-        # count index that needs to be removed/udpated
-
-        # store sums of i, i + 1 -> key: (i)  val = nums[i] + nums[i+1]
-        # store a map 
-
-        # use a map to store the next and prev index
-
-        # get lowest and we delete map[i + 1] 
-        # update map[i] with  lowest + nums[i + times update]
-        # push into heap
+      
 
 
         N = len(nums)
         linked = { N - 1: (N - 2, None) } # idx:  (prevIdx, currIdx)
-        heap = []
+
+        # note because we store left index, update the double linked list is different for prev and next
+        heap = [] # stores (sum, left index) -
         remove = set()
 
+        # Pre-process data structures
         for i, (prev, curr) in enumerate(zip(nums, nums[1:])):
 
             # construct linked
@@ -34,49 +26,57 @@ class Solution:
             # construct heap
             heappush(heap, (prev + curr, i))
 
-        # if len(remove) == 0:
-        #     return 0
-
 
         ops = 0
+
+        # We stop loop once we get rid of all index to remove
         while heap and len(remove) > 0:
       
             lowest, idx = heappop(heap)
             prevIdx, nextIdx = linked[idx]
 
-            # already removed
+
+            #### check if we should skip counting ops due to stale data
+
+            # already removed since None
             if nums[idx] == None:
                 continue
 
-            # check is entry is valid:
-            if nextIdx != None:
-                if lowest != nums[idx] + nums[nextIdx]:
-                    continue
-            else:
+            # check is entry is valid up to date values, or skip if its the last element
+            if (nextIdx != None and lowest != nums[idx] + nums[nextIdx]) or nextIdx == None:
                 continue
+       
 
+            # Update indexes to remove
             remove.discard(idx)
             
+            # increment ops 
             ops += 1
 
-            # update idx
+            # update new lowest value to idx in nums
             nums[idx] = lowest
 
-            # add new prev to heap
+            #### Double linked list updates - The main complex logic
+            
+            # Update/add prev idx to heap
             if prevIdx != None:
                 
                 # update prev link
                 prevPrevIdx, prevNextIdx = linked[prevIdx]
                 linked[prevIdx] = (prevPrevIdx, idx)
+
+                # Check if this idx needs to be removed
                 if nums[prevIdx] > lowest:
                     remove.add(prevIdx)
+                # discard from remove since its valid now
                 else:
                     remove.discard(prevIdx)
 
                 heappush(heap, (nums[prevIdx] + lowest, prevIdx))
             
+            # Update/add next idx to heap
             if nextIdx != None:
-                # remove nextIdx
+                # remove nextIdx from previous
                 nums[nextIdx] = None
                 remove.discard(nextIdx)
 
@@ -87,7 +87,8 @@ class Solution:
                 # update future link
                 if nextNextIdx != None:
                     linked[nextNextIdx] = (idx, linked[nextNextIdx][1])
-                
+
+                    # Check if idx needs to be removed
                     if lowest > nums[nextNextIdx]:
                         remove.add(idx)
 
