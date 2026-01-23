@@ -1,8 +1,6 @@
 class Solution:
     def minimumPairRemoval(self, nums: List[int]) -> int:
       
-
-
         N = len(nums)
         linked = { N - 1: (N - 2, None) } # idx:  (prevIdx, currIdx)
 
@@ -25,9 +23,6 @@ class Solution:
 
             # construct heap
             heappush(heap, (prev + curr, i))
-
-        if len(remove) == 0:
-            return 0
 
         ops = 0
 
