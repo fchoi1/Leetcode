@@ -9,24 +9,25 @@ class Solution:
         
         costCache = {}
         
-        # @cache
         def getMinCost(source, target):
             if (source, target) in costCache:
                 return costCache[(source, target)]
+                
             heap = [(0, source)] # cost ,node
-
             seen = {}
+
             while heap:
                 cost, node = heappop(heap)
 
-                if node == target:
-                    return cost
                 
                 if node in seen and seen[node] <= cost:
                     continue
 
-                seen[node] = cost
                 costCache[(source, node)] = cost
+                seen[node] = cost
+
+                if node == target:
+                    return cost
 
                 for nextNode, nextCost in adjMap[node].items():
                     heappush(heap, (cost + nextCost, nextNode))
