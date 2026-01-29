@@ -9,8 +9,10 @@ class Solution:
         
         costCache = {}
         
-        @cache
+        # @cache
         def getMinCost(source, target):
+            if (source, target) in costCache:
+                return costCache[(source, target)]
             heap = [(0, source)] # cost ,node
 
             seen = {}
