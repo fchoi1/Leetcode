@@ -7,8 +7,9 @@ class Solution:
             adjMap[a][b] = min(adjMap[a].get(b,inf), w)
 
         
-        cache = {}
+        costCache = {}
         
+        @cache
         def getMinCost(source, target):
             heap = [(0, source)] # cost ,node
 
@@ -23,7 +24,7 @@ class Solution:
                     continue
 
                 seen[node] = cost
-                cache[(source, node)] = cost
+                costCache[(source, node)] = cost
 
                 for nextNode, nextCost in adjMap[node].items():
                     heappush(heap, (cost + nextCost, nextNode))
@@ -35,9 +36,7 @@ class Solution:
         for curr, new in zip(source, target):
             if curr == new:
                 continue
-            currCost = cache.get((curr,new), getMinCost(curr,new))
-            # currCost = getMinCost(curr, new)
-            print("\n\n",curr, new, "cost", currCost)
+            currCost = costCache.get((curr,new), getMinCost(curr,new))
 
             if currCost == -1:
                 return -1
