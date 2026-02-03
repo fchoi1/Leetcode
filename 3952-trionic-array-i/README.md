@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/trionic-array-i/?envType=daily-question&envId=2026-02-03">3952. Trionic Array I</a></h2><h3>Easy</h3><hr><p data-end="128" data-start="0">You are given an integer array <code data-end="37" data-start="31">nums</code> of length <code data-end="51" data-start="48">n</code>.</p>
+<h2><a href="https://leetcode.com/problems/trionic-array-i">3952. Trionic Array I</a></h2><h3>Easy</h3><hr><p data-end="128" data-start="0">You are given an integer array <code data-end="37" data-start="31">nums</code> of length <code data-end="51" data-start="48">n</code>.</p>
 
 <p data-end="128" data-start="0">An array is <strong data-end="76" data-start="65">trionic</strong> if there exist indices <code data-end="117" data-start="100">0 &lt; p &lt; q &lt; n &minus; 1</code> such that:</p>
 
