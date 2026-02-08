@@ -10,18 +10,18 @@ class Solution:
         
         self.isBalanced = True
         @cache
-        def checkDepth(node, depth):
+        def checkDepth(node):
             if not node:
-                return depth
-            left = checkDepth(node.left, depth + 1)
-            right = checkDepth(node.right, depth + 1)
+                return 0
+            left = checkDepth(node.left)
+            right = checkDepth(node.right)
 
             if abs(right - left) > 1:
                 self.isBalanced = False
 
-            return max(left, right)
+            return 1 + max(left, right)
         
-        checkDepth(root, 0)
+        checkDepth(root)
 
         return self.isBalanced
             
