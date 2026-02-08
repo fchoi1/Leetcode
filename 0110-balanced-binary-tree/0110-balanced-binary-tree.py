@@ -4,25 +4,23 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+
 class Solution:
     def isBalanced(self, root: Optional[TreeNode]) -> bool:
         
+        if not root:
+            return True
         
-        self.isBalanced = True
-        def checkDepth(node, depth):
-            if not node:
-                return depth
-            left = checkDepth(node.left, depth + 1)
-            right = checkDepth(node.right, depth + 1)
-
-            if abs(right - left) > 1:
-                self.isBalanced = False
-
-            return max(left, right)
+        nodeBalanced = abs(self.maxDepth(root.left) - self.maxDepth(root.right)) < 2
         
-        checkDepth(root, 0)
-
-        return self.isBalanced
-            
-
+        if nodeBalanced:
+            return self.isBalanced(root.left) and self.isBalanced(root.right)
+        else:
+            return False
+        
+    def maxDepth(self, root):
+        if not root:
+            return 0
+        
+        return max(self.maxDepth(root.left), self.maxDepth(root.right)) + 1
         
