@@ -4,35 +4,38 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+
 class Solution:
-    def balanceBST(self, root: TreeNode) -> TreeNode:
+    def balanceBST(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
 
-        # get median
-
+        # traverse until middle
         self.arr = []
         def traverse(node):
             if not node:
-                return
+                return            
             traverse(node.left)
             self.arr.append(node.val)
             traverse(node.right)
+        
 
-        def createBST(arr):
+
+        def buildTree(arr, parent, isLeft):
             if not arr:
-                return None
-    
+                return parent
             mid = len(arr) // 2
-            val = arr[mid]
-            node = TreeNode(val)
-            if len(arr) == 1:
-                return node
-            node.left = createBST(arr[:mid])
-            node.right = createBST(arr[mid+1:])
+            node = TreeNode(arr[mid])
+            if parent:
+                if isLeft:
+                    parent.left = node
+                else:
+                    parent.right = node
+
+            buildTree(arr[:mid], node, True)
+            buildTree(arr[mid + 1:], node, False)
             return node
 
+
         traverse(root)
-        newRoot = createBST(self.arr)
-        return newRoot
+        root = buildTree(self.arr, None, None)
 
-
-        
+        return root
