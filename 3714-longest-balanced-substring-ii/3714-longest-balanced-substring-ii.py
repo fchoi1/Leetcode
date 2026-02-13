@@ -13,10 +13,12 @@ class Solution:
         prefix =    {(0,0):-1} # diff a, diff b, diff c
         single_b =  {(0,0):-1} # diff, count of b
         single_c =  {(0,0):-1} # diff, count of c
-        single_a =  {(0,0):-1}
+        single_a =  {(0,0):-1} # diff, count of a
+
+        maps = [prefix, single_a, single_b, single_c]
 
         curr =      {'a': 0, 'b': 0, 'c': 0}
-        longest = 1
+        longest =   0
 
         prev_char = None
 
@@ -28,37 +30,21 @@ class Solution:
             diff_ac = curr['a'] - curr['c']
             diff_bc = curr['b'] - curr['c']
 
-            key = (diff_ab, diff_ac)
-            key_b = (diff_ab, curr['c'])
-            key_c = (diff_ac, curr['b'])
-            key_a = (diff_bc, curr['a'])
+            keys = [(diff_ab, diff_ac),  (diff_bc, curr['a']),  (diff_ab, curr['c']), (diff_ac, curr['b'])]
 
-            if key_a in single_a:
-                longest = max(longest, i - single_a[key_a])
-            else:
-                single_a[key_a] = i
-
-            if key_b in single_b:
-                longest = max(longest, i - single_b[key_b])
-            else:
-                single_b[key_b] = i
-
-            if key_c in single_c:
-                longest = max(longest, i - single_c[key_c])
-            else:
-                single_c[key_c] = i
-
-            if key not in prefix:
-                prefix[key] = i
-            else:
-                longest = max(longest, i - prefix[key])
-
+            for k, prefix in zip(keys, maps):
+                if k not in prefix:
+                    prefix[k] = i
+                else:
+                    longest = max(longest, i - prefix[k])
+ 
+            # repeating case
             if prev_char is not None and prev_char == char:
                 same += 1
-                longest = max(longest, same)
             else:
                 same = 1
                 
+            longest = max(longest, same)
             prev_char = char
      
         
