@@ -18,7 +18,7 @@ class Solution:
         maps = [prefix, single_a, single_b, single_c]
 
         curr =      {'a': 0, 'b': 0, 'c': 0}
-        longest =   0
+        longest =   1
 
         prev_char = None
 
@@ -41,10 +41,10 @@ class Solution:
             # repeating case
             if prev_char is not None and prev_char == char:
                 same += 1
+                longest = max(longest, same)
             else:
                 same = 1
                 
-            longest = max(longest, same)
             prev_char = char
      
         
