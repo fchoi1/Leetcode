@@ -9,9 +9,10 @@ class Solution:
         remain = [max(0, poured - 1) / 2] # cup pouring to next level
         for row in range(query_row):
             new = []
+            remain.append(remain[-1])
 
             for i,r in enumerate(remain):
-                if i == 0:
+                if i == 0 or i == len(remain) - 1:
                     total = r
                 else:
                     total = remain[i - 1] + r
@@ -24,9 +25,9 @@ class Solution:
                 else:
                     new.append(0)
 
-            if row + 1 == query_row and len(remain) == query_glass:
-                return min(1, remain[-1])
-            new.append((remain[-1] - 1) / 2 if remain[-1] > 1 else 0)
+            # if row + 1 == query_row and len(remain) == query_glass:
+            #     return min(1, remain[-1])
+            # new.append((remain[-1] - 1) / 2 if remain[-1] > 1 else 0)
             remain = new
             row += 1
 
