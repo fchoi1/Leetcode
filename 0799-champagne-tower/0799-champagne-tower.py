@@ -20,14 +20,8 @@ class Solution:
                 if row + 1 == query_row and i == query_glass:
                     return min(1, total)
                 
-                if total > 1:
-                    new.append((total - 1) / 2)
-                else:
-                    new.append(0)
-
-            # if row + 1 == query_row and len(remain) == query_glass:
-            #     return min(1, remain[-1])
-            # new.append((remain[-1] - 1) / 2 if remain[-1] > 1 else 0)
+                new.append((total - 1) / 2 if  total > 1 else 0)
+            
             remain = new
             row += 1
 
