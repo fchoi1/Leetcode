@@ -1,9 +1,6 @@
 class Solution:
     def countBinarySubstrings(self, s: str) -> int:
-        # 1100
-        # 0101
-        # 0011
-    
+
         ones = 1 if s[0] == '1' else 0
         zeros = 1 if s[0] == '0' else 0
         pairs = 0
