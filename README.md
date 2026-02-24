@@ -197,6 +197,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [0776-n-ary-tree-postorder-traversal](https://github.com/fchoi1/Leetcode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0794-swim-in-rising-water](https://github.com/fchoi1/Leetcode/tree/master/0794-swim-in-rising-water) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/fchoi1/Leetcode/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
+| [1079-sum-of-root-to-leaf-binary-numbers](https://github.com/fchoi1/Leetcode/tree/master/1079-sum-of-root-to-leaf-binary-numbers) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/fchoi1/Leetcode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/fchoi1/Leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1465-maximum-product-of-splitted-binary-tree](https://github.com/fchoi1/Leetcode/tree/master/1465-maximum-product-of-splitted-binary-tree) |
@@ -273,6 +274,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [0789-kth-largest-element-in-a-stream](https://github.com/fchoi1/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/fchoi1/Leetcode/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/fchoi1/Leetcode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
+| [1079-sum-of-root-to-leaf-binary-numbers](https://github.com/fchoi1/Leetcode/tree/master/1079-sum-of-root-to-leaf-binary-numbers) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/fchoi1/Leetcode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/fchoi1/Leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1465-maximum-product-of-splitted-binary-tree](https://github.com/fchoi1/Leetcode/tree/master/1465-maximum-product-of-splitted-binary-tree) |
@@ -359,6 +361,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [0789-kth-largest-element-in-a-stream](https://github.com/fchoi1/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/fchoi1/Leetcode/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/fchoi1/Leetcode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
+| [1079-sum-of-root-to-leaf-binary-numbers](https://github.com/fchoi1/Leetcode/tree/master/1079-sum-of-root-to-leaf-binary-numbers) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/fchoi1/Leetcode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/fchoi1/Leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1465-maximum-product-of-splitted-binary-tree](https://github.com/fchoi1/Leetcode/tree/master/1465-maximum-product-of-splitted-binary-tree) |
