@@ -580,6 +580,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/fchoi1/Leetcode/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1483-rank-teams-by-votes](https://github.com/fchoi1/Leetcode/tree/master/1483-rank-teams-by-votes) |
 | [1502-construct-k-palindrome-strings](https://github.com/fchoi1/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
+| [1520-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/fchoi1/Leetcode/tree/master/1520-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/fchoi1/Leetcode/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/fchoi1/Leetcode/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/fchoi1/Leetcode/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
@@ -623,6 +624,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [0899-binary-gap](https://github.com/fchoi1/Leetcode/tree/master/0899-binary-gap) |
 | [1071-binary-prefix-divisible-by-5](https://github.com/fchoi1/Leetcode/tree/master/1071-binary-prefix-divisible-by-5) |
 | [1458-sort-integers-by-the-number-of-1-bits](https://github.com/fchoi1/Leetcode/tree/master/1458-sort-integers-by-the-number-of-1-bits) |
+| [1520-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/fchoi1/Leetcode/tree/master/1520-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/fchoi1/Leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1940-maximum-xor-for-each-query](https://github.com/fchoi1/Leetcode/tree/master/1940-maximum-xor-for-each-query) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/fchoi1/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
@@ -636,6 +638,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | ------- |
 | [0498-diagonal-traverse](https://github.com/fchoi1/Leetcode/tree/master/0498-diagonal-traverse) |
 | [0592-fraction-addition-and-subtraction](https://github.com/fchoi1/Leetcode/tree/master/0592-fraction-addition-and-subtraction) |
+| [1520-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/fchoi1/Leetcode/tree/master/1520-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
 | [1552-build-an-array-with-stack-operations](https://github.com/fchoi1/Leetcode/tree/master/1552-build-an-array-with-stack-operations) |
 | [1642-water-bottles](https://github.com/fchoi1/Leetcode/tree/master/1642-water-bottles) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/fchoi1/Leetcode/tree/master/1667-find-kth-bit-in-nth-binary-string) |
