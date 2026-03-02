@@ -37,10 +37,10 @@ class Solution:
                 print("ERR")
                 return -1
             
-            swap += (target - idx)
-            # arr = arr[:idx] + arr[target:target + 1] + arr[idx:target] + arr[target + 1:]
+            # swap += (target - idx)
             for i in range(target, idx, -1):
                 arr[i], arr[i-1] = arr[i-1], arr[i]
+                swap += 1
 
 
         return swap
