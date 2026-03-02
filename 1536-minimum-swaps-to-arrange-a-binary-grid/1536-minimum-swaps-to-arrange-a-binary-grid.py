@@ -41,8 +41,7 @@ class Solution:
             for i in range(target, idx, -1):
                 arr[i], arr[i-1] = arr[i-1], arr[i]
                 swap += 1
-
-
+                
         return swap
             
             
