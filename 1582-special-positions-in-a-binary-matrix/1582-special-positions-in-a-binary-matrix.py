@@ -2,21 +2,16 @@ class Solution:
     def numSpecial(self, mat: List[List[int]]) -> int:
         rows = defaultdict(int)
         cols = defaultdict(int)
+        points = set()
 
         for y, row in enumerate(mat):
             for x, val in enumerate(row):
                 if val:
+                    rows[x] += 1
+                    cols[y] += 1
+                    points.add((x,y))
+
+        return sum(rows[x] == 1 and cols[y] == 1 for x,y in points)
         
-                    if x in rows or y in cols:
-                        rows[x] = -1
-                        cols[y] = -1
-
-                    if rows[x] == -1 or cols[y] == -1:
-                        continue
-
-                    rows[x] = 1
-                    cols[y] = 1
-        print(rows, cols)
-        return sum(c == 1 for c in rows.values())
 
         
