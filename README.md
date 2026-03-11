@@ -636,6 +636,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [0476-number-complement](https://github.com/fchoi1/Leetcode/tree/master/0476-number-complement) |
 | [0693-binary-number-with-alternating-bits](https://github.com/fchoi1/Leetcode/tree/master/0693-binary-number-with-alternating-bits) |
 | [0899-binary-gap](https://github.com/fchoi1/Leetcode/tree/master/0899-binary-gap) |
+| [1054-complement-of-base-10-integer](https://github.com/fchoi1/Leetcode/tree/master/1054-complement-of-base-10-integer) |
 | [1071-binary-prefix-divisible-by-5](https://github.com/fchoi1/Leetcode/tree/master/1071-binary-prefix-divisible-by-5) |
 | [1458-sort-integers-by-the-number-of-1-bits](https://github.com/fchoi1/Leetcode/tree/master/1458-sort-integers-by-the-number-of-1-bits) |
 | [1520-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/fchoi1/Leetcode/tree/master/1520-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
