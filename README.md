@@ -594,6 +594,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/fchoi1/Leetcode/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1483-rank-teams-by-votes](https://github.com/fchoi1/Leetcode/tree/master/1483-rank-teams-by-votes) |
 | [1502-construct-k-palindrome-strings](https://github.com/fchoi1/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
+| [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/fchoi1/Leetcode/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1520-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/fchoi1/Leetcode/tree/master/1520-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/fchoi1/Leetcode/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/fchoi1/Leetcode/tree/main/1545-find-kth-bit-in-nth-binary-string/) | Medium |
@@ -957,6 +958,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [0051-n-queens](https://github.com/fchoi1/Leetcode/tree/master/0051-n-queens) |
 | [0679-24-game](https://github.com/fchoi1/Leetcode/tree/master/0679-24-game) |
 | [1160-letter-tile-possibilities](https://github.com/fchoi1/Leetcode/tree/master/1160-letter-tile-possibilities) |
+| [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/fchoi1/Leetcode/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/fchoi1/Leetcode/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [1980-find-unique-binary-string](https://github.com/fchoi1/Leetcode/tree/main/1980-find-unique-binary-string/) | Medium |
 | [2174-next-greater-numerically-balanced-number](https://github.com/fchoi1/Leetcode/tree/master/2174-next-greater-numerically-balanced-number) |
