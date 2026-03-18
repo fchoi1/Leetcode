@@ -12,7 +12,8 @@ class Solution:
 
         for y, row in enumerate(grid):
             curr = []
-            for x, val in enumerate(row):
+            for x in range(len(prev)):
+                val = row[x]
                 currVal = val + prev[x] 
                 if curr:
                     currVal += curr[-1]
@@ -20,6 +21,8 @@ class Solution:
                 
                 if currVal <= k:
                     ans += 1
+                else:
+                    break
                 curr.append(currVal)
 
             prev = curr
