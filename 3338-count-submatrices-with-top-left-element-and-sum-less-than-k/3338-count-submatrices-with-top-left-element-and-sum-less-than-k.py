@@ -2,12 +2,7 @@ class Solution:
     def countSubmatrices(self, grid: List[List[int]], k: int) -> int:
         # dp
 
-        start = grid[0][0]
-        if start > k:
-            return 0
-
-        W = len(grid[0])
-        prev = [0 for _ in range(W)]
+        prev = [0 for _ in range(len(grid[0]))]
         ans = 0
 
         for y, row in enumerate(grid):
