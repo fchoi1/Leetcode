@@ -158,6 +158,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/fchoi1/Leetcode/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 | [3291-find-if-array-can-be-sorted](https://github.com/fchoi1/Leetcode/tree/master/3291-find-if-array-can-be-sorted) |
 | [3321-type-of-triangle](https://github.com/fchoi1/Leetcode/tree/master/3321-type-of-triangle) |
+| [3338-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/fchoi1/Leetcode/tree/master/3338-count-submatrices-with-top-left-element-and-sum-less-than-k) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/fchoi1/Leetcode/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3427-special-array-ii](https://github.com/fchoi1/Leetcode/tree/master/3427-special-array-ii) |
 | [3429-special-array-i](https://github.com/fchoi1/Leetcode/tree/master/3429-special-array-i) |
@@ -267,6 +268,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [2625-increment-submatrices-by-one](https://github.com/fchoi1/Leetcode/tree/master/2625-increment-submatrices-by-one) |
 | [2685-first-completely-painted-row-or-column](https://github.com/fchoi1/Leetcode/tree/master/2685-first-completely-painted-row-or-column) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/fchoi1/Leetcode/tree/master/2794-maximum-number-of-moves-in-a-grid) |
+| [3338-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/fchoi1/Leetcode/tree/master/3338-count-submatrices-with-top-left-element-and-sum-less-than-k) |
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/fchoi1/Leetcode/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
 ## Strongly Connected Component
 |  |
@@ -485,6 +487,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [2465-shifting-letters-ii](https://github.com/fchoi1/Leetcode/tree/master/2465-shifting-letters-ii) |
 | [2529-range-product-queries-of-powers](https://github.com/fchoi1/Leetcode/tree/master/2529-range-product-queries-of-powers) |
 | [2625-increment-submatrices-by-one](https://github.com/fchoi1/Leetcode/tree/master/2625-increment-submatrices-by-one) |
+| [3338-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/fchoi1/Leetcode/tree/master/3338-count-submatrices-with-top-left-element-and-sum-less-than-k) |
 | [3406-find-all-possible-stable-binary-arrays-i](https://github.com/fchoi1/Leetcode/tree/master/3406-find-all-possible-stable-binary-arrays-i) |
 | [3427-special-array-ii](https://github.com/fchoi1/Leetcode/tree/master/3427-special-array-ii) |
 | [3639-zero-array-transformation-i](https://github.com/fchoi1/Leetcode/tree/master/3639-zero-array-transformation-i) |
