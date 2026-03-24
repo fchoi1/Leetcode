@@ -149,6 +149,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/fchoi1/Leetcode/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 | [2868-continuous-subarrays](https://github.com/fchoi1/Leetcode/tree/master/2868-continuous-subarrays) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/fchoi1/Leetcode/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
+| [3031-construct-product-matrix](https://github.com/fchoi1/Leetcode/tree/master/3031-construct-product-matrix) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/fchoi1/Leetcode/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/fchoi1/Leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/fchoi1/Leetcode/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
@@ -275,6 +276,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [2625-increment-submatrices-by-one](https://github.com/fchoi1/Leetcode/tree/master/2625-increment-submatrices-by-one) |
 | [2685-first-completely-painted-row-or-column](https://github.com/fchoi1/Leetcode/tree/master/2685-first-completely-painted-row-or-column) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/fchoi1/Leetcode/tree/master/2794-maximum-number-of-moves-in-a-grid) |
+| [3031-construct-product-matrix](https://github.com/fchoi1/Leetcode/tree/master/3031-construct-product-matrix) |
 | [3338-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/fchoi1/Leetcode/tree/master/3338-count-submatrices-with-top-left-element-and-sum-less-than-k) |
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/fchoi1/Leetcode/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
 | [3492-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/fchoi1/Leetcode/tree/master/3492-count-submatrices-with-equal-frequency-of-x-and-y) |
@@ -498,6 +500,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [2465-shifting-letters-ii](https://github.com/fchoi1/Leetcode/tree/master/2465-shifting-letters-ii) |
 | [2529-range-product-queries-of-powers](https://github.com/fchoi1/Leetcode/tree/master/2529-range-product-queries-of-powers) |
 | [2625-increment-submatrices-by-one](https://github.com/fchoi1/Leetcode/tree/master/2625-increment-submatrices-by-one) |
+| [3031-construct-product-matrix](https://github.com/fchoi1/Leetcode/tree/master/3031-construct-product-matrix) |
 | [3338-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/fchoi1/Leetcode/tree/master/3338-count-submatrices-with-top-left-element-and-sum-less-than-k) |
 | [3406-find-all-possible-stable-binary-arrays-i](https://github.com/fchoi1/Leetcode/tree/master/3406-find-all-possible-stable-binary-arrays-i) |
 | [3427-special-array-ii](https://github.com/fchoi1/Leetcode/tree/master/3427-special-array-ii) |
