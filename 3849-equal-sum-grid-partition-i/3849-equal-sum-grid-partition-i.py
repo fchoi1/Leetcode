@@ -16,5 +16,5 @@ class Solution:
             curr += c
             if curr == total - curr:
                 return True
-        print(rows, cols)
+
         return False
