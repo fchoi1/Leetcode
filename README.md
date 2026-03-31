@@ -675,6 +675,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3455-minimum-length-of-string-after-operations](https://github.com/fchoi1/Leetcode/tree/master/3455-minimum-length-of-string-after-operations) |
 | [3567-convert-date-to-binary](https://github.com/fchoi1/Leetcode/tree/master/3567-convert-date-to-binary) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/fchoi1/Leetcode/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
+| [3770-lexicographically-smallest-generated-string](https://github.com/fchoi1/Leetcode/tree/master/3770-lexicographically-smallest-generated-string) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/fchoi1/Leetcode/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 | [4055-longest-balanced-substring-i](https://github.com/fchoi1/Leetcode/tree/master/4055-longest-balanced-substring-i) |
 ## Bit Manipulation
@@ -909,6 +910,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/fchoi1/Leetcode/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 | [3496-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/fchoi1/Leetcode/tree/master/3496-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/fchoi1/Leetcode/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
+| [3770-lexicographically-smallest-generated-string](https://github.com/fchoi1/Leetcode/tree/master/3770-lexicographically-smallest-generated-string) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/fchoi1/Leetcode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3845-maximum-sum-of-edge-values-in-a-graph](https://github.com/fchoi1/Leetcode/tree/master/3845-maximum-sum-of-edge-values-in-a-graph) |
 | [3902-maximize-spanning-tree-stability-with-upgrades](https://github.com/fchoi1/Leetcode/tree/master/3902-maximize-spanning-tree-stability-with-upgrades) |
@@ -964,6 +966,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 |  |
 | ------- |
 | [0812-rotate-string](https://github.com/fchoi1/Leetcode/tree/master/0812-rotate-string) |
+| [3770-lexicographically-smallest-generated-string](https://github.com/fchoi1/Leetcode/tree/master/3770-lexicographically-smallest-generated-string) |
 ## Monotonic Queue
 |  |
 | ------- |
