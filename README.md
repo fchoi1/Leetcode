@@ -47,6 +47,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [0833-bus-routes](https://github.com/fchoi1/Leetcode/tree/master/0833-bus-routes) |
 | [0859-design-circular-deque](https://github.com/fchoi1/Leetcode/tree/master/0859-design-circular-deque) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/fchoi1/Leetcode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
+| [0906-walking-robot-simulation](https://github.com/fchoi1/Leetcode/tree/master/0906-walking-robot-simulation) |
 | [0912-random-pick-with-weight](https://github.com/fchoi1/Leetcode/tree/master/0912-random-pick-with-weight) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/fchoi1/Leetcode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [1001-n-repeated-element-in-size-2n-array](https://github.com/fchoi1/Leetcode/tree/master/1001-n-repeated-element-in-size-2n-array) |
@@ -555,6 +556,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [0833-bus-routes](https://github.com/fchoi1/Leetcode/tree/master/0833-bus-routes) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/fchoi1/Leetcode/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [0900-reordered-power-of-2](https://github.com/fchoi1/Leetcode/tree/master/0900-reordered-power-of-2) |
+| [0906-walking-robot-simulation](https://github.com/fchoi1/Leetcode/tree/master/0906-walking-robot-simulation) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/fchoi1/Leetcode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [1001-n-repeated-element-in-size-2n-array](https://github.com/fchoi1/Leetcode/tree/master/1001-n-repeated-element-in-size-2n-array) |
 | [1006-vowel-spellchecker](https://github.com/fchoi1/Leetcode/tree/master/1006-vowel-spellchecker) |
@@ -712,6 +714,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [0498-diagonal-traverse](https://github.com/fchoi1/Leetcode/tree/master/0498-diagonal-traverse) |
 | [0592-fraction-addition-and-subtraction](https://github.com/fchoi1/Leetcode/tree/master/0592-fraction-addition-and-subtraction) |
 | [0657-robot-return-to-origin](https://github.com/fchoi1/Leetcode/tree/master/0657-robot-return-to-origin) |
+| [0906-walking-robot-simulation](https://github.com/fchoi1/Leetcode/tree/master/0906-walking-robot-simulation) |
 | [1520-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/fchoi1/Leetcode/tree/master/1520-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/fchoi1/Leetcode/tree/main/1545-find-kth-bit-in-nth-binary-string/) | Medium |
 | [1552-build-an-array-with-stack-operations](https://github.com/fchoi1/Leetcode/tree/master/1552-build-an-array-with-stack-operations) |
