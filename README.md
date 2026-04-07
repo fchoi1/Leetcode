@@ -334,6 +334,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [2023-design-movie-rental-system](https://github.com/fchoi1/Leetcode/tree/master/2023-design-movie-rental-system) |
 | [2161-stock-price-fluctuation](https://github.com/fchoi1/Leetcode/tree/master/2161-stock-price-fluctuation) |
 | [2169-simple-bank-system](https://github.com/fchoi1/Leetcode/tree/master/2169-simple-bank-system) |
+| [2178-walking-robot-simulation-ii](https://github.com/fchoi1/Leetcode/tree/master/2178-walking-robot-simulation-ii) |
 | [2434-design-a-number-container-system](https://github.com/fchoi1/Leetcode/tree/master/2434-design-a-number-container-system) |
 | [3827-implement-router](https://github.com/fchoi1/Leetcode/tree/master/3827-implement-router) |
 ## Binary Search Tree
@@ -726,6 +727,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [2132-convert-1d-array-into-2d-array](https://github.com/fchoi1/Leetcode/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/fchoi1/Leetcode/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2169-simple-bank-system](https://github.com/fchoi1/Leetcode/tree/master/2169-simple-bank-system) |
+| [2178-walking-robot-simulation-ii](https://github.com/fchoi1/Leetcode/tree/master/2178-walking-robot-simulation-ii) |
 | [2197-decode-the-slanted-ciphertext](https://github.com/fchoi1/Leetcode/tree/master/2197-decode-the-slanted-ciphertext) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/fchoi1/Leetcode/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/fchoi1/Leetcode/tree/master/2324-find-triangular-sum-of-an-array) |
