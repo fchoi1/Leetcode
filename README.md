@@ -202,6 +202,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3956-trionic-array-ii](https://github.com/fchoi1/Leetcode/tree/master/3956-trionic-array-ii) |
 | [3958-minimum-removals-to-balance-array](https://github.com/fchoi1/Leetcode/tree/master/3958-minimum-removals-to-balance-array) |
 | [3973-flip-square-submatrix-vertically](https://github.com/fchoi1/Leetcode/tree/master/3973-flip-square-submatrix-vertically) |
+| [3974-xor-after-range-multiplication-queries-i](https://github.com/fchoi1/Leetcode/tree/master/3974-xor-after-range-multiplication-queries-i) |
 | [3982-maximum-walls-destroyed-by-robots](https://github.com/fchoi1/Leetcode/tree/master/3982-maximum-walls-destroyed-by-robots) |
 | [4045-longest-balanced-subarray-i](https://github.com/fchoi1/Leetcode/tree/master/4045-longest-balanced-subarray-i) |
 | [4047-longest-balanced-subarray-ii](https://github.com/fchoi1/Leetcode/tree/master/4047-longest-balanced-subarray-ii) |
@@ -744,6 +745,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3447-clear-digits](https://github.com/fchoi1/Leetcode/tree/master/3447-clear-digits) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/fchoi1/Leetcode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3651-transformed-array](https://github.com/fchoi1/Leetcode/tree/master/3651-transformed-array) |
+| [3974-xor-after-range-multiplication-queries-i](https://github.com/fchoi1/Leetcode/tree/master/3974-xor-after-range-multiplication-queries-i) |
 ## Stack
 |  |
 | ------- |
@@ -1043,6 +1045,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [0347-top-k-frequent-elements](https://github.com/fchoi1/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0763-special-binary-string](https://github.com/fchoi1/Leetcode/tree/master/0763-special-binary-string) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/fchoi1/Leetcode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
+| [3974-xor-after-range-multiplication-queries-i](https://github.com/fchoi1/Leetcode/tree/master/3974-xor-after-range-multiplication-queries-i) |
 | [4045-longest-balanced-subarray-i](https://github.com/fchoi1/Leetcode/tree/master/4045-longest-balanced-subarray-i) |
 | [4047-longest-balanced-subarray-ii](https://github.com/fchoi1/Leetcode/tree/master/4047-longest-balanced-subarray-ii) |
 ## Number Theory
