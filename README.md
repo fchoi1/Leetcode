@@ -206,6 +206,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3973-flip-square-submatrix-vertically](https://github.com/fchoi1/Leetcode/tree/master/3973-flip-square-submatrix-vertically) |
 | [3974-xor-after-range-multiplication-queries-i](https://github.com/fchoi1/Leetcode/tree/master/3974-xor-after-range-multiplication-queries-i) |
 | [3982-maximum-walls-destroyed-by-robots](https://github.com/fchoi1/Leetcode/tree/master/3982-maximum-walls-destroyed-by-robots) |
+| [3986-maximum-path-score-in-a-grid](https://github.com/fchoi1/Leetcode/tree/master/3986-maximum-path-score-in-a-grid) |
 | [4045-longest-balanced-subarray-i](https://github.com/fchoi1/Leetcode/tree/master/4045-longest-balanced-subarray-i) |
 | [4047-longest-balanced-subarray-ii](https://github.com/fchoi1/Leetcode/tree/master/4047-longest-balanced-subarray-ii) |
 ## Depth-First Search
@@ -301,6 +302,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3677-maximum-amount-of-money-robot-can-earn](https://github.com/fchoi1/Leetcode/tree/master/3677-maximum-amount-of-money-robot-can-earn) |
 | [3849-equal-sum-grid-partition-i](https://github.com/fchoi1/Leetcode/tree/master/3849-equal-sum-grid-partition-i) |
 | [3973-flip-square-submatrix-vertically](https://github.com/fchoi1/Leetcode/tree/master/3973-flip-square-submatrix-vertically) |
+| [3986-maximum-path-score-in-a-grid](https://github.com/fchoi1/Leetcode/tree/master/3986-maximum-path-score-in-a-grid) |
 ## Strongly Connected Component
 |  |
 | ------- |
@@ -512,6 +514,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3677-maximum-amount-of-money-robot-can-earn](https://github.com/fchoi1/Leetcode/tree/master/3677-maximum-amount-of-money-robot-can-earn) |
 | [3956-trionic-array-ii](https://github.com/fchoi1/Leetcode/tree/master/3956-trionic-array-ii) |
 | [3982-maximum-walls-destroyed-by-robots](https://github.com/fchoi1/Leetcode/tree/master/3982-maximum-walls-destroyed-by-robots) |
+| [3986-maximum-path-score-in-a-grid](https://github.com/fchoi1/Leetcode/tree/master/3986-maximum-path-score-in-a-grid) |
 ## Prefix Sum
 |  |
 | ------- |
