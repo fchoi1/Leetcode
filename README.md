@@ -802,6 +802,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 ## Linked List
 |  |
 | ------- |
+| [0061-rotate-list](https://github.com/fchoi1/Leetcode/tree/master/0061-rotate-list) |
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/fchoi1/Leetcode/tree/master/0082-remove-duplicates-from-sorted-list-ii) |
 | [0432-all-oone-data-structure](https://github.com/fchoi1/Leetcode/tree/master/0432-all-oone-data-structure) |
 | [0859-design-circular-deque](https://github.com/fchoi1/Leetcode/tree/master/0859-design-circular-deque) |
@@ -859,6 +860,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/fchoi1/Leetcode/tree/master/0011-container-with-most-water) |
+| [0061-rotate-list](https://github.com/fchoi1/Leetcode/tree/master/0061-rotate-list) |
 | [0075-sort-colors](https://github.com/fchoi1/Leetcode/tree/master/0075-sort-colors) |
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/fchoi1/Leetcode/tree/master/0082-remove-duplicates-from-sorted-list-ii) |
 | [0165-compare-version-numbers](https://github.com/fchoi1/Leetcode/tree/master/0165-compare-version-numbers) |
