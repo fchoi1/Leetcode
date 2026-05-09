@@ -100,6 +100,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/fchoi1/Leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/fchoi1/Leetcode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2023-design-movie-rental-system](https://github.com/fchoi1/Leetcode/tree/master/2023-design-movie-rental-system) |
+| [2043-cyclically-rotating-a-grid](https://github.com/fchoi1/Leetcode/tree/master/2043-cyclically-rotating-a-grid) |
 | [2048-build-array-from-permutation](https://github.com/fchoi1/Leetcode/tree/master/2048-build-array-from-permutation) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/fchoi1/Leetcode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2058-concatenation-of-array](https://github.com/fchoi1/Leetcode/tree/master/2058-concatenation-of-array) |
@@ -282,6 +283,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [1845-largest-submatrix-with-rearrangements](https://github.com/fchoi1/Leetcode/tree/master/1845-largest-submatrix-with-rearrangements) |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/fchoi1/Leetcode/tree/main/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
 | [1972-rotating-the-box](https://github.com/fchoi1/Leetcode/tree/master/1972-rotating-the-box) |
+| [2043-cyclically-rotating-a-grid](https://github.com/fchoi1/Leetcode/tree/master/2043-cyclically-rotating-a-grid) |
 | [2089-maximum-matrix-sum](https://github.com/fchoi1/Leetcode/tree/master/2089-maximum-matrix-sum) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/fchoi1/Leetcode/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/fchoi1/Leetcode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
@@ -732,6 +734,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [1642-water-bottles](https://github.com/fchoi1/Leetcode/tree/master/1642-water-bottles) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/fchoi1/Leetcode/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/fchoi1/Leetcode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
+| [2043-cyclically-rotating-a-grid](https://github.com/fchoi1/Leetcode/tree/master/2043-cyclically-rotating-a-grid) |
 | [2048-build-array-from-permutation](https://github.com/fchoi1/Leetcode/tree/master/2048-build-array-from-permutation) |
 | [2058-concatenation-of-array](https://github.com/fchoi1/Leetcode/tree/master/2058-concatenation-of-array) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/fchoi1/Leetcode/tree/master/2132-convert-1d-array-into-2d-array) |
