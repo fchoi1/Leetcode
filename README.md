@@ -201,6 +201,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3827-implement-router](https://github.com/fchoi1/Leetcode/tree/master/3827-implement-router) |
 | [3846-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/fchoi1/Leetcode/tree/master/3846-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3849-equal-sum-grid-partition-i](https://github.com/fchoi1/Leetcode/tree/master/3849-equal-sum-grid-partition-i) |
+| [3933-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/fchoi1/Leetcode/tree/master/3933-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3952-trionic-array-i](https://github.com/fchoi1/Leetcode/tree/master/3952-trionic-array-i) |
 | [3956-trionic-array-ii](https://github.com/fchoi1/Leetcode/tree/master/3956-trionic-array-ii) |
 | [3958-minimum-removals-to-balance-array](https://github.com/fchoi1/Leetcode/tree/master/3958-minimum-removals-to-balance-array) |
@@ -263,6 +264,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [2793-count-the-number-of-complete-components](https://github.com/fchoi1/Leetcode/tree/master/2793-count-the-number-of-complete-components) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/fchoi1/Leetcode/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/fchoi1/Leetcode/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
+| [3933-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/fchoi1/Leetcode/tree/master/3933-minimum-jumps-to-reach-end-via-prime-teleportation) |
 ## Matrix
 |  |
 | ------- |
@@ -478,6 +480,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3676-smallest-number-with-all-set-bits](https://github.com/fchoi1/Leetcode/tree/master/3676-smallest-number-with-all-set-bits) |
 | [3699-count-special-subsequences](https://github.com/fchoi1/Leetcode/tree/master/3699-count-special-subsequences) |
 | [3846-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/fchoi1/Leetcode/tree/master/3846-minimum-operations-to-make-array-sum-divisible-by-k) |
+| [3933-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/fchoi1/Leetcode/tree/master/3933-minimum-jumps-to-reach-end-via-prime-teleportation) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -625,6 +628,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/fchoi1/Leetcode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3827-implement-router](https://github.com/fchoi1/Leetcode/tree/master/3827-implement-router) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/fchoi1/Leetcode/tree/master/3872-find-most-frequent-vowel-and-consonant) |
+| [3933-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/fchoi1/Leetcode/tree/master/3933-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [4045-longest-balanced-subarray-i](https://github.com/fchoi1/Leetcode/tree/master/4045-longest-balanced-subarray-i) |
 | [4047-longest-balanced-subarray-ii](https://github.com/fchoi1/Leetcode/tree/master/4047-longest-balanced-subarray-ii) |
 | [4055-longest-balanced-substring-i](https://github.com/fchoi1/Leetcode/tree/master/4055-longest-balanced-substring-i) |
@@ -1069,6 +1073,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | ------- |
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/fchoi1/Leetcode/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [2610-closest-prime-numbers-in-range](https://github.com/fchoi1/Leetcode/tree/master/2610-closest-prime-numbers-in-range) |
+| [3933-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/fchoi1/Leetcode/tree/master/3933-minimum-jumps-to-reach-end-via-prime-teleportation) |
 ## Enumeration
 |  |
 | ------- |
