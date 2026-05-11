@@ -13,4 +13,4 @@ class Solution:
                 n2 = nums[j]
                 if abs(n1 - n2) <= target and dp[i] >= 0:
                     dp[j] = max(dp[j], dp[i] + 1)
-        return dp[-1] if dp[-1] > 0 else -1
+        return dp[-1] 
