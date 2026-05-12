@@ -1,20 +1,13 @@
 class Solution:
     def minimumEffort(self, tasks: List[List[int]]) -> int:
         # min, gained
-
         # sort by min energy required, then gained
 
-        h = []
+        tasks.sort(key=lambda x: x[1] - x[0], reverse=True)
+
+        curr = extra = 0
         for actual, need in tasks:
             gain = need - actual
-            heappush(h, (-gain, need))
-
-        minEnergy = -h[0][0]
-        curr = minEnergy
-        extra = 0
-        while h:
-            gain, need = heappop(h)
-            gain = -gain
 
             if curr < need:
                 extra += need - curr
@@ -23,5 +16,5 @@ class Solution:
                 curr -= need
             curr += gain
         
-        return minEnergy + extra
+        return extra
 
