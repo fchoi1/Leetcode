@@ -25,6 +25,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [0051-n-queens](https://github.com/fchoi1/Leetcode/tree/master/0051-n-queens) |
 | [0075-sort-colors](https://github.com/fchoi1/Leetcode/tree/master/0075-sort-colors) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/fchoi1/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/fchoi1/Leetcode/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0162-find-peak-element](https://github.com/fchoi1/Leetcode/tree/master/0162-find-peak-element) |
 | [0334-increasing-triplet-subsequence](https://github.com/fchoi1/Leetcode/tree/master/0334-increasing-triplet-subsequence) |
 | [0347-top-k-frequent-elements](https://github.com/fchoi1/Leetcode/tree/master/0347-top-k-frequent-elements) |
@@ -355,6 +356,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 ## Binary Search Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/fchoi1/Leetcode/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0162-find-peak-element](https://github.com/fchoi1/Leetcode/tree/master/0162-find-peak-element) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/fchoi1/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0611-valid-triangle-number](https://github.com/fchoi1/Leetcode/tree/master/0611-valid-triangle-number) |
