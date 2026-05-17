@@ -62,6 +62,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [1240-stone-game-ii](https://github.com/fchoi1/Leetcode/tree/master/1240-stone-game-ii) |
 | [1284-four-divisors](https://github.com/fchoi1/Leetcode/tree/master/1284-four-divisors) |
 | [1293-three-consecutive-odds](https://github.com/fchoi1/Leetcode/tree/master/1293-three-consecutive-odds) |
+| [1306-jump-game-iii](https://github.com/fchoi1/Leetcode/tree/main/1306-jump-game-iii/) | Medium |
 | [1325-path-with-maximum-probability](https://github.com/fchoi1/Leetcode/tree/master/1325-path-with-maximum-probability) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/fchoi1/Leetcode/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/fchoi1/Leetcode/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
@@ -235,6 +236,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [1079-sum-of-root-to-leaf-binary-numbers](https://github.com/fchoi1/Leetcode/tree/master/1079-sum-of-root-to-leaf-binary-numbers) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/fchoi1/Leetcode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/fchoi1/Leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
+| [1306-jump-game-iii](https://github.com/fchoi1/Leetcode/tree/main/1306-jump-game-iii/) | Medium |
 | [1465-maximum-product-of-splitted-binary-tree](https://github.com/fchoi1/Leetcode/tree/master/1465-maximum-product-of-splitted-binary-tree) |
 | [1484-linked-list-in-binary-tree](https://github.com/fchoi1/Leetcode/tree/master/1484-linked-list-in-binary-tree) |
 | [1558-course-schedule-iv](https://github.com/fchoi1/Leetcode/tree/master/1558-course-schedule-iv) |
@@ -260,6 +262,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [0833-bus-routes](https://github.com/fchoi1/Leetcode/tree/master/0833-bus-routes) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/fchoi1/Leetcode/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/fchoi1/Leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
+| [1306-jump-game-iii](https://github.com/fchoi1/Leetcode/tree/main/1306-jump-game-iii/) | Medium |
 | [1484-linked-list-in-binary-tree](https://github.com/fchoi1/Leetcode/tree/master/1484-linked-list-in-binary-tree) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/fchoi1/Leetcode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1558-course-schedule-iv](https://github.com/fchoi1/Leetcode/tree/master/1558-course-schedule-iv) |
