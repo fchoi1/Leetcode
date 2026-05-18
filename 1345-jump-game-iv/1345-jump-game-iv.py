@@ -1,39 +1,39 @@
-
+from collections import defaultdict, deque
 
 class Solution:
     def minJumps(self, arr: List[int]) -> int:
-        
+
         pos = defaultdict(list)
+
         for i, val in enumerate(arr):
             pos[val].append(i)
 
-        seen = set()
+        q = deque([(0, 0)])  # idx, steps
+        seen = {0}
 
-
-        h = [(0,0)] # steps, index
-
-        while h:
-            steps, idx = heappop(h)
-            
-            if idx < 0 or idx >= len(arr):
-                continue
+        while q:
+            idx, steps = q.popleft()
 
             if idx == len(arr) - 1:
                 return steps
 
-            if idx in seen:
-                continue
-            seen.add(idx)
-            
+            # same value jumps
             for nextIdx in pos[arr[idx]]:
                 if nextIdx not in seen:
-                    heappush(h, (steps + 1, nextIdx))
+                    seen.add(nextIdx)
+                    q.append((nextIdx, steps + 1))
+
+            # IMPORTANT FIX
             pos[arr[idx]].clear()
-            
-            if idx - 1 not in seen:
-                heappush(h, (steps + 1, idx - 1))
-            
-            if idx + 1 not in seen:
-                heappush(h, (steps + 1, idx + 1))
+
+            # left
+            if idx - 1 >= 0 and idx - 1 not in seen:
+                seen.add(idx - 1)
+                q.append((idx - 1, steps + 1))
+
+            # right
+            if idx + 1 < len(arr) and idx + 1 not in seen:
+                seen.add(idx + 1)
+                q.append((idx + 1, steps + 1))
 
         return -1
