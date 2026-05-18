@@ -30,7 +30,10 @@ class Solution:
                     heappush(h, (steps + 1, nextIdx))
             pos[arr[idx]].clear()
             
-            heappush(h, (steps + 1, idx - 1))
-            heappush(h, (steps + 1, idx + 1))
+            if idx - 1 not in seen:
+                heappush(h, (steps + 1, idx - 1))
+            
+            if idx + 1 not in seen:
+                heappush(h, (steps + 1, idx + 1))
 
         return -1
