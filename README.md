@@ -64,6 +64,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [1293-three-consecutive-odds](https://github.com/fchoi1/Leetcode/tree/master/1293-three-consecutive-odds) |
 | [1306-jump-game-iii](https://github.com/fchoi1/Leetcode/tree/main/1306-jump-game-iii/) | Medium |
 | [1325-path-with-maximum-probability](https://github.com/fchoi1/Leetcode/tree/master/1325-path-with-maximum-probability) |
+| [1345-jump-game-iv](https://github.com/fchoi1/Leetcode/tree/main/1345-jump-game-iv/) | Hard |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/fchoi1/Leetcode/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/fchoi1/Leetcode/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
 | [1458-sort-integers-by-the-number-of-1-bits](https://github.com/fchoi1/Leetcode/tree/master/1458-sort-integers-by-the-number-of-1-bits) |
@@ -263,6 +264,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/fchoi1/Leetcode/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/fchoi1/Leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1306-jump-game-iii](https://github.com/fchoi1/Leetcode/tree/main/1306-jump-game-iii/) | Medium |
+| [1345-jump-game-iv](https://github.com/fchoi1/Leetcode/tree/main/1345-jump-game-iv/) | Hard |
 | [1484-linked-list-in-binary-tree](https://github.com/fchoi1/Leetcode/tree/master/1484-linked-list-in-binary-tree) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/fchoi1/Leetcode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1558-course-schedule-iv](https://github.com/fchoi1/Leetcode/tree/master/1558-course-schedule-iv) |
@@ -593,6 +595,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [1160-letter-tile-possibilities](https://github.com/fchoi1/Leetcode/tree/master/1160-letter-tile-possibilities) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/fchoi1/Leetcode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/fchoi1/Leetcode/tree/master/1264-maximum-number-of-words-you-can-type) |
+| [1345-jump-game-iv](https://github.com/fchoi1/Leetcode/tree/main/1345-jump-game-iv/) | Hard |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/fchoi1/Leetcode/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/fchoi1/Leetcode/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/fchoi1/Leetcode/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
