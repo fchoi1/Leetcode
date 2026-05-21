@@ -16,7 +16,6 @@ class Solution:
                 if char not in curr.next:
                     curr.next[char] = Trie(char)
                 curr = curr.next[char]
-            curr.end = True
         
         longest = 0
         for val in arr2:
