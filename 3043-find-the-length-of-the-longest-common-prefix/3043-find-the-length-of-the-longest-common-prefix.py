@@ -1,24 +1,15 @@
 class Solution:
     def longestCommonPrefix(self, arr1, arr2):
-        root = {}
+        prefixes = set()
 
-        # build trie from arr1 digits
         for num in arr1:
-            curr = root
-            for c in str(num):
-                if c not in curr:
-                    curr[c] = {}
-                curr = curr[c]
-
+            s = str(num)
+            for i in range(1, len(s) + 1):
+                prefixes.add(s[:i])
         longest = 0
-
-        # traverse arr2
         for num in arr2:
-            curr = root
-            for i, c in enumerate(str(num)):
-                if c not in curr:
-                    break
-                curr = curr[c]
-                longest = max(longest, i + 1)
-
+            s = str(num)
+            for i in range(1, len(s) + 1):
+                if s[:i] in prefixes:
+                    longest = max(longest, i)
         return longest
