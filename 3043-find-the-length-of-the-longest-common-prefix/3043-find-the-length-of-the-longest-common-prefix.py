@@ -1,29 +1,24 @@
-class Trie:
-    def __init__(self, val = None, isEnd = False):
-        self.next = {} # char: Trie
-        self.val = val
-        self.end = isEnd
-
 class Solution:
-    def longestCommonPrefix(self, arr1: List[int], arr2: List[int]) -> int:
-        # trie
+    def longestCommonPrefix(self, arr1, arr2):
+        root = {}
 
-        root = Trie()
-
-        for val in arr1:
+        # build trie from arr1 digits
+        for num in arr1:
             curr = root
-            for char in str(val):
-                if char not in curr.next:
-                    curr.next[char] = Trie(char)
-                curr = curr.next[char]
-        
+            for c in str(num):
+                if c not in curr:
+                    curr[c] = {}
+                curr = curr[c]
+
         longest = 0
-        for val in arr2:
+
+        # traverse arr2
+        for num in arr2:
             curr = root
-            for i, char in enumerate(str(val)):
-                if char not in curr.next:
+            for i, c in enumerate(str(num)):
+                if c not in curr:
                     break
-                curr = curr.next[char]
+                curr = curr[c]
                 longest = max(longest, i + 1)
 
         return longest
