@@ -512,6 +512,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [0264-ugly-number-ii](https://github.com/fchoi1/Leetcode/tree/master/0264-ugly-number-ii) |
 | [0416-partition-equal-subset-sum](https://github.com/fchoi1/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0509-fibonacci-number](https://github.com/fchoi1/Leetcode/tree/main/0509-fibonacci-number/) | Easy |
+| [0583-delete-operation-for-two-strings](https://github.com/fchoi1/Leetcode/tree/main/0583-delete-operation-for-two-strings/) | Medium |
 | [0650-2-keys-keyboard](https://github.com/fchoi1/Leetcode/tree/master/0650-2-keys-keyboard) |
 | [0664-strange-printer](https://github.com/fchoi1/Leetcode/tree/master/0664-strange-printer) |
 | [0806-domino-and-tromino-tiling](https://github.com/fchoi1/Leetcode/tree/master/0806-domino-and-tromino-tiling) |
@@ -676,6 +677,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [0399-evaluate-division](https://github.com/fchoi1/Leetcode/tree/master/0399-evaluate-division) |
 | [0564-find-the-closest-palindrome](https://github.com/fchoi1/Leetcode/tree/master/0564-find-the-closest-palindrome) |
 | [0567-permutation-in-string](https://github.com/fchoi1/Leetcode/tree/master/0567-permutation-in-string) |
+| [0583-delete-operation-for-two-strings](https://github.com/fchoi1/Leetcode/tree/main/0583-delete-operation-for-two-strings/) | Medium |
 | [0592-fraction-addition-and-subtraction](https://github.com/fchoi1/Leetcode/tree/master/0592-fraction-addition-and-subtraction) |
 | [0657-robot-return-to-origin](https://github.com/fchoi1/Leetcode/tree/master/0657-robot-return-to-origin) |
 | [0664-strange-printer](https://github.com/fchoi1/Leetcode/tree/master/0664-strange-printer) |
