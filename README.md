@@ -67,6 +67,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [1293-three-consecutive-odds](https://github.com/fchoi1/Leetcode/tree/master/1293-three-consecutive-odds) |
 | [1306-jump-game-iii](https://github.com/fchoi1/Leetcode/tree/main/1306-jump-game-iii/) | Medium |
 | [1325-path-with-maximum-probability](https://github.com/fchoi1/Leetcode/tree/master/1325-path-with-maximum-probability) |
+| [1340-jump-game-v](https://github.com/fchoi1/Leetcode/tree/main/1340-jump-game-v/) | Hard |
 | [1345-jump-game-iv](https://github.com/fchoi1/Leetcode/tree/main/1345-jump-game-iv/) | Hard |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/fchoi1/Leetcode/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/fchoi1/Leetcode/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
@@ -520,6 +521,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [0867-new-21-game](https://github.com/fchoi1/Leetcode/tree/master/0867-new-21-game) |
 | [1025-minimum-cost-for-tickets](https://github.com/fchoi1/Leetcode/tree/master/1025-minimum-cost-for-tickets) |
 | [1240-stone-game-ii](https://github.com/fchoi1/Leetcode/tree/master/1240-stone-game-ii) |
+| [1340-jump-game-v](https://github.com/fchoi1/Leetcode/tree/main/1340-jump-game-v/) | Hard |
 | [1443-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/fchoi1/Leetcode/tree/master/1443-minimum-distance-to-type-a-word-using-two-fingers) |
 | [1527-number-of-ways-to-paint-n-3-grid](https://github.com/fchoi1/Leetcode/tree/master/1527-number-of-ways-to-paint-n-3-grid) |
 | [1569-max-dot-product-of-two-subsequences](https://github.com/fchoi1/Leetcode/tree/master/1569-max-dot-product-of-two-subsequences) |
@@ -1008,6 +1010,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [0763-special-binary-string](https://github.com/fchoi1/Leetcode/tree/master/0763-special-binary-string) |
 | [0778-reorganize-string](https://github.com/fchoi1/Leetcode/tree/master/0778-reorganize-string) |
 | [0900-reordered-power-of-2](https://github.com/fchoi1/Leetcode/tree/master/0900-reordered-power-of-2) |
+| [1340-jump-game-v](https://github.com/fchoi1/Leetcode/tree/main/1340-jump-game-v/) | Hard |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/fchoi1/Leetcode/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1458-sort-integers-by-the-number-of-1-bits](https://github.com/fchoi1/Leetcode/tree/master/1458-sort-integers-by-the-number-of-1-bits) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/fchoi1/Leetcode/tree/master/1468-check-if-n-and-its-double-exist) |
