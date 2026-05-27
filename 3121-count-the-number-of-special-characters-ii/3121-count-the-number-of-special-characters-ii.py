@@ -1,19 +1,17 @@
 class Solution:
     def numberOfSpecialChars(self, word: str) -> int:
-        c = defaultdict(int)
-        ans = [None] * 26
-        for char in word:
-            key = ord(char.lower()) - ord('a')
-            c[char] += 1
+        lower = 0
+        upper = 0
+        invalid = 0
 
-            if ans[key] is None:
-                if c[char.upper()] > 0 and c[char.lower()] > 0:
-                    ans[key] = True
+        for ch in word:
+            bit = 1 << (ord(ch.lower()) - ord('a'))
 
-            if char.lower() == char:
-                if c[char.upper()] > 0:
-                    ans[key] = False
+            if ch.islower():
+                if upper & bit:
+                    invalid |= bit
+                lower |= bit
+            else:
+                upper |= bit
 
-        
-        return sum(v if v else 0 for v in ans)
-
+        return (lower & upper & ~invalid).bit_count()
