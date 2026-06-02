@@ -213,6 +213,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/fchoi1/Leetcode/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/fchoi1/Leetcode/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/fchoi1/Leetcode/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
+| [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/fchoi1/Leetcode/tree/main/3633-earliest-finish-time-for-land-and-water-rides-i/) | Easy |
 | [3639-zero-array-transformation-i](https://github.com/fchoi1/Leetcode/tree/master/3639-zero-array-transformation-i) |
 | [3651-transformed-array](https://github.com/fchoi1/Leetcode/tree/master/3651-transformed-array) |
 | [3655-xor-after-range-multiplication-queries-ii](https://github.com/fchoi1/Leetcode/tree/main/3655-xor-after-range-multiplication-queries-ii/) | Hard |
@@ -405,6 +406,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3427-special-array-ii](https://github.com/fchoi1/Leetcode/tree/master/3427-special-array-ii) |
 | [3496-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/fchoi1/Leetcode/tree/master/3496-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/fchoi1/Leetcode/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
+| [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/fchoi1/Leetcode/tree/main/3633-earliest-finish-time-for-land-and-water-rides-i/) | Easy |
 | [3827-implement-router](https://github.com/fchoi1/Leetcode/tree/master/3827-implement-router) |
 | [3902-maximize-spanning-tree-stability-with-upgrades](https://github.com/fchoi1/Leetcode/tree/master/3902-maximize-spanning-tree-stability-with-upgrades) |
 | [3982-maximum-walls-destroyed-by-robots](https://github.com/fchoi1/Leetcode/tree/master/3982-maximum-walls-destroyed-by-robots) |
@@ -949,6 +951,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [2699-count-the-number-of-fair-pairs](https://github.com/fchoi1/Leetcode/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/fchoi1/Leetcode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/fchoi1/Leetcode/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
+| [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/fchoi1/Leetcode/tree/main/3633-earliest-finish-time-for-land-and-water-rides-i/) | Easy |
 | [3973-flip-square-submatrix-vertically](https://github.com/fchoi1/Leetcode/tree/master/3973-flip-square-submatrix-vertically) |
 ## Sliding Window
 | Problem Name | Difficulty |
@@ -1016,6 +1019,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/fchoi1/Leetcode/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 | [3496-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/fchoi1/Leetcode/tree/master/3496-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/fchoi1/Leetcode/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
+| [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/fchoi1/Leetcode/tree/main/3633-earliest-finish-time-for-land-and-water-rides-i/) | Easy |
 | [3770-lexicographically-smallest-generated-string](https://github.com/fchoi1/Leetcode/tree/master/3770-lexicographically-smallest-generated-string) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/fchoi1/Leetcode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3845-maximum-sum-of-edge-values-in-a-graph](https://github.com/fchoi1/Leetcode/tree/master/3845-maximum-sum-of-edge-values-in-a-graph) |
@@ -1064,6 +1068,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3430-count-days-without-meetings](https://github.com/fchoi1/Leetcode/tree/master/3430-count-days-without-meetings) |
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/fchoi1/Leetcode/tree/main/3567-minimum-absolute-difference-in-sliding-submatrix/) | Medium |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/fchoi1/Leetcode/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
+| [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/fchoi1/Leetcode/tree/main/3633-earliest-finish-time-for-land-and-water-rides-i/) | Easy |
 | [3845-maximum-sum-of-edge-values-in-a-graph](https://github.com/fchoi1/Leetcode/tree/master/3845-maximum-sum-of-edge-values-in-a-graph) |
 | [3958-minimum-removals-to-balance-array](https://github.com/fchoi1/Leetcode/tree/master/3958-minimum-removals-to-balance-array) |
 | [3982-maximum-walls-destroyed-by-robots](https://github.com/fchoi1/Leetcode/tree/master/3982-maximum-walls-destroyed-by-robots) |
