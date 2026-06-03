@@ -3,21 +3,14 @@ class Solution:
         
         land = sorted(zip(landStartTime, landDuration), key=sum)
         water = sorted(zip(waterStartTime, waterDuration), key=sum)
-
-        l = 0
-        w = 0   
-
         earliest = inf
-
-        # if land[0][0] + land[0][1] > water[0][0] + water[0][1]:
-            # check land
+        # check land
         end = land[0][0] + land[0][1] 
         for s,d in water:
             if s <= end:
                 earliest = min(earliest, end + d)
             else:
                 earliest = min(earliest, s + d)
-    # else:
         # check water
         end = water[0][0] + water[0][1]
         for s,d in land:
