@@ -153,6 +153,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [2553-separate-the-digits-in-an-array](https://github.com/fchoi1/Leetcode/tree/main/2553-separate-the-digits-in-an-array/) | Easy |
 | [2554-minimum-total-distance-traveled](https://github.com/fchoi1/Leetcode/tree/master/2554-minimum-total-distance-traveled) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/fchoi1/Leetcode/tree/master/2564-most-profitable-path-in-a-tree) |
+| [2574-left-and-right-sum-differences](https://github.com/fchoi1/Leetcode/tree/main/2574-left-and-right-sum-differences/) | Easy |
 | [2586-longest-square-streak-in-an-array](https://github.com/fchoi1/Leetcode/tree/master/2586-longest-square-streak-in-an-array) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/fchoi1/Leetcode/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2625-increment-submatrices-by-one](https://github.com/fchoi1/Leetcode/tree/master/2625-increment-submatrices-by-one) |
@@ -588,6 +589,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/fchoi1/Leetcode/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2465-shifting-letters-ii](https://github.com/fchoi1/Leetcode/tree/master/2465-shifting-letters-ii) |
 | [2529-range-product-queries-of-powers](https://github.com/fchoi1/Leetcode/tree/master/2529-range-product-queries-of-powers) |
+| [2574-left-and-right-sum-differences](https://github.com/fchoi1/Leetcode/tree/main/2574-left-and-right-sum-differences/) | Easy |
 | [2625-increment-submatrices-by-one](https://github.com/fchoi1/Leetcode/tree/master/2625-increment-submatrices-by-one) |
 | [3031-construct-product-matrix](https://github.com/fchoi1/Leetcode/tree/master/3031-construct-product-matrix) |
 | [3338-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/fchoi1/Leetcode/tree/master/3338-count-submatrices-with-top-left-element-and-sum-less-than-k) |
