@@ -122,6 +122,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/fchoi1/Leetcode/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/fchoi1/Leetcode/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/fchoi1/Leetcode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
+| [2161-partition-array-according-to-given-pivot](https://github.com/fchoi1/Leetcode/tree/main/2161-partition-array-according-to-given-pivot/) | Medium |
 | [2164-two-best-non-overlapping-events](https://github.com/fchoi1/Leetcode/tree/master/2164-two-best-non-overlapping-events) |
 | [2169-simple-bank-system](https://github.com/fchoi1/Leetcode/tree/master/2169-simple-bank-system) |
 | [2190-count-common-words-with-one-occurrence](https://github.com/fchoi1/Leetcode/tree/master/2190-count-common-words-with-one-occurrence) |
@@ -817,6 +818,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [2058-concatenation-of-array](https://github.com/fchoi1/Leetcode/tree/master/2058-concatenation-of-array) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/fchoi1/Leetcode/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/fchoi1/Leetcode/tree/master/2137-final-value-of-variable-after-performing-operations) |
+| [2161-partition-array-according-to-given-pivot](https://github.com/fchoi1/Leetcode/tree/main/2161-partition-array-according-to-given-pivot/) | Medium |
 | [2169-simple-bank-system](https://github.com/fchoi1/Leetcode/tree/master/2169-simple-bank-system) |
 | [2178-walking-robot-simulation-ii](https://github.com/fchoi1/Leetcode/tree/master/2178-walking-robot-simulation-ii) |
 | [2197-decode-the-slanted-ciphertext](https://github.com/fchoi1/Leetcode/tree/master/2197-decode-the-slanted-ciphertext) |
@@ -956,6 +958,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [1894-merge-strings-alternately](https://github.com/fchoi1/Leetcode/tree/master/1894-merge-strings-alternately) |
 | [1923-sentence-similarity-iii](https://github.com/fchoi1/Leetcode/tree/master/1923-sentence-similarity-iii) |
 | [1972-rotating-the-box](https://github.com/fchoi1/Leetcode/tree/master/1972-rotating-the-box) |
+| [2161-partition-array-according-to-given-pivot](https://github.com/fchoi1/Leetcode/tree/main/2161-partition-array-according-to-given-pivot/) | Medium |
 | [2265-partition-array-according-to-given-pivot](https://github.com/fchoi1/Leetcode/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/fchoi1/Leetcode/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [2540-minimum-common-value](https://github.com/fchoi1/Leetcode/tree/main/2540-minimum-common-value/) | Easy |
