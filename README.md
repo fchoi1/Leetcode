@@ -270,6 +270,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [2793-count-the-number-of-complete-components](https://github.com/fchoi1/Leetcode/tree/master/2793-count-the-number-of-complete-components) |
 | [3058-maximum-number-of-k-divisible-components](https://github.com/fchoi1/Leetcode/tree/master/3058-maximum-number-of-k-divisible-components) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/fchoi1/Leetcode/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
+| [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/fchoi1/Leetcode/tree/main/3558-number-of-ways-to-assign-edge-weights-i/) | Medium |
 | [3845-maximum-sum-of-edge-values-in-a-graph](https://github.com/fchoi1/Leetcode/tree/master/3845-maximum-sum-of-edge-values-in-a-graph) |
 ## Breadth-First Search
 | Problem Name | Difficulty |
@@ -366,6 +367,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [2564-most-profitable-path-in-a-tree](https://github.com/fchoi1/Leetcode/tree/master/2564-most-profitable-path-in-a-tree) |
 | [3058-maximum-number-of-k-divisible-components](https://github.com/fchoi1/Leetcode/tree/master/3058-maximum-number-of-k-divisible-components) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/fchoi1/Leetcode/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
+| [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/fchoi1/Leetcode/tree/main/3558-number-of-ways-to-assign-edge-weights-i/) | Medium |
 ## Design
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -520,6 +522,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3496-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/fchoi1/Leetcode/tree/master/3496-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3548-find-the-count-of-good-integers](https://github.com/fchoi1/Leetcode/tree/master/3548-find-the-count-of-good-integers) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/fchoi1/Leetcode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
+| [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/fchoi1/Leetcode/tree/main/3558-number-of-ways-to-assign-edge-weights-i/) | Medium |
 | [3567-convert-date-to-binary](https://github.com/fchoi1/Leetcode/tree/master/3567-convert-date-to-binary) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/fchoi1/Leetcode/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/fchoi1/Leetcode/tree/master/3676-smallest-number-with-all-set-bits) |
