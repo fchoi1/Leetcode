@@ -535,6 +535,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0053-maximum-subarray](https://github.com/fchoi1/Leetcode/tree/main/0053-maximum-subarray/) | Medium |
+| [0072-edit-distance](https://github.com/fchoi1/Leetcode/tree/main/0072-edit-distance/) | Medium |
 | [0264-ugly-number-ii](https://github.com/fchoi1/Leetcode/tree/master/0264-ugly-number-ii) |
 | [0416-partition-equal-subset-sum](https://github.com/fchoi1/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0509-fibonacci-number](https://github.com/fchoi1/Leetcode/tree/main/0509-fibonacci-number/) | Easy |
@@ -708,6 +709,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0038-count-and-say](https://github.com/fchoi1/Leetcode/tree/master/0038-count-and-say) |
+| [0072-edit-distance](https://github.com/fchoi1/Leetcode/tree/main/0072-edit-distance/) | Medium |
 | [0165-compare-version-numbers](https://github.com/fchoi1/Leetcode/tree/master/0165-compare-version-numbers) |
 | [0399-evaluate-division](https://github.com/fchoi1/Leetcode/tree/master/0399-evaluate-division) |
 | [0564-find-the-closest-palindrome](https://github.com/fchoi1/Leetcode/tree/master/0564-find-the-closest-palindrome) |
