@@ -784,6 +784,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3567-convert-date-to-binary](https://github.com/fchoi1/Leetcode/tree/master/3567-convert-date-to-binary) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/fchoi1/Leetcode/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3612-process-string-with-special-operations-i](https://github.com/fchoi1/Leetcode/tree/main/3612-process-string-with-special-operations-i/) | Medium |
+| [3614-process-string-with-special-operations-ii](https://github.com/fchoi1/Leetcode/tree/main/3614-process-string-with-special-operations-ii/) | Hard |
 | [3770-lexicographically-smallest-generated-string](https://github.com/fchoi1/Leetcode/tree/master/3770-lexicographically-smallest-generated-string) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/fchoi1/Leetcode/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 | [4055-longest-balanced-substring-i](https://github.com/fchoi1/Leetcode/tree/master/4055-longest-balanced-substring-i) |
@@ -845,6 +846,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3447-clear-digits](https://github.com/fchoi1/Leetcode/tree/master/3447-clear-digits) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/fchoi1/Leetcode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3612-process-string-with-special-operations-i](https://github.com/fchoi1/Leetcode/tree/main/3612-process-string-with-special-operations-i/) | Medium |
+| [3614-process-string-with-special-operations-ii](https://github.com/fchoi1/Leetcode/tree/main/3614-process-string-with-special-operations-ii/) | Hard |
 | [3651-transformed-array](https://github.com/fchoi1/Leetcode/tree/master/3651-transformed-array) |
 | [3974-xor-after-range-multiplication-queries-i](https://github.com/fchoi1/Leetcode/tree/master/3974-xor-after-range-multiplication-queries-i) |
 ## Stack
