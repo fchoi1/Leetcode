@@ -92,6 +92,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/fchoi1/Leetcode/tree/main/1674-minimum-moves-to-make-array-complementary/) | Medium |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/fchoi1/Leetcode/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1716-maximum-non-negative-product-in-a-matrix](https://github.com/fchoi1/Leetcode/tree/master/1716-maximum-non-negative-product-in-a-matrix) |
+| [1732-find-the-highest-altitude](https://github.com/fchoi1/Leetcode/tree/main/1732-find-the-highest-altitude/) | Easy |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/fchoi1/Leetcode/tree/main/1752-check-if-array-is-sorted-and-rotated/) | Easy |
 | [1755-defuse-the-bomb](https://github.com/fchoi1/Leetcode/tree/master/1755-defuse-the-bomb) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/fchoi1/Leetcode/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
@@ -589,6 +590,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [1240-stone-game-ii](https://github.com/fchoi1/Leetcode/tree/master/1240-stone-game-ii) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/fchoi1/Leetcode/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/fchoi1/Leetcode/tree/main/1674-minimum-moves-to-make-array-complementary/) | Medium |
+| [1732-find-the-highest-altitude](https://github.com/fchoi1/Leetcode/tree/main/1732-find-the-highest-altitude/) | Easy |
 | [1871-jump-game-vii](https://github.com/fchoi1/Leetcode/tree/main/1871-jump-game-vii/) | Medium |
 | [1940-maximum-xor-for-each-query](https://github.com/fchoi1/Leetcode/tree/master/1940-maximum-xor-for-each-query) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/fchoi1/Leetcode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
