@@ -1,17 +1,15 @@
 class Solution:
     def maxIceCream(self, costs: List[int], coins: int) -> int:
         counts = Counter(costs)
-
-        s_c = sorted(counts.items())
-
         ans = 0
-        curr = coins
-        for c, q in s_c:
-            if curr < c:
+
+
+        for c in range(1, max(counts) + 1):
+            if coins < c:
                 break
 
-            bought = min(q, curr // c)
+            bought = min(counts[c], coins // c)
             ans += bought
-            curr -= c * bought
+            coins -= c * bought
 
         return ans
