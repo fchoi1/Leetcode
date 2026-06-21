@@ -99,6 +99,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [1786-count-the-number-of-consistent-strings](https://github.com/fchoi1/Leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1813-maximum-erasure-value](https://github.com/fchoi1/Leetcode/tree/master/1813-maximum-erasure-value) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/fchoi1/Leetcode/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
+| [1833-maximum-ice-cream-bars](https://github.com/fchoi1/Leetcode/tree/main/1833-maximum-ice-cream-bars/) | Medium |
 | [1845-largest-submatrix-with-rearrangements](https://github.com/fchoi1/Leetcode/tree/master/1845-largest-submatrix-with-rearrangements) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/fchoi1/Leetcode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/fchoi1/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
@@ -1032,6 +1033,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/fchoi1/Leetcode/tree/main/1665-minimum-initial-energy-to-finish-tasks/) | Hard |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/fchoi1/Leetcode/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [1807-partitioning-into-minimum-number-of-deci-binary-numbers](https://github.com/fchoi1/Leetcode/tree/master/1807-partitioning-into-minimum-number-of-deci-binary-numbers) |
+| [1833-maximum-ice-cream-bars](https://github.com/fchoi1/Leetcode/tree/main/1833-maximum-ice-cream-bars/) | Medium |
 | [1845-largest-submatrix-with-rearrangements](https://github.com/fchoi1/Leetcode/tree/master/1845-largest-submatrix-with-rearrangements) |
 | [1917-maximum-average-pass-ratio](https://github.com/fchoi1/Leetcode/tree/master/1917-maximum-average-pass-ratio) |
 | [2089-maximum-matrix-sum](https://github.com/fchoi1/Leetcode/tree/master/2089-maximum-matrix-sum) |
@@ -1077,6 +1079,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/fchoi1/Leetcode/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 | [1483-rank-teams-by-votes](https://github.com/fchoi1/Leetcode/tree/master/1483-rank-teams-by-votes) |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/fchoi1/Leetcode/tree/main/1665-minimum-initial-energy-to-finish-tasks/) | Hard |
+| [1833-maximum-ice-cream-bars](https://github.com/fchoi1/Leetcode/tree/main/1833-maximum-ice-cream-bars/) | Medium |
 | [1845-largest-submatrix-with-rearrangements](https://github.com/fchoi1/Leetcode/tree/master/1845-largest-submatrix-with-rearrangements) |
 | [2126-destroying-asteroids](https://github.com/fchoi1/Leetcode/tree/main/2126-destroying-asteroids/) | Medium |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/fchoi1/Leetcode/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
@@ -1257,6 +1260,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/fchoi1/Leetcode/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
+| [1833-maximum-ice-cream-bars](https://github.com/fchoi1/Leetcode/tree/main/1833-maximum-ice-cream-bars/) | Medium |
 ## Graph Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
