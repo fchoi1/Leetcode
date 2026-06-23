@@ -577,6 +577,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3238-minimum-cost-to-convert-string-ii](https://github.com/fchoi1/Leetcode/tree/master/3238-minimum-cost-to-convert-string-ii) |
 | [3406-find-all-possible-stable-binary-arrays-i](https://github.com/fchoi1/Leetcode/tree/master/3406-find-all-possible-stable-binary-arrays-i) |
 | [3677-maximum-amount-of-money-robot-can-earn](https://github.com/fchoi1/Leetcode/tree/master/3677-maximum-amount-of-money-robot-can-earn) |
+| [3699-number-of-zigzag-arrays-i](https://github.com/fchoi1/Leetcode/tree/main/3699-number-of-zigzag-arrays-i/) | Hard |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/fchoi1/Leetcode/tree/main/3751-total-waviness-of-numbers-in-range-i/) | Medium |
 | [3753-total-waviness-of-numbers-in-range-ii](https://github.com/fchoi1/Leetcode/tree/main/3753-total-waviness-of-numbers-in-range-ii/) | Hard |
 | [3956-trionic-array-ii](https://github.com/fchoi1/Leetcode/tree/master/3956-trionic-array-ii) |
@@ -610,6 +611,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3492-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/fchoi1/Leetcode/tree/master/3492-count-submatrices-with-equal-frequency-of-x-and-y) |
 | [3548-equal-sum-grid-partition-ii](https://github.com/fchoi1/Leetcode/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
 | [3639-zero-array-transformation-i](https://github.com/fchoi1/Leetcode/tree/master/3639-zero-array-transformation-i) |
+| [3699-number-of-zigzag-arrays-i](https://github.com/fchoi1/Leetcode/tree/main/3699-number-of-zigzag-arrays-i/) | Hard |
 | [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/fchoi1/Leetcode/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
 | [3849-equal-sum-grid-partition-i](https://github.com/fchoi1/Leetcode/tree/master/3849-equal-sum-grid-partition-i) |
 | [4045-longest-balanced-subarray-i](https://github.com/fchoi1/Leetcode/tree/master/4045-longest-balanced-subarray-i) |
