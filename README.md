@@ -101,6 +101,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/fchoi1/Leetcode/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [1833-maximum-ice-cream-bars](https://github.com/fchoi1/Leetcode/tree/main/1833-maximum-ice-cream-bars/) | Medium |
 | [1845-largest-submatrix-with-rearrangements](https://github.com/fchoi1/Leetcode/tree/master/1845-largest-submatrix-with-rearrangements) |
+| [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/fchoi1/Leetcode/tree/main/1846-maximum-element-after-decreasing-and-rearranging/) | Medium |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/fchoi1/Leetcode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/fchoi1/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/fchoi1/Leetcode/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
@@ -1044,6 +1045,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [1807-partitioning-into-minimum-number-of-deci-binary-numbers](https://github.com/fchoi1/Leetcode/tree/master/1807-partitioning-into-minimum-number-of-deci-binary-numbers) |
 | [1833-maximum-ice-cream-bars](https://github.com/fchoi1/Leetcode/tree/main/1833-maximum-ice-cream-bars/) | Medium |
 | [1845-largest-submatrix-with-rearrangements](https://github.com/fchoi1/Leetcode/tree/master/1845-largest-submatrix-with-rearrangements) |
+| [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/fchoi1/Leetcode/tree/main/1846-maximum-element-after-decreasing-and-rearranging/) | Medium |
 | [1917-maximum-average-pass-ratio](https://github.com/fchoi1/Leetcode/tree/master/1917-maximum-average-pass-ratio) |
 | [2089-maximum-matrix-sum](https://github.com/fchoi1/Leetcode/tree/master/2089-maximum-matrix-sum) |
 | [2126-destroying-asteroids](https://github.com/fchoi1/Leetcode/tree/main/2126-destroying-asteroids/) | Medium |
@@ -1090,6 +1092,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/fchoi1/Leetcode/tree/main/1665-minimum-initial-energy-to-finish-tasks/) | Hard |
 | [1833-maximum-ice-cream-bars](https://github.com/fchoi1/Leetcode/tree/main/1833-maximum-ice-cream-bars/) | Medium |
 | [1845-largest-submatrix-with-rearrangements](https://github.com/fchoi1/Leetcode/tree/master/1845-largest-submatrix-with-rearrangements) |
+| [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/fchoi1/Leetcode/tree/main/1846-maximum-element-after-decreasing-and-rearranging/) | Medium |
 | [2126-destroying-asteroids](https://github.com/fchoi1/Leetcode/tree/main/2126-destroying-asteroids/) | Medium |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/fchoi1/Leetcode/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/fchoi1/Leetcode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
