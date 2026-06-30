@@ -9,7 +9,7 @@ class Solution:
             counts[char] += 1
 
             if counts['a'] > 0 and counts['b'] > 0 and counts['c'] > 0:
-                count += min(i for i in index.values()) + 1
+                count += min(index['a'], index['b'], index['c']) + 1
 
         return count
 
