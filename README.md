@@ -655,6 +655,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [1264-maximum-number-of-words-you-can-type](https://github.com/fchoi1/Leetcode/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1345-jump-game-iv](https://github.com/fchoi1/Leetcode/tree/main/1345-jump-game-iv/) | Hard |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/fchoi1/Leetcode/tree/master/1353-find-resultant-array-after-removing-anagrams) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/fchoi1/Leetcode/tree/main/1358-number-of-substrings-containing-all-three-characters/) | Medium |
 | [1468-check-if-n-and-its-double-exist](https://github.com/fchoi1/Leetcode/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/fchoi1/Leetcode/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 | [1483-rank-teams-by-votes](https://github.com/fchoi1/Leetcode/tree/master/1483-rank-teams-by-votes) |
@@ -744,6 +745,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [1302-delete-characters-to-make-fancy-string](https://github.com/fchoi1/Leetcode/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1304-longest-happy-string](https://github.com/fchoi1/Leetcode/tree/master/1304-longest-happy-string) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/fchoi1/Leetcode/tree/master/1353-find-resultant-array-after-removing-anagrams) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/fchoi1/Leetcode/tree/main/1358-number-of-substrings-containing-all-three-characters/) | Medium |
 | [1443-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/fchoi1/Leetcode/tree/master/1443-minimum-distance-to-type-a-word-using-two-fingers) |
 | [1483-rank-teams-by-votes](https://github.com/fchoi1/Leetcode/tree/master/1483-rank-teams-by-votes) |
 | [1502-construct-k-palindrome-strings](https://github.com/fchoi1/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
@@ -1003,6 +1005,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/fchoi1/Leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0867-new-21-game](https://github.com/fchoi1/Leetcode/tree/master/0867-new-21-game) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/fchoi1/Leetcode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/fchoi1/Leetcode/tree/main/1358-number-of-substrings-containing-all-three-characters/) | Medium |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/fchoi1/Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1755-defuse-the-bomb](https://github.com/fchoi1/Leetcode/tree/master/1755-defuse-the-bomb) |
 | [1813-maximum-erasure-value](https://github.com/fchoi1/Leetcode/tree/master/1813-maximum-erasure-value) |
