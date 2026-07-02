@@ -22,8 +22,7 @@ class Solution:
                 ny = y + dy
 
                 if 0 <= nx < W and 0 <= ny < H:
-                    if (nx, ny) not in seen:
-                        heappush(q, (cost + grid[ny][nx], (nx, ny)))
+                    heappush(q, (cost + grid[ny][nx], (nx, ny)))
         print("error")
         return None
 
