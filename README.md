@@ -223,6 +223,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/fchoi1/Leetcode/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/fchoi1/Leetcode/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/fchoi1/Leetcode/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
+| [3620-network-recovery-pathways](https://github.com/fchoi1/Leetcode/tree/main/3620-network-recovery-pathways/) | Hard |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/fchoi1/Leetcode/tree/main/3633-earliest-finish-time-for-land-and-water-rides-i/) | Easy |
 | [3639-zero-array-transformation-i](https://github.com/fchoi1/Leetcode/tree/master/3639-zero-array-transformation-i) |
 | [3651-transformed-array](https://github.com/fchoi1/Leetcode/tree/master/3651-transformed-array) |
@@ -426,6 +427,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3427-special-array-ii](https://github.com/fchoi1/Leetcode/tree/master/3427-special-array-ii) |
 | [3496-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/fchoi1/Leetcode/tree/master/3496-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/fchoi1/Leetcode/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
+| [3620-network-recovery-pathways](https://github.com/fchoi1/Leetcode/tree/main/3620-network-recovery-pathways/) | Hard |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/fchoi1/Leetcode/tree/main/3633-earliest-finish-time-for-land-and-water-rides-i/) | Easy |
 | [3827-implement-router](https://github.com/fchoi1/Leetcode/tree/master/3827-implement-router) |
 | [3902-maximize-spanning-tree-stability-with-upgrades](https://github.com/fchoi1/Leetcode/tree/master/3902-maximize-spanning-tree-stability-with-upgrades) |
@@ -463,6 +465,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3496-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/fchoi1/Leetcode/tree/master/3496-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/fchoi1/Leetcode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/fchoi1/Leetcode/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
+| [3620-network-recovery-pathways](https://github.com/fchoi1/Leetcode/tree/main/3620-network-recovery-pathways/) | Hard |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -589,6 +592,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3233-maximize-the-number-of-partitions-after-operations](https://github.com/fchoi1/Leetcode/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
 | [3238-minimum-cost-to-convert-string-ii](https://github.com/fchoi1/Leetcode/tree/master/3238-minimum-cost-to-convert-string-ii) |
 | [3406-find-all-possible-stable-binary-arrays-i](https://github.com/fchoi1/Leetcode/tree/master/3406-find-all-possible-stable-binary-arrays-i) |
+| [3620-network-recovery-pathways](https://github.com/fchoi1/Leetcode/tree/main/3620-network-recovery-pathways/) | Hard |
 | [3677-maximum-amount-of-money-robot-can-earn](https://github.com/fchoi1/Leetcode/tree/master/3677-maximum-amount-of-money-robot-can-earn) |
 | [3699-number-of-zigzag-arrays-i](https://github.com/fchoi1/Leetcode/tree/main/3699-number-of-zigzag-arrays-i/) | Hard |
 | [3700-number-of-zigzag-arrays-ii](https://github.com/fchoi1/Leetcode/tree/main/3700-number-of-zigzag-arrays-ii/) | Hard |
@@ -920,6 +924,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [2803-modify-graph-edge-weights](https://github.com/fchoi1/Leetcode/tree/master/2803-modify-graph-edge-weights) |
 | [3238-minimum-cost-to-convert-string-ii](https://github.com/fchoi1/Leetcode/tree/master/3238-minimum-cost-to-convert-string-ii) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/fchoi1/Leetcode/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
+| [3620-network-recovery-pathways](https://github.com/fchoi1/Leetcode/tree/main/3620-network-recovery-pathways/) | Hard |
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -1188,6 +1193,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/fchoi1/Leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/fchoi1/Leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/fchoi1/Leetcode/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
+| [3620-network-recovery-pathways](https://github.com/fchoi1/Leetcode/tree/main/3620-network-recovery-pathways/) | Hard |
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -1294,6 +1300,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | ------- | ------- |
 | [3238-minimum-cost-to-convert-string-ii](https://github.com/fchoi1/Leetcode/tree/master/3238-minimum-cost-to-convert-string-ii) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/fchoi1/Leetcode/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
+| [3620-network-recovery-pathways](https://github.com/fchoi1/Leetcode/tree/main/3620-network-recovery-pathways/) | Hard |
 | [3902-maximize-spanning-tree-stability-with-upgrades](https://github.com/fchoi1/Leetcode/tree/master/3902-maximize-spanning-tree-stability-with-upgrades) |
 ## Union-Find
 | Problem Name | Difficulty |
