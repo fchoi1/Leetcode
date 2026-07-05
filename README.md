@@ -65,6 +65,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [1240-stone-game-ii](https://github.com/fchoi1/Leetcode/tree/master/1240-stone-game-ii) |
 | [1284-four-divisors](https://github.com/fchoi1/Leetcode/tree/master/1284-four-divisors) |
 | [1293-three-consecutive-odds](https://github.com/fchoi1/Leetcode/tree/master/1293-three-consecutive-odds) |
+| [1301-number-of-paths-with-max-score](https://github.com/fchoi1/Leetcode/tree/main/1301-number-of-paths-with-max-score/) | Hard |
 | [1306-jump-game-iii](https://github.com/fchoi1/Leetcode/tree/main/1306-jump-game-iii/) | Medium |
 | [1325-path-with-maximum-probability](https://github.com/fchoi1/Leetcode/tree/master/1325-path-with-maximum-probability) |
 | [1340-jump-game-v](https://github.com/fchoi1/Leetcode/tree/main/1340-jump-game-v/) | Hard |
@@ -319,6 +320,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [0498-diagonal-traverse](https://github.com/fchoi1/Leetcode/tree/master/0498-diagonal-traverse) |
 | [0794-swim-in-rising-water](https://github.com/fchoi1/Leetcode/tree/master/0794-swim-in-rising-water) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/fchoi1/Leetcode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
+| [1301-number-of-paths-with-max-score](https://github.com/fchoi1/Leetcode/tree/main/1301-number-of-paths-with-max-score/) | Hard |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/fchoi1/Leetcode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/fchoi1/Leetcode/tree/main/1536-minimum-swaps-to-arrange-a-binary-grid/) | Medium |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/fchoi1/Leetcode/tree/main/1582-special-positions-in-a-binary-matrix/) | Easy |
@@ -565,6 +567,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [0867-new-21-game](https://github.com/fchoi1/Leetcode/tree/master/0867-new-21-game) |
 | [1025-minimum-cost-for-tickets](https://github.com/fchoi1/Leetcode/tree/master/1025-minimum-cost-for-tickets) |
 | [1240-stone-game-ii](https://github.com/fchoi1/Leetcode/tree/master/1240-stone-game-ii) |
+| [1301-number-of-paths-with-max-score](https://github.com/fchoi1/Leetcode/tree/main/1301-number-of-paths-with-max-score/) | Hard |
 | [1340-jump-game-v](https://github.com/fchoi1/Leetcode/tree/main/1340-jump-game-v/) | Hard |
 | [1443-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/fchoi1/Leetcode/tree/master/1443-minimum-distance-to-type-a-word-using-two-fingers) |
 | [1527-number-of-ways-to-paint-n-3-grid](https://github.com/fchoi1/Leetcode/tree/master/1527-number-of-ways-to-paint-n-3-grid) |
