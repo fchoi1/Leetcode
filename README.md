@@ -552,6 +552,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3700-number-of-zigzag-arrays-ii](https://github.com/fchoi1/Leetcode/tree/main/3700-number-of-zigzag-arrays-ii/) | Hard |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/fchoi1/Leetcode/tree/main/3751-total-waviness-of-numbers-in-range-i/) | Medium |
 | [3753-total-waviness-of-numbers-in-range-ii](https://github.com/fchoi1/Leetcode/tree/main/3753-total-waviness-of-numbers-in-range-ii/) | Hard |
+| [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/fchoi1/Leetcode/tree/main/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii/) | Medium |
 | [3846-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/fchoi1/Leetcode/tree/master/3846-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3933-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/fchoi1/Leetcode/tree/master/3933-minimum-jumps-to-reach-end-via-prime-teleportation) |
 ## Dynamic Programming
@@ -636,6 +637,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3548-equal-sum-grid-partition-ii](https://github.com/fchoi1/Leetcode/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
 | [3639-zero-array-transformation-i](https://github.com/fchoi1/Leetcode/tree/master/3639-zero-array-transformation-i) |
 | [3699-number-of-zigzag-arrays-i](https://github.com/fchoi1/Leetcode/tree/main/3699-number-of-zigzag-arrays-i/) | Hard |
+| [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/fchoi1/Leetcode/tree/main/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii/) | Medium |
 | [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/fchoi1/Leetcode/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
 | [3849-equal-sum-grid-partition-i](https://github.com/fchoi1/Leetcode/tree/master/3849-equal-sum-grid-partition-i) |
 | [4045-longest-balanced-subarray-i](https://github.com/fchoi1/Leetcode/tree/master/4045-longest-balanced-subarray-i) |
@@ -820,6 +822,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/fchoi1/Leetcode/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3612-process-string-with-special-operations-i](https://github.com/fchoi1/Leetcode/tree/main/3612-process-string-with-special-operations-i/) | Medium |
 | [3614-process-string-with-special-operations-ii](https://github.com/fchoi1/Leetcode/tree/main/3614-process-string-with-special-operations-ii/) | Hard |
+| [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/fchoi1/Leetcode/tree/main/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii/) | Medium |
 | [3770-lexicographically-smallest-generated-string](https://github.com/fchoi1/Leetcode/tree/master/3770-lexicographically-smallest-generated-string) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/fchoi1/Leetcode/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 | [4055-longest-balanced-substring-i](https://github.com/fchoi1/Leetcode/tree/master/4055-longest-balanced-substring-i) |
