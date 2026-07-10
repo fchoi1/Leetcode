@@ -217,6 +217,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/fchoi1/Leetcode/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/fchoi1/Leetcode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/fchoi1/Leetcode/tree/main/3532-path-existence-queries-in-a-graph-i/) | Medium |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/fchoi1/Leetcode/tree/main/3534-path-existence-queries-in-a-graph-ii/) | Hard |
 | [3548-equal-sum-grid-partition-ii](https://github.com/fchoi1/Leetcode/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/fchoi1/Leetcode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/fchoi1/Leetcode/tree/main/3567-minimum-absolute-difference-in-sliding-submatrix/) | Medium |
@@ -433,6 +434,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3427-special-array-ii](https://github.com/fchoi1/Leetcode/tree/master/3427-special-array-ii) |
 | [3496-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/fchoi1/Leetcode/tree/master/3496-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/fchoi1/Leetcode/tree/main/3532-path-existence-queries-in-a-graph-i/) | Medium |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/fchoi1/Leetcode/tree/main/3534-path-existence-queries-in-a-graph-ii/) | Hard |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/fchoi1/Leetcode/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
 | [3620-network-recovery-pathways](https://github.com/fchoi1/Leetcode/tree/main/3620-network-recovery-pathways/) | Hard |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/fchoi1/Leetcode/tree/main/3633-earliest-finish-time-for-land-and-water-rides-i/) | Easy |
@@ -601,6 +603,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3233-maximize-the-number-of-partitions-after-operations](https://github.com/fchoi1/Leetcode/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
 | [3238-minimum-cost-to-convert-string-ii](https://github.com/fchoi1/Leetcode/tree/master/3238-minimum-cost-to-convert-string-ii) |
 | [3406-find-all-possible-stable-binary-arrays-i](https://github.com/fchoi1/Leetcode/tree/master/3406-find-all-possible-stable-binary-arrays-i) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/fchoi1/Leetcode/tree/main/3534-path-existence-queries-in-a-graph-ii/) | Hard |
 | [3620-network-recovery-pathways](https://github.com/fchoi1/Leetcode/tree/main/3620-network-recovery-pathways/) | Hard |
 | [3677-maximum-amount-of-money-robot-can-earn](https://github.com/fchoi1/Leetcode/tree/master/3677-maximum-amount-of-money-robot-can-earn) |
 | [3699-number-of-zigzag-arrays-i](https://github.com/fchoi1/Leetcode/tree/main/3699-number-of-zigzag-arrays-i/) | Hard |
@@ -848,6 +851,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/fchoi1/Leetcode/tree/main/2657-find-the-prefix-common-array-of-two-arrays/) | Medium |
 | [3233-maximize-the-number-of-partitions-after-operations](https://github.com/fchoi1/Leetcode/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
 | [3291-find-if-array-can-be-sorted](https://github.com/fchoi1/Leetcode/tree/master/3291-find-if-array-can-be-sorted) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/fchoi1/Leetcode/tree/main/3534-path-existence-queries-in-a-graph-ii/) | Hard |
 | [3676-smallest-number-with-all-set-bits](https://github.com/fchoi1/Leetcode/tree/master/3676-smallest-number-with-all-set-bits) |
 ## Simulation
 | Problem Name | Difficulty |
@@ -1023,6 +1027,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [2699-count-the-number-of-fair-pairs](https://github.com/fchoi1/Leetcode/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/fchoi1/Leetcode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/fchoi1/Leetcode/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/fchoi1/Leetcode/tree/main/3534-path-existence-queries-in-a-graph-ii/) | Hard |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/fchoi1/Leetcode/tree/main/3633-earliest-finish-time-for-land-and-water-rides-i/) | Easy |
 | [3967-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/fchoi1/Leetcode/tree/master/3967-earliest-finish-time-for-land-and-water-rides-ii) |
 | [3973-flip-square-submatrix-vertically](https://github.com/fchoi1/Leetcode/tree/master/3973-flip-square-submatrix-vertically) |
@@ -1094,6 +1099,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/fchoi1/Leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/fchoi1/Leetcode/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 | [3496-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/fchoi1/Leetcode/tree/master/3496-minimum-number-of-seconds-to-make-mountain-height-zero) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/fchoi1/Leetcode/tree/main/3534-path-existence-queries-in-a-graph-ii/) | Hard |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/fchoi1/Leetcode/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/fchoi1/Leetcode/tree/main/3633-earliest-finish-time-for-land-and-water-rides-i/) | Easy |
 | [3689-maximum-total-subarray-value-i](https://github.com/fchoi1/Leetcode/tree/main/3689-maximum-total-subarray-value-i/) | Medium |
@@ -1147,6 +1153,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3291-find-if-array-can-be-sorted](https://github.com/fchoi1/Leetcode/tree/master/3291-find-if-array-can-be-sorted) |
 | [3321-type-of-triangle](https://github.com/fchoi1/Leetcode/tree/master/3321-type-of-triangle) |
 | [3430-count-days-without-meetings](https://github.com/fchoi1/Leetcode/tree/master/3430-count-days-without-meetings) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/fchoi1/Leetcode/tree/main/3534-path-existence-queries-in-a-graph-ii/) | Hard |
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/fchoi1/Leetcode/tree/main/3567-minimum-absolute-difference-in-sliding-submatrix/) | Medium |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/fchoi1/Leetcode/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/fchoi1/Leetcode/tree/main/3633-earliest-finish-time-for-land-and-water-rides-i/) | Easy |
@@ -1315,6 +1322,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3238-minimum-cost-to-convert-string-ii](https://github.com/fchoi1/Leetcode/tree/master/3238-minimum-cost-to-convert-string-ii) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/fchoi1/Leetcode/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/fchoi1/Leetcode/tree/main/3532-path-existence-queries-in-a-graph-i/) | Medium |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/fchoi1/Leetcode/tree/main/3534-path-existence-queries-in-a-graph-ii/) | Hard |
 | [3620-network-recovery-pathways](https://github.com/fchoi1/Leetcode/tree/main/3620-network-recovery-pathways/) | Hard |
 | [3902-maximize-spanning-tree-stability-with-upgrades](https://github.com/fchoi1/Leetcode/tree/master/3902-maximize-spanning-tree-stability-with-upgrades) |
 ## Union-Find
