@@ -243,6 +243,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3827-implement-router](https://github.com/fchoi1/Leetcode/tree/master/3827-implement-router) |
 | [3846-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/fchoi1/Leetcode/tree/master/3846-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3849-equal-sum-grid-partition-i](https://github.com/fchoi1/Leetcode/tree/master/3849-equal-sum-grid-partition-i) |
+| [3867-sum-of-gcd-of-formed-pairs](https://github.com/fchoi1/Leetcode/tree/main/3867-sum-of-gcd-of-formed-pairs/) | Medium |
 | [3933-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/fchoi1/Leetcode/tree/master/3933-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3952-trionic-array-i](https://github.com/fchoi1/Leetcode/tree/master/3952-trionic-array-i) |
 | [3956-trionic-array-ii](https://github.com/fchoi1/Leetcode/tree/master/3956-trionic-array-ii) |
@@ -561,6 +562,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3753-total-waviness-of-numbers-in-range-ii](https://github.com/fchoi1/Leetcode/tree/main/3753-total-waviness-of-numbers-in-range-ii/) | Hard |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/fchoi1/Leetcode/tree/main/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii/) | Medium |
 | [3846-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/fchoi1/Leetcode/tree/master/3846-minimum-operations-to-make-array-sum-divisible-by-k) |
+| [3867-sum-of-gcd-of-formed-pairs](https://github.com/fchoi1/Leetcode/tree/main/3867-sum-of-gcd-of-formed-pairs/) | Medium |
 | [3933-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/fchoi1/Leetcode/tree/master/3933-minimum-jumps-to-reach-end-via-prime-teleportation) |
 ## Dynamic Programming
 | Problem Name | Difficulty |
@@ -898,6 +900,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3612-process-string-with-special-operations-i](https://github.com/fchoi1/Leetcode/tree/main/3612-process-string-with-special-operations-i/) | Medium |
 | [3614-process-string-with-special-operations-ii](https://github.com/fchoi1/Leetcode/tree/main/3614-process-string-with-special-operations-ii/) | Hard |
 | [3651-transformed-array](https://github.com/fchoi1/Leetcode/tree/master/3651-transformed-array) |
+| [3867-sum-of-gcd-of-formed-pairs](https://github.com/fchoi1/Leetcode/tree/main/3867-sum-of-gcd-of-formed-pairs/) | Medium |
 | [3974-xor-after-range-multiplication-queries-i](https://github.com/fchoi1/Leetcode/tree/master/3974-xor-after-range-multiplication-queries-i) |
 ## Stack
 | Problem Name | Difficulty |
@@ -1034,6 +1037,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/fchoi1/Leetcode/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/fchoi1/Leetcode/tree/main/3534-path-existence-queries-in-a-graph-ii/) | Hard |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/fchoi1/Leetcode/tree/main/3633-earliest-finish-time-for-land-and-water-rides-i/) | Easy |
+| [3867-sum-of-gcd-of-formed-pairs](https://github.com/fchoi1/Leetcode/tree/main/3867-sum-of-gcd-of-formed-pairs/) | Medium |
 | [3967-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/fchoi1/Leetcode/tree/master/3967-earliest-finish-time-for-land-and-water-rides-ii) |
 | [3973-flip-square-submatrix-vertically](https://github.com/fchoi1/Leetcode/tree/master/3973-flip-square-submatrix-vertically) |
 ## Sliding Window
@@ -1164,6 +1168,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/fchoi1/Leetcode/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/fchoi1/Leetcode/tree/main/3633-earliest-finish-time-for-land-and-water-rides-i/) | Easy |
 | [3845-maximum-sum-of-edge-values-in-a-graph](https://github.com/fchoi1/Leetcode/tree/master/3845-maximum-sum-of-edge-values-in-a-graph) |
+| [3867-sum-of-gcd-of-formed-pairs](https://github.com/fchoi1/Leetcode/tree/main/3867-sum-of-gcd-of-formed-pairs/) | Medium |
 | [3958-minimum-removals-to-balance-array](https://github.com/fchoi1/Leetcode/tree/master/3958-minimum-removals-to-balance-array) |
 | [3967-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/fchoi1/Leetcode/tree/master/3967-earliest-finish-time-for-land-and-water-rides-ii) |
 | [3982-maximum-walls-destroyed-by-robots](https://github.com/fchoi1/Leetcode/tree/master/3982-maximum-walls-destroyed-by-robots) |
@@ -1250,6 +1255,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/fchoi1/Leetcode/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [2610-closest-prime-numbers-in-range](https://github.com/fchoi1/Leetcode/tree/master/2610-closest-prime-numbers-in-range) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/fchoi1/Leetcode/tree/main/3336-find-the-number-of-subsequences-with-equal-gcd/) | Hard |
+| [3867-sum-of-gcd-of-formed-pairs](https://github.com/fchoi1/Leetcode/tree/main/3867-sum-of-gcd-of-formed-pairs/) | Medium |
 | [3933-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/fchoi1/Leetcode/tree/master/3933-minimum-jumps-to-reach-end-via-prime-teleportation) |
 ## Enumeration
 | Problem Name | Difficulty |
