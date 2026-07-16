@@ -555,6 +555,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/fchoi1/Leetcode/tree/main/3558-number-of-ways-to-assign-edge-weights-i/) | Medium |
 | [3567-convert-date-to-binary](https://github.com/fchoi1/Leetcode/tree/master/3567-convert-date-to-binary) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/fchoi1/Leetcode/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
+| [3658-gcd-of-odd-and-even-sums](https://github.com/fchoi1/Leetcode/tree/main/3658-gcd-of-odd-and-even-sums/) | Easy |
 | [3676-smallest-number-with-all-set-bits](https://github.com/fchoi1/Leetcode/tree/master/3676-smallest-number-with-all-set-bits) |
 | [3699-count-special-subsequences](https://github.com/fchoi1/Leetcode/tree/master/3699-count-special-subsequences) |
 | [3700-number-of-zigzag-arrays-ii](https://github.com/fchoi1/Leetcode/tree/main/3700-number-of-zigzag-arrays-ii/) | Hard |
@@ -1255,6 +1256,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/fchoi1/Leetcode/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [2610-closest-prime-numbers-in-range](https://github.com/fchoi1/Leetcode/tree/master/2610-closest-prime-numbers-in-range) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/fchoi1/Leetcode/tree/main/3336-find-the-number-of-subsequences-with-equal-gcd/) | Hard |
+| [3658-gcd-of-odd-and-even-sums](https://github.com/fchoi1/Leetcode/tree/main/3658-gcd-of-odd-and-even-sums/) | Easy |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/fchoi1/Leetcode/tree/main/3867-sum-of-gcd-of-formed-pairs/) | Medium |
 | [3933-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/fchoi1/Leetcode/tree/master/3933-minimum-jumps-to-reach-end-via-prime-teleportation) |
 ## Enumeration
