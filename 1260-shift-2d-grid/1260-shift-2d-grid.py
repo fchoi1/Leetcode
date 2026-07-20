@@ -1,22 +1,10 @@
 class Solution:
     def shiftGrid(self, grid: List[List[int]], k: int) -> List[List[int]]:
-        
+        m, n = len(grid), len(grid[0])
 
-        single = []
-        W = len(grid[0])
-        H = len(grid)
+        arr = [x for row in grid for x in row]
 
-        for row in grid:
-            single += row
+        k %= len(arr)
+        arr = arr[-k:] + arr[:-k]
 
-
-        S = len(single)
-        k = k % S
-        single = (single + single)[S - k: S - k + S]
-        ans = []
-        for i in range(H):
-            ans.append(single[i * W: (i * W) + W])
-        
-        return ans
-
-        
+        return [arr[i*n:(i+1)*n] for i in range(m)]
