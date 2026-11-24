@@ -209,6 +209,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3338-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/fchoi1/Leetcode/tree/master/3338-count-submatrices-with-top-left-element-and-sum-less-than-k) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/fchoi1/Leetcode/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3376-longest-common-suffix-queries](https://github.com/fchoi1/Leetcode/tree/master/3376-longest-common-suffix-queries) |
+| [3411-maximum-subarray-with-equal-products](https://github.com/fchoi1/Leetcode/tree/main/3411-maximum-subarray-with-equal-products/) | Easy |
 | [3427-special-array-ii](https://github.com/fchoi1/Leetcode/tree/master/3427-special-array-ii) |
 | [3429-special-array-i](https://github.com/fchoi1/Leetcode/tree/master/3429-special-array-i) |
 | [3430-count-days-without-meetings](https://github.com/fchoi1/Leetcode/tree/master/3430-count-days-without-meetings) |
@@ -552,6 +553,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [3321-type-of-triangle](https://github.com/fchoi1/Leetcode/tree/master/3321-type-of-triangle) |
 | [3336-water-bottles-ii](https://github.com/fchoi1/Leetcode/tree/master/3336-water-bottles-ii) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/fchoi1/Leetcode/tree/main/3336-find-the-number-of-subsequences-with-equal-gcd/) | Hard |
+| [3411-maximum-subarray-with-equal-products](https://github.com/fchoi1/Leetcode/tree/main/3411-maximum-subarray-with-equal-products/) | Easy |
 | [3476-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/fchoi1/Leetcode/tree/master/3476-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3496-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/fchoi1/Leetcode/tree/master/3496-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3536-maximum-product-of-two-digits](https://github.com/fchoi1/Leetcode/tree/main/3536-maximum-product-of-two-digits/) | Easy |
@@ -1074,6 +1076,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [2868-continuous-subarrays](https://github.com/fchoi1/Leetcode/tree/master/2868-continuous-subarrays) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/fchoi1/Leetcode/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/fchoi1/Leetcode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
+| [3411-maximum-subarray-with-equal-products](https://github.com/fchoi1/Leetcode/tree/main/3411-maximum-subarray-with-equal-products/) | Easy |
 | [3483-alternating-groups-ii](https://github.com/fchoi1/Leetcode/tree/master/3483-alternating-groups-ii) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/fchoi1/Leetcode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/fchoi1/Leetcode/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
@@ -1269,6 +1272,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/fchoi1/Leetcode/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [2610-closest-prime-numbers-in-range](https://github.com/fchoi1/Leetcode/tree/master/2610-closest-prime-numbers-in-range) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/fchoi1/Leetcode/tree/main/3336-find-the-number-of-subsequences-with-equal-gcd/) | Hard |
+| [3411-maximum-subarray-with-equal-products](https://github.com/fchoi1/Leetcode/tree/main/3411-maximum-subarray-with-equal-products/) | Easy |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/fchoi1/Leetcode/tree/main/3658-gcd-of-odd-and-even-sums/) | Easy |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/fchoi1/Leetcode/tree/main/3867-sum-of-gcd-of-formed-pairs/) | Medium |
 | [3933-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/fchoi1/Leetcode/tree/master/3933-minimum-jumps-to-reach-end-via-prime-teleportation) |
@@ -1284,6 +1288,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [2215-finding-3-digit-even-numbers](https://github.com/fchoi1/Leetcode/tree/master/2215-finding-3-digit-even-numbers) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/fchoi1/Leetcode/tree/main/3020-find-the-maximum-number-of-elements-in-subset/) | Medium |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/fchoi1/Leetcode/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
+| [3411-maximum-subarray-with-equal-products](https://github.com/fchoi1/Leetcode/tree/main/3411-maximum-subarray-with-equal-products/) | Easy |
 | [3548-find-the-count-of-good-integers](https://github.com/fchoi1/Leetcode/tree/master/3548-find-the-count-of-good-integers) |
 | [3548-equal-sum-grid-partition-ii](https://github.com/fchoi1/Leetcode/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/fchoi1/Leetcode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
