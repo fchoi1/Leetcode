@@ -811,6 +811,7 @@ bGVjdC1lbGVtZW50cykgfAo8IS0tLUxlZXRDb2RlIFRvcGljcyBFbmQtLT4=
 | [1980-find-unique-binary-string](https://github.com/fchoi1/Leetcode/tree/main/1980-find-unique-binary-string/) | Medium |
 | [2017-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/fchoi1/Leetcode/tree/master/2017-minimum-number-of-flips-to-make-the-binary-string-alternating) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/fchoi1/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2124-check-if-all-as-appears-before-all-bs](https://github.com/fchoi1/Leetcode/tree/main/2124-check-if-all-as-appears-before-all-bs/) | Easy |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/fchoi1/Leetcode/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2190-count-common-words-with-one-occurrence](https://github.com/fchoi1/Leetcode/tree/master/2190-count-common-words-with-one-occurrence) |
 | [2197-decode-the-slanted-ciphertext](https://github.com/fchoi1/Leetcode/tree/master/2197-decode-the-slanted-ciphertext) |
